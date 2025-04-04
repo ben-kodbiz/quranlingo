@@ -3266,185 +3266,945 @@
     {
       "id": "al-alaq",
       "title": "Surah Al-'Alaq (The Clot)",
+      "title_my": "Surah Al-'Alaq (Segumpal Darah)",
       "description": "The first surah to be revealed to Prophet Muhammad, beginning with the command to read.",
+      "description_my": "Surah pertama yang diturunkan kepada Nabi Muhammad, bermula dengan perintah untuk membaca.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+          "translation": "Read in the name of your Lord who created",
+          "translation_my": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan",
+          "words": [
+            {
+              "arabic": "اقْرَأْ",
+              "meaning": "Read",
+              "meaning_my": "Bacalah"
+            },
+            {
+              "arabic": "بِاسْمِ",
+              "meaning": "in the name",
+              "meaning_my": "dengan (menyebut) nama"
+            },
+            {
+              "arabic": "رَبِّكَ",
+              "meaning": "of your Lord",
+              "meaning_my": "Tuhanmu"
+            },
+            {
+              "arabic": "الَّذِي خَلَقَ",
+              "meaning": "who created",
+              "meaning_my": "yang menciptakan"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ",
+          "translation": "Created man from a clinging substance",
+          "translation_my": "Dia telah menciptakan manusia dari segumpal darah",
+          "words": [
+            {
+              "arabic": "خَلَقَ",
+              "meaning": "Created",
+              "meaning_my": "Dia telah menciptakan"
+            },
+            {
+              "arabic": "الْإِنسَانَ",
+              "meaning": "man",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "مِنْ",
+              "meaning": "from",
+              "meaning_my": "dari"
+            },
+            {
+              "arabic": "عَلَقٍ",
+              "meaning": "a clinging substance",
+              "meaning_my": "segumpal darah"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ",
+          "translation": "Read, and your Lord is the most Generous",
+          "translation_my": "Bacalah, dan Tuhanmulah Yang Maha Pemurah",
+          "words": [
+            {
+              "arabic": "اقْرَأْ",
+              "meaning": "Read",
+              "meaning_my": "Bacalah"
+            },
+            {
+              "arabic": "وَرَبُّكَ",
+              "meaning": "and your Lord",
+              "meaning_my": "dan Tuhanmulah"
+            },
+            {
+              "arabic": "الْأَكْرَمُ",
+              "meaning": "is the most Generous",
+              "meaning_my": "Yang Maha Pemurah"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "الَّذِي عَلَّمَ بِالْقَلَمِ",
+          "translation": "Who taught by the pen",
+          "translation_my": "Yang mengajar (manusia) dengan perantaran kalam",
+          "words": [
+            {
+              "arabic": "الَّذِي",
+              "meaning": "Who",
+              "meaning_my": "Yang"
+            },
+            {
+              "arabic": "عَلَّمَ",
+              "meaning": "taught",
+              "meaning_my": "mengajar (manusia)"
+            },
+            {
+              "arabic": "بِالْقَلَمِ",
+              "meaning": "by the pen",
+              "meaning_my": "dengan perantaran kalam"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ",
+          "translation": "Taught man that which he knew not",
+          "translation_my": "Dia mengajar manusia apa yang tidak diketahuinya",
+          "words": [
+            {
+              "arabic": "عَلَّمَ",
+              "meaning": "Taught",
+              "meaning_my": "Dia mengajar"
+            },
+            {
+              "arabic": "الْإِنسَانَ",
+              "meaning": "man",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "مَا لَمْ يَعْلَمْ",
+              "meaning": "that which he knew not",
+              "meaning_my": "apa yang tidak diketahuinya"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "اقْرَأْ",
           "meaning": "Read",
+          "meaning_my": "Bacalah",
           "options": ["Read", "Write", "Speak", "Listen"],
-          "correct": "Read"
+          "options_my": ["Bacalah", "Tulislah", "Berbicaralah", "Dengarlah"],
+          "correct": "Read",
+          "correct_my": "Bacalah"
         },
         {
           "arabic": "عَلَقٍ",
           "meaning": "A clot",
+          "meaning_my": "Segumpal darah",
           "options": ["A clot", "A drop", "A seed", "A cell"],
-          "correct": "A clot"
+          "options_my": ["Segumpal darah", "Setitis air", "Sebiji benih", "Sebuah sel"],
+          "correct": "A clot",
+          "correct_my": "Segumpal darah"
         },
         {
           "arabic": "الْأَكْرَمُ",
           "meaning": "Most Generous",
+          "meaning_my": "Yang Maha Pemurah",
           "options": ["Most Generous", "Most Powerful", "Most Wise", "Most Merciful"],
-          "correct": "Most Generous"
+          "options_my": ["Yang Maha Pemurah", "Yang Maha Berkuasa", "Yang Maha Bijaksana", "Yang Maha Pengasih"],
+          "correct": "Most Generous",
+          "correct_my": "Yang Maha Pemurah"
         },
         {
           "arabic": "بِالْقَلَمِ",
           "meaning": "By the pen",
+          "meaning_my": "Dengan perantaran kalam",
           "options": ["By the pen", "By the sword", "By the book", "By the word"],
-          "correct": "By the pen"
+          "options_my": ["Dengan perantaran kalam", "Dengan pedang", "Dengan kitab", "Dengan kata-kata"],
+          "correct": "By the pen",
+          "correct_my": "Dengan perantaran kalam"
         },
         {
           "arabic": "يَعْلَمْ",
           "meaning": "Knew",
+          "meaning_my": "Mengetahui",
           "options": ["Knew", "Forgot", "Learned", "Taught"],
-          "correct": "Knew"
+          "options_my": ["Mengetahui", "Melupakan", "Mempelajari", "Mengajar"],
+          "correct": "Knew",
+          "correct_my": "Mengetahui"
         }
       ]
     },
     {
       "id": "al-qadr",
       "title": "Surah Al-Qadr (The Night of Decree)",
+      "title_my": "Surah Al-Qadr (Malam Kemuliaan)",
       "description": "A Meccan surah that describes the Night of Decree (Laylat al-Qadr) when the Quran was first revealed.",
+      "description_my": "Surah Mekah yang menggambarkan Malam Kemuliaan (Lailatul Qadr) ketika Al-Quran mula-mula diturunkan.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+          "translation": "Indeed, We sent the Qur'an down during the Night of Decree",
+          "translation_my": "Sesungguhnya Kami telah menurunkannya (Al-Quran) pada malam kemuliaan",
+          "words": [
+            {
+              "arabic": "إِنَّا",
+              "meaning": "Indeed, We",
+              "meaning_my": "Sesungguhnya Kami"
+            },
+            {
+              "arabic": "أَنزَلْنَاهُ",
+              "meaning": "sent it down",
+              "meaning_my": "telah menurunkannya (Al-Quran)"
+            },
+            {
+              "arabic": "فِي لَيْلَةِ",
+              "meaning": "during the Night",
+              "meaning_my": "pada malam"
+            },
+            {
+              "arabic": "الْقَدْرِ",
+              "meaning": "of Decree",
+              "meaning_my": "kemuliaan"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
+          "translation": "And what can make you know what is the Night of Decree?",
+          "translation_my": "Dan tahukah kamu apakah malam kemuliaan itu?",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "meaning": "And what",
+              "meaning_my": "Dan"
+            },
+            {
+              "arabic": "أَدْرَاكَ",
+              "meaning": "can make you know",
+              "meaning_my": "tahukah kamu"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "what",
+              "meaning_my": "apakah"
+            },
+            {
+              "arabic": "لَيْلَةُ الْقَدْرِ",
+              "meaning": "is the Night of Decree",
+              "meaning_my": "malam kemuliaan itu"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+          "translation": "The Night of Decree is better than a thousand months",
+          "translation_my": "Malam kemuliaan itu lebih baik dari seribu bulan",
+          "words": [
+            {
+              "arabic": "لَيْلَةُ الْقَدْرِ",
+              "meaning": "The Night of Decree",
+              "meaning_my": "Malam kemuliaan itu"
+            },
+            {
+              "arabic": "خَيْرٌ",
+              "meaning": "is better",
+              "meaning_my": "lebih baik"
+            },
+            {
+              "arabic": "مِّنْ أَلْفِ",
+              "meaning": "than a thousand",
+              "meaning_my": "dari seribu"
+            },
+            {
+              "arabic": "شَهْرٍ",
+              "meaning": "months",
+              "meaning_my": "bulan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+          "translation": "The angels and the Spirit descend therein by permission of their Lord for every matter",
+          "translation_my": "Turunlah malaikat-malaikat dan Jibril pada malam itu dengan izin Tuhannya untuk mengatur segala urusan",
+          "words": [
+            {
+              "arabic": "تَنَزَّلُ",
+              "meaning": "Descend",
+              "meaning_my": "Turunlah"
+            },
+            {
+              "arabic": "الْمَلَائِكَةُ",
+              "meaning": "the angels",
+              "meaning_my": "malaikat-malaikat"
+            },
+            {
+              "arabic": "وَالرُّوحُ",
+              "meaning": "and the Spirit",
+              "meaning_my": "dan Jibril"
+            },
+            {
+              "arabic": "فِيهَا",
+              "meaning": "therein",
+              "meaning_my": "pada malam itu"
+            },
+            {
+              "arabic": "بِإِذْنِ رَبِّهِم",
+              "meaning": "by permission of their Lord",
+              "meaning_my": "dengan izin Tuhannya"
+            },
+            {
+              "arabic": "مِّن كُلِّ أَمْرٍ",
+              "meaning": "for every matter",
+              "meaning_my": "untuk mengatur segala urusan"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+          "translation": "Peace it is until the emergence of dawn",
+          "translation_my": "Sejahteralah malam itu sampai terbit fajar",
+          "words": [
+            {
+              "arabic": "سَلَامٌ",
+              "meaning": "Peace",
+              "meaning_my": "Sejahteralah"
+            },
+            {
+              "arabic": "هِيَ",
+              "meaning": "it is",
+              "meaning_my": "malam itu"
+            },
+            {
+              "arabic": "حَتَّىٰ",
+              "meaning": "until",
+              "meaning_my": "sampai"
+            },
+            {
+              "arabic": "مَطْلَعِ",
+              "meaning": "the emergence",
+              "meaning_my": "terbit"
+            },
+            {
+              "arabic": "الْفَجْرِ",
+              "meaning": "of dawn",
+              "meaning_my": "fajar"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْقَدْرِ",
           "meaning": "The Decree",
+          "meaning_my": "Kemuliaan",
           "options": ["The Decree", "The Power", "The Glory", "The Honor"],
-          "correct": "The Decree"
+          "options_my": ["Kemuliaan", "Kekuasaan", "Keagungan", "Kehormatan"],
+          "correct": "The Decree",
+          "correct_my": "Kemuliaan"
         },
         {
           "arabic": "أَدْرَاكَ",
           "meaning": "Make you know",
+          "meaning_my": "Memberitahumu",
           "options": ["Make you know", "Make you forget", "Make you understand", "Make you remember"],
-          "correct": "Make you know"
+          "options_my": ["Memberitahumu", "Membuatmu lupa", "Membuatmu faham", "Membuatmu ingat"],
+          "correct": "Make you know",
+          "correct_my": "Memberitahumu"
         },
         {
           "arabic": "خَيْرٌ",
           "meaning": "Better",
+          "meaning_my": "Lebih baik",
           "options": ["Better", "Worse", "Equal", "Different"],
-          "correct": "Better"
+          "options_my": ["Lebih baik", "Lebih buruk", "Sama", "Berbeza"],
+          "correct": "Better",
+          "correct_my": "Lebih baik"
         },
         {
           "arabic": "شَهْرٍ",
           "meaning": "Month",
+          "meaning_my": "Bulan",
           "options": ["Month", "Day", "Year", "Week"],
-          "correct": "Month"
+          "options_my": ["Bulan", "Hari", "Tahun", "Minggu"],
+          "correct": "Month",
+          "correct_my": "Bulan"
         },
         {
           "arabic": "سَلَامٌ",
           "meaning": "Peace",
+          "meaning_my": "Sejahtera",
           "options": ["Peace", "War", "Conflict", "Struggle"],
-          "correct": "Peace"
+          "options_my": ["Sejahtera", "Peperangan", "Konflik", "Perjuangan"],
+          "correct": "Peace",
+          "correct_my": "Sejahtera"
         }
       ]
     },
     {
       "id": "al-bayyinah",
       "title": "Surah Al-Bayyinah (The Clear Evidence)",
+      "title_my": "Surah Al-Bayyinah (Bukti Yang Nyata)",
       "description": "A Medinan surah that discusses the arrival of clear evidence and the division of people based on their response.",
+      "description_my": "Surah Madinah yang membincangkan tentang kedatangan bukti yang nyata dan pembahagian manusia berdasarkan respons mereka.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+          "translation": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence",
+          "translation_my": "Orang-orang kafir dari Ahli Kitab dan orang-orang musyrik tidak akan meninggalkan (kekafiran) mereka sehingga datang kepada mereka bukti yang nyata",
+          "words": [
+            {
+              "arabic": "لَمْ يَكُنِ",
+              "meaning": "Were not",
+              "meaning_my": "Tidak akan"
+            },
+            {
+              "arabic": "الَّذِينَ كَفَرُوا",
+              "meaning": "Those who disbelieved",
+              "meaning_my": "Orang-orang kafir"
+            },
+            {
+              "arabic": "مِنْ أَهْلِ الْكِتَابِ",
+              "meaning": "among the People of the Scripture",
+              "meaning_my": "dari Ahli Kitab"
+            },
+            {
+              "arabic": "وَالْمُشْرِكِينَ",
+              "meaning": "and the polytheists",
+              "meaning_my": "dan orang-orang musyrik"
+            },
+            {
+              "arabic": "مُنفَكِّينَ",
+              "meaning": "to be parted [from misbelief]",
+              "meaning_my": "meninggalkan (kekafiran) mereka"
+            },
+            {
+              "arabic": "حَتَّىٰ تَأْتِيَهُمُ",
+              "meaning": "until there came to them",
+              "meaning_my": "sehingga datang kepada mereka"
+            },
+            {
+              "arabic": "الْبَيِّنَةُ",
+              "meaning": "clear evidence",
+              "meaning_my": "bukti yang nyata"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "رَسُولٌ مِّنَ اللَّهِ يَتْلُو صُحُفًا مُّطَهَّرَةً",
+          "translation": "A Messenger from Allah, reciting purified scriptures",
+          "translation_my": "(Yaitu) seorang Rasul dari Allah yang membacakan lembaran-lembaran yang suci",
+          "words": [
+            {
+              "arabic": "رَسُولٌ مِّنَ اللَّهِ",
+              "meaning": "A Messenger from Allah",
+              "meaning_my": "(Yaitu) seorang Rasul dari Allah"
+            },
+            {
+              "arabic": "يَتْلُو",
+              "meaning": "reciting",
+              "meaning_my": "yang membacakan"
+            },
+            {
+              "arabic": "صُحُفًا مُّطَهَّرَةً",
+              "meaning": "purified scriptures",
+              "meaning_my": "lembaran-lembaran yang suci"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "فِيهَا كُتُبٌ قَيِّمَةٌ",
+          "translation": "Within which are correct writings",
+          "translation_my": "Di dalamnya terdapat (isi) kitab-kitab yang lurus",
+          "words": [
+            {
+              "arabic": "فِيهَا",
+              "meaning": "Within which",
+              "meaning_my": "Di dalamnya"
+            },
+            {
+              "arabic": "كُتُبٌ",
+              "meaning": "are writings",
+              "meaning_my": "terdapat (isi) kitab-kitab"
+            },
+            {
+              "arabic": "قَيِّمَةٌ",
+              "meaning": "correct",
+              "meaning_my": "yang lurus"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ",
+          "translation": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence",
+          "translation_my": "Dan tidaklah berpecah-belah orang-orang yang didatangkan Al-Kitab kepada mereka kecuali setelah datang kepada mereka bukti yang nyata",
+          "words": [
+            {
+              "arabic": "وَمَا تَفَرَّقَ",
+              "meaning": "Nor did become divided",
+              "meaning_my": "Dan tidaklah berpecah-belah"
+            },
+            {
+              "arabic": "الَّذِينَ أُوتُوا الْكِتَابَ",
+              "meaning": "those who were given the Scripture",
+              "meaning_my": "orang-orang yang didatangkan Al-Kitab kepada mereka"
+            },
+            {
+              "arabic": "إِلَّا مِن بَعْدِ مَا جَاءَتْهُمُ",
+              "meaning": "until after there had come to them",
+              "meaning_my": "kecuali setelah datang kepada mereka"
+            },
+            {
+              "arabic": "الْبَيِّنَةُ",
+              "meaning": "clear evidence",
+              "meaning_my": "bukti yang nyata"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ ۚ وَذَٰلِكَ دِينُ الْقَيِّمَةِ",
+          "translation": "And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion",
+          "translation_my": "Padahal mereka tidak disuruh kecuali supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam (menjalankan) agama dengan lurus, dan supaya mereka mendirikan solat dan menunaikan zakat; dan yang demikian itulah agama yang lurus",
+          "words": [
+            {
+              "arabic": "وَمَا أُمِرُوا إِلَّا",
+              "meaning": "And they were not commanded except",
+              "meaning_my": "Padahal mereka tidak disuruh kecuali"
+            },
+            {
+              "arabic": "لِيَعْبُدُوا اللَّهَ",
+              "meaning": "to worship Allah",
+              "meaning_my": "supaya menyembah Allah"
+            },
+            {
+              "arabic": "مُخْلِصِينَ لَهُ الدِّينَ",
+              "meaning": "[being] sincere to Him in religion",
+              "meaning_my": "dengan memurnikan ketaatan kepada-Nya dalam (menjalankan) agama"
+            },
+            {
+              "arabic": "حُنَفَاءَ",
+              "meaning": "inclining to truth",
+              "meaning_my": "dengan lurus"
+            },
+            {
+              "arabic": "وَيُقِيمُوا الصَّلَاةَ",
+              "meaning": "and to establish prayer",
+              "meaning_my": "dan supaya mereka mendirikan solat"
+            },
+            {
+              "arabic": "وَيُؤْتُوا الزَّكَاةَ",
+              "meaning": "and to give zakah",
+              "meaning_my": "dan menunaikan zakat"
+            },
+            {
+              "arabic": "وَذَٰلِكَ دِينُ الْقَيِّمَةِ",
+              "meaning": "And that is the correct religion",
+              "meaning_my": "dan yang demikian itulah agama yang lurus"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْبَيِّنَةُ",
           "meaning": "Clear evidence",
+          "meaning_my": "Bukti yang nyata",
           "options": ["Clear evidence", "Hidden secret", "Vague sign", "Minor hint"],
-          "correct": "Clear evidence"
+          "options_my": ["Bukti yang nyata", "Rahsia tersembunyi", "Tanda yang samar", "Petunjuk kecil"],
+          "correct": "Clear evidence",
+          "correct_my": "Bukti yang nyata"
         },
         {
           "arabic": "مُنفَكِّينَ",
           "meaning": "Departing",
+          "meaning_my": "Meninggalkan",
           "options": ["Departing", "Arriving", "Staying", "Returning"],
-          "correct": "Departing"
+          "options_my": ["Meninggalkan", "Tiba", "Tinggal", "Kembali"],
+          "correct": "Departing",
+          "correct_my": "Meninggalkan"
         },
         {
           "arabic": "صُحُفٌ",
           "meaning": "Scriptures",
+          "meaning_my": "Lembaran-lembaran",
           "options": ["Scriptures", "Letters", "Books", "Pages"],
-          "correct": "Scriptures"
+          "options_my": ["Lembaran-lembaran", "Surat-surat", "Kitab-kitab", "Halaman-halaman"],
+          "correct": "Scriptures",
+          "correct_my": "Lembaran-lembaran"
         },
         {
           "arabic": "مُطَهَّرَةٌ",
           "meaning": "Purified",
+          "meaning_my": "Yang suci",
           "options": ["Purified", "Corrupted", "Hidden", "Revealed"],
-          "correct": "Purified"
+          "options_my": ["Yang suci", "Yang tercemar", "Yang tersembunyi", "Yang didedahkan"],
+          "correct": "Purified",
+          "correct_my": "Yang suci"
         },
         {
           "arabic": "قَيِّمَةٌ",
           "meaning": "Straight",
+          "meaning_my": "Yang lurus",
           "options": ["Straight", "Crooked", "Circular", "Bent"],
-          "correct": "Straight"
+          "options_my": ["Yang lurus", "Yang bengkok", "Yang bulat", "Yang melengkung"],
+          "correct": "Straight",
+          "correct_my": "Yang lurus"
         }
       ]
     },
     {
       "id": "az-zalzalah",
       "title": "Surah Az-Zalzalah (The Earthquake)",
+      "title_my": "Surah Az-Zalzalah (Kegoncangan)",
       "description": "A Medinan surah that vividly describes the Day of Judgment beginning with a massive earthquake.",
+      "description_my": "Surah Madinah yang menggambarkan dengan jelas tentang Hari Kiamat bermula dengan gempa bumi yang dahsyat.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا",
+          "translation": "When the earth is shaken with its [final] earthquake",
+          "translation_my": "Apabila bumi digoncangkan dengan goncangan (yang dahsyat)",
+          "words": [
+            {
+              "arabic": "إِذَا",
+              "meaning": "When",
+              "meaning_my": "Apabila"
+            },
+            {
+              "arabic": "زُلْزِلَتِ",
+              "meaning": "is shaken",
+              "meaning_my": "digoncangkan"
+            },
+            {
+              "arabic": "الْأَرْضُ",
+              "meaning": "the earth",
+              "meaning_my": "bumi"
+            },
+            {
+              "arabic": "زِلْزَالَهَا",
+              "meaning": "with its [final] earthquake",
+              "meaning_my": "dengan goncangan (yang dahsyat)"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا",
+          "translation": "And the earth discharges its burdens",
+          "translation_my": "Dan bumi mengeluarkan beban-beban berat (yang dikandung)nya",
+          "words": [
+            {
+              "arabic": "وَأَخْرَجَتِ",
+              "meaning": "And discharges",
+              "meaning_my": "Dan mengeluarkan"
+            },
+            {
+              "arabic": "الْأَرْضُ",
+              "meaning": "the earth",
+              "meaning_my": "bumi"
+            },
+            {
+              "arabic": "أَثْقَالَهَا",
+              "meaning": "its burdens",
+              "meaning_my": "beban-beban berat (yang dikandung)nya"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَقَالَ الْإِنسَانُ مَا لَهَا",
+          "translation": "And man says, 'What is [wrong] with it?'",
+          "translation_my": "Dan manusia bertanya: 'Mengapa bumi (menjadi begini)?'",
+          "words": [
+            {
+              "arabic": "وَقَالَ",
+              "meaning": "And says",
+              "meaning_my": "Dan bertanya"
+            },
+            {
+              "arabic": "الْإِنسَانُ",
+              "meaning": "man",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "مَا لَهَا",
+              "meaning": "'What is [wrong] with it?'",
+              "meaning_my": "'Mengapa bumi (menjadi begini)?'"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+          "translation": "That Day, it will report its news",
+          "translation_my": "Pada hari itu bumi menceritakan beritanya",
+          "words": [
+            {
+              "arabic": "يَوْمَئِذٍ",
+              "meaning": "That Day",
+              "meaning_my": "Pada hari itu"
+            },
+            {
+              "arabic": "تُحَدِّثُ",
+              "meaning": "it will report",
+              "meaning_my": "bumi menceritakan"
+            },
+            {
+              "arabic": "أَخْبَارَهَا",
+              "meaning": "its news",
+              "meaning_my": "beritanya"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+          "translation": "Because your Lord has commanded it",
+          "translation_my": "Kerana sesungguhnya Tuhanmu telah memerintahkan (yang demikian itu) kepadanya",
+          "words": [
+            {
+              "arabic": "بِأَنَّ",
+              "meaning": "Because",
+              "meaning_my": "Kerana sesungguhnya"
+            },
+            {
+              "arabic": "رَبَّكَ",
+              "meaning": "your Lord",
+              "meaning_my": "Tuhanmu"
+            },
+            {
+              "arabic": "أَوْحَىٰ",
+              "meaning": "has commanded",
+              "meaning_my": "telah memerintahkan (yang demikian itu)"
+            },
+            {
+              "arabic": "لَهَا",
+              "meaning": "it",
+              "meaning_my": "kepadanya"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "زُلْزِلَتِ",
           "meaning": "Is shaken",
+          "meaning_my": "Digoncangkan",
           "options": ["Is shaken", "Is still", "Is created", "Is destroyed"],
-          "correct": "Is shaken"
+          "options_my": ["Digoncangkan", "Diam", "Dicipta", "Dimusnahkan"],
+          "correct": "Is shaken",
+          "correct_my": "Digoncangkan"
         },
         {
           "arabic": "زِلْزَالَهَا",
           "meaning": "Its earthquake",
+          "meaning_my": "Goncangannya",
           "options": ["Its earthquake", "Its stillness", "Its creation", "Its destruction"],
-          "correct": "Its earthquake"
+          "options_my": ["Goncangannya", "Ketenangannya", "Penciptaannya", "Kehancurannya"],
+          "correct": "Its earthquake",
+          "correct_my": "Goncangannya"
         },
         {
           "arabic": "أَثْقَالَهَا",
           "meaning": "Its burdens",
+          "meaning_my": "Beban-bebannya",
           "options": ["Its burdens", "Its treasures", "Its secrets", "Its people"],
-          "correct": "Its burdens"
+          "options_my": ["Beban-bebannya", "Harta karunnya", "Rahsia-rahsianya", "Manusia-manusianya"],
+          "correct": "Its burdens",
+          "correct_my": "Beban-bebannya"
         },
         {
           "arabic": "أَوْحَىٰ",
           "meaning": "Inspired",
+          "meaning_my": "Memerintahkan",
           "options": ["Inspired", "Commanded", "Created", "Destroyed"],
-          "correct": "Inspired"
+          "options_my": ["Memerintahkan", "Mengarahkan", "Menciptakan", "Memusnahkan"],
+          "correct": "Inspired",
+          "correct_my": "Memerintahkan"
         },
         {
           "arabic": "أَشْتَاتًا",
           "meaning": "Separate groups",
+          "meaning_my": "Berkelompok-kelompok",
           "options": ["Separate groups", "Together", "Alone", "In pairs"],
-          "correct": "Separate groups"
+          "options_my": ["Berkelompok-kelompok", "Bersama-sama", "Sendirian", "Berpasangan"],
+          "correct": "Separate groups",
+          "correct_my": "Berkelompok-kelompok"
         }
       ]
     },
     {
       "id": "al-adiyat",
       "title": "Surah Al-'Adiyat (The Chargers)",
+      "title_my": "Surah Al-'Adiyat (Kuda Perang Yang Berlari Kencang)",
       "description": "A Meccan surah that begins with an oath by the charging horses and discusses human ingratitude.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan kuda-kuda perang yang berlari kencang dan membincangkan tentang sikap tidak bersyukur manusia.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالْعَادِيَاتِ ضَبْحًا",
+          "translation": "By the racers, panting",
+          "translation_my": "Demi kuda perang yang berlari kencang dengan terengah-engah",
+          "words": [
+            {
+              "arabic": "وَالْعَادِيَاتِ",
+              "meaning": "By the racers",
+              "meaning_my": "Demi kuda perang yang berlari kencang"
+            },
+            {
+              "arabic": "ضَبْحًا",
+              "meaning": "panting",
+              "meaning_my": "dengan terengah-engah"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "فَالْمُورِيَاتِ قَدْحًا",
+          "translation": "And the producers of sparks [when] striking",
+          "translation_my": "Dan kuda yang mencetuskan api dengan pukulan (kuku kakinya)",
+          "words": [
+            {
+              "arabic": "فَالْمُورِيَاتِ",
+              "meaning": "And the producers of sparks",
+              "meaning_my": "Dan kuda yang mencetuskan api"
+            },
+            {
+              "arabic": "قَدْحًا",
+              "meaning": "[when] striking",
+              "meaning_my": "dengan pukulan (kuku kakinya)"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "فَالْمُغِيرَاتِ صُبْحًا",
+          "translation": "And the chargers at dawn",
+          "translation_my": "Dan kuda yang menyerang pada waktu pagi",
+          "words": [
+            {
+              "arabic": "فَالْمُغِيرَاتِ",
+              "meaning": "And the chargers",
+              "meaning_my": "Dan kuda yang menyerang"
+            },
+            {
+              "arabic": "صُبْحًا",
+              "meaning": "at dawn",
+              "meaning_my": "pada waktu pagi"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "فَأَثَرْنَ بِهِ نَقْعًا",
+          "translation": "Stirring up thereby [clouds of] dust",
+          "translation_my": "Maka ia menerbangkan debu",
+          "words": [
+            {
+              "arabic": "فَأَثَرْنَ",
+              "meaning": "Stirring up",
+              "meaning_my": "Maka ia menerbangkan"
+            },
+            {
+              "arabic": "بِهِ",
+              "meaning": "thereby",
+              "meaning_my": "dengannya"
+            },
+            {
+              "arabic": "نَقْعًا",
+              "meaning": "[clouds of] dust",
+              "meaning_my": "debu"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فَوَسَطْنَ بِهِ جَمْعًا",
+          "translation": "Arriving thereby in the center collectively",
+          "translation_my": "Dan menyerbu ke tengah-tengah kumpulan musuh",
+          "words": [
+            {
+              "arabic": "فَوَسَطْنَ",
+              "meaning": "Arriving thereby in the center",
+              "meaning_my": "Dan menyerbu ke tengah-tengah"
+            },
+            {
+              "arabic": "بِهِ",
+              "meaning": "thereby",
+              "meaning_my": "dengannya"
+            },
+            {
+              "arabic": "جَمْعًا",
+              "meaning": "collectively",
+              "meaning_my": "kumpulan musuh"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْعَادِيَاتِ",
           "meaning": "The chargers",
+          "meaning_my": "Kuda perang yang berlari kencang",
           "options": ["The chargers", "The walkers", "The flyers", "The swimmers"],
-          "correct": "The chargers"
+          "options_my": ["Kuda perang yang berlari kencang", "Yang berjalan", "Yang terbang", "Yang berenang"],
+          "correct": "The chargers",
+          "correct_my": "Kuda perang yang berlari kencang"
         },
         {
           "arabic": "ضَبْحًا",
           "meaning": "Panting",
+          "meaning_my": "Terengah-engah",
           "options": ["Panting", "Resting", "Sleeping", "Eating"],
-          "correct": "Panting"
+          "options_my": ["Terengah-engah", "Berehat", "Tidur", "Makan"],
+          "correct": "Panting",
+          "correct_my": "Terengah-engah"
         },
         {
           "arabic": "الْمُورِيَاتِ",
           "meaning": "Strike sparks",
+          "meaning_my": "Mencetuskan api",
           "options": ["Strike sparks", "Create shadows", "Make sounds", "Raise dust"],
-          "correct": "Strike sparks"
+          "options_my": ["Mencetuskan api", "Mencipta bayang", "Mengeluarkan bunyi", "Menerbangkan debu"],
+          "correct": "Strike sparks",
+          "correct_my": "Mencetuskan api"
         },
         {
           "arabic": "نَقْعًا",
           "meaning": "Dust",
+          "meaning_my": "Debu",
           "options": ["Dust", "Water", "Fire", "Air"],
-          "correct": "Dust"
+          "options_my": ["Debu", "Air", "Api", "Udara"],
+          "correct": "Dust",
+          "correct_my": "Debu"
         },
         {
           "arabic": "لَكَنُودٌ",
           "meaning": "Ungrateful",
+          "meaning_my": "Sangat tidak berterima kasih",
           "options": ["Ungrateful", "Thankful", "Generous", "Kind"],
-          "correct": "Ungrateful"
+          "options_my": ["Sangat tidak berterima kasih", "Bersyukur", "Pemurah", "Baik hati"],
+          "correct": "Ungrateful",
+          "correct_my": "Sangat tidak berterima kasih"
         }
       ]
     },
