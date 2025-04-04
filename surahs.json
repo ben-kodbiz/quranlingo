@@ -1490,67 +1490,302 @@
     {
       "id": "al-fatihah",
       "title": "Surah Al-Fatihah (The Opening)",
+      "title_my": "Surah Al-Fatihah (Pembukaan)",
       "description": "The first chapter of the Quran, consisting of seven verses.",
+      "description_my": "Surah pertama dalam Al-Quran, terdiri daripada tujuh ayat.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "translation": "In the name of Allah, the Entirely Merciful, the Especially Merciful",
+          "translation_my": "Dengan nama Allah, Yang Maha Pemurah, lagi Maha Mengasihani",
+          "words": [
+            {
+              "arabic": "بِسْمِ",
+              "meaning": "In the name",
+              "meaning_my": "Dengan nama"
+            },
+            {
+              "arabic": "اللَّهِ",
+              "meaning": "of Allah",
+              "meaning_my": "Allah"
+            },
+            {
+              "arabic": "الرَّحْمَٰنِ",
+              "meaning": "the Entirely Merciful",
+              "meaning_my": "Yang Maha Pemurah"
+            },
+            {
+              "arabic": "الرَّحِيمِ",
+              "meaning": "the Especially Merciful",
+              "meaning_my": "lagi Maha Mengasihani"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "translation": "All praise is due to Allah, Lord of the worlds",
+          "translation_my": "Segala puji bagi Allah, Tuhan semesta alam",
+          "words": [
+            {
+              "arabic": "الْحَمْدُ",
+              "meaning": "All praise",
+              "meaning_my": "Segala puji"
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "meaning": "is due to Allah",
+              "meaning_my": "bagi Allah"
+            },
+            {
+              "arabic": "رَبِّ",
+              "meaning": "Lord",
+              "meaning_my": "Tuhan"
+            },
+            {
+              "arabic": "الْعَالَمِينَ",
+              "meaning": "of the worlds",
+              "meaning_my": "semesta alam"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "الرَّحْمَٰنِ الرَّحِيمِ",
+          "translation": "The Entirely Merciful, the Especially Merciful",
+          "translation_my": "Yang Maha Pemurah, lagi Maha Mengasihani",
+          "words": [
+            {
+              "arabic": "الرَّحْمَٰنِ",
+              "meaning": "The Entirely Merciful",
+              "meaning_my": "Yang Maha Pemurah"
+            },
+            {
+              "arabic": "الرَّحِيمِ",
+              "meaning": "the Especially Merciful",
+              "meaning_my": "lagi Maha Mengasihani"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "مَالِكِ يَوْمِ الدِّينِ",
+          "translation": "Sovereign of the Day of Recompense",
+          "translation_my": "Yang Menguasai hari Pembalasan",
+          "words": [
+            {
+              "arabic": "مَالِكِ",
+              "meaning": "Sovereign",
+              "meaning_my": "Yang Menguasai"
+            },
+            {
+              "arabic": "يَوْمِ",
+              "meaning": "of the Day",
+              "meaning_my": "hari"
+            },
+            {
+              "arabic": "الدِّينِ",
+              "meaning": "of Recompense",
+              "meaning_my": "Pembalasan"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "translation": "It is You we worship and You we ask for help",
+          "translation_my": "Hanya Engkaulah yang kami sembah dan hanya kepada Engkaulah kami meminta pertolongan",
+          "words": [
+            {
+              "arabic": "إِيَّاكَ",
+              "meaning": "It is You",
+              "meaning_my": "Hanya Engkaulah"
+            },
+            {
+              "arabic": "نَعْبُدُ",
+              "meaning": "we worship",
+              "meaning_my": "yang kami sembah"
+            },
+            {
+              "arabic": "وَإِيَّاكَ",
+              "meaning": "and You",
+              "meaning_my": "dan hanya kepada Engkaulah"
+            },
+            {
+              "arabic": "نَسْتَعِينُ",
+              "meaning": "we ask for help",
+              "meaning_my": "kami meminta pertolongan"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "translation": "Guide us to the straight path",
+          "translation_my": "Tunjukilah kami jalan yang lurus",
+          "words": [
+            {
+              "arabic": "اهْدِنَا",
+              "meaning": "Guide us",
+              "meaning_my": "Tunjukilah kami"
+            },
+            {
+              "arabic": "الصِّرَاطَ",
+              "meaning": "to the path",
+              "meaning_my": "jalan"
+            },
+            {
+              "arabic": "الْمُسْتَقِيمَ",
+              "meaning": "the straight",
+              "meaning_my": "yang lurus"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+          "translation": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray",
+          "translation_my": "Jalan orang-orang yang Engkau beri nikmat kepada mereka, bukan jalan orang-orang yang dimurkai dan bukan pula jalan orang-orang yang sesat",
+          "words": [
+            {
+              "arabic": "صِرَاطَ",
+              "meaning": "The path",
+              "meaning_my": "Jalan"
+            },
+            {
+              "arabic": "الَّذِينَ",
+              "meaning": "of those",
+              "meaning_my": "orang-orang yang"
+            },
+            {
+              "arabic": "أَنْعَمْتَ",
+              "meaning": "You have bestowed favor",
+              "meaning_my": "Engkau beri nikmat"
+            },
+            {
+              "arabic": "عَلَيْهِمْ",
+              "meaning": "upon them",
+              "meaning_my": "kepada mereka"
+            },
+            {
+              "arabic": "غَيْرِ",
+              "meaning": "not",
+              "meaning_my": "bukan"
+            },
+            {
+              "arabic": "الْمَغْضُوبِ",
+              "meaning": "of those who have evoked [Your] anger",
+              "meaning_my": "jalan orang-orang yang dimurkai"
+            },
+            {
+              "arabic": "عَلَيْهِمْ",
+              "meaning": "upon them",
+              "meaning_my": "kepada mereka"
+            },
+            {
+              "arabic": "وَلَا",
+              "meaning": "or",
+              "meaning_my": "dan bukan pula"
+            },
+            {
+              "arabic": "الضَّالِّينَ",
+              "meaning": "of those who are astray",
+              "meaning_my": "jalan orang-orang yang sesat"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْحَمْدُ",
           "meaning": "All praise",
+          "meaning_my": "Segala puji",
           "options": ["All praise", "The mercy", "The guidance", "The power"],
-          "correct": "All praise"
+          "options_my": ["Segala puji", "Rahmat", "Petunjuk", "Kekuasaan"],
+          "correct": "All praise",
+          "correct_my": "Segala puji"
         },
         {
           "arabic": "رَبِّ",
           "meaning": "Lord",
+          "meaning_my": "Tuhan",
           "options": ["Lord", "King", "Creator", "Master"],
-          "correct": "Lord"
+          "options_my": ["Tuhan", "Raja", "Pencipta", "Penguasa"],
+          "correct": "Lord",
+          "correct_my": "Tuhan"
         },
         {
           "arabic": "الْعَالَمِينَ",
           "meaning": "The worlds",
+          "meaning_my": "Semesta alam",
           "options": ["The worlds", "The heavens", "The earth", "The people"],
-          "correct": "The worlds"
+          "options_my": ["Semesta alam", "Langit", "Bumi", "Manusia"],
+          "correct": "The worlds",
+          "correct_my": "Semesta alam"
         },
         {
           "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
           "meaning": "The Most Compassionate, Most Merciful",
+          "meaning_my": "Yang Maha Pemurah, lagi Maha Mengasihani",
           "options": ["The Most Compassionate, Most Merciful", "The All-Knowing, All-Wise", "The Creator, The Sustainer", "The First, The Last"],
-          "correct": "The Most Compassionate, Most Merciful"
+          "options_my": ["Yang Maha Pemurah, lagi Maha Mengasihani", "Yang Maha Mengetahui, Maha Bijaksana", "Pencipta, Pemelihara", "Yang Awal, Yang Akhir"],
+          "correct": "The Most Compassionate, Most Merciful",
+          "correct_my": "Yang Maha Pemurah, lagi Maha Mengasihani"
         },
         {
           "arabic": "مَالِكِ",
           "meaning": "Master",
+          "meaning_my": "Yang Menguasai",
           "options": ["Master", "Creator", "Protector", "Guide"],
-          "correct": "Master"
+          "options_my": ["Yang Menguasai", "Pencipta", "Pelindung", "Pembimbing"],
+          "correct": "Master",
+          "correct_my": "Yang Menguasai"
         },
         {
           "arabic": "يَوْمِ الدِّينِ",
           "meaning": "Day of Judgment",
+          "meaning_my": "Hari Pembalasan",
           "options": ["Day of Judgment", "Day of Creation", "Day of Mercy", "Day of Reward"],
-          "correct": "Day of Judgment"
+          "options_my": ["Hari Pembalasan", "Hari Penciptaan", "Hari Rahmat", "Hari Ganjaran"],
+          "correct": "Day of Judgment",
+          "correct_my": "Hari Pembalasan"
         },
         {
           "arabic": "نَعْبُدُ",
           "meaning": "We worship",
+          "meaning_my": "Kami sembah",
           "options": ["We worship", "We praise", "We seek", "We follow"],
-          "correct": "We worship"
+          "options_my": ["Kami sembah", "Kami puji", "Kami cari", "Kami ikuti"],
+          "correct": "We worship",
+          "correct_my": "Kami sembah"
         },
         {
           "arabic": "نَسْتَعِينُ",
           "meaning": "We seek help",
+          "meaning_my": "Kami meminta pertolongan",
           "options": ["We seek help", "We pray", "We believe", "We trust"],
-          "correct": "We seek help"
+          "options_my": ["Kami meminta pertolongan", "Kami berdoa", "Kami percaya", "Kami yakin"],
+          "correct": "We seek help",
+          "correct_my": "Kami meminta pertolongan"
         },
         {
           "arabic": "اهْدِنَا",
           "meaning": "Guide us",
+          "meaning_my": "Tunjukilah kami",
           "options": ["Guide us", "Bless us", "Forgive us", "Protect us"],
-          "correct": "Guide us"
+          "options_my": ["Tunjukilah kami", "Berkatilah kami", "Ampunilah kami", "Lindungilah kami"],
+          "correct": "Guide us",
+          "correct_my": "Tunjukilah kami"
         },
         {
           "arabic": "الصِّرَاطَ الْمُسْتَقِيمَ",
           "meaning": "The straight path",
+          "meaning_my": "Jalan yang lurus",
           "options": ["The straight path", "The blessed way", "The righteous life", "The divine light"],
-          "correct": "The straight path"
+          "options_my": ["Jalan yang lurus", "Jalan yang diberkati", "Kehidupan yang benar", "Cahaya ilahi"],
+          "correct": "The straight path",
+          "correct_my": "Jalan yang lurus"
         }
       ]
     },
@@ -1866,55 +2101,238 @@
     {
       "id": "al-falaq",
       "title": "Surah Al-Falaq (The Daybreak)",
+      "title_my": "Surah Al-Falaq (Waktu Subuh)",
       "description": "A chapter seeking refuge with Allah from various forms of evil.",
+      "description_my": "Surah yang memohon perlindungan kepada Allah dari pelbagai bentuk kejahatan.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+          "translation": "Say, \"I seek refuge in the Lord of daybreak\"",
+          "translation_my": "Katakanlah, \"Aku berlindung kepada Tuhan yang menguasai waktu subuh\"",
+          "words": [
+            {
+              "arabic": "قُلْ",
+              "meaning": "Say",
+              "meaning_my": "Katakanlah"
+            },
+            {
+              "arabic": "أَعُوذُ",
+              "meaning": "I seek refuge",
+              "meaning_my": "Aku berlindung"
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "meaning": "in the Lord of",
+              "meaning_my": "kepada Tuhan"
+            },
+            {
+              "arabic": "الْفَلَقِ",
+              "meaning": "daybreak",
+              "meaning_my": "waktu subuh"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "مِن شَرِّ مَا خَلَقَ",
+          "translation": "From the evil of that which He created",
+          "translation_my": "Dari kejahatan apa yang Dia ciptakan",
+          "words": [
+            {
+              "arabic": "مِن",
+              "meaning": "From",
+              "meaning_my": "Dari"
+            },
+            {
+              "arabic": "شَرِّ",
+              "meaning": "the evil",
+              "meaning_my": "kejahatan"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "that which",
+              "meaning_my": "apa yang"
+            },
+            {
+              "arabic": "خَلَقَ",
+              "meaning": "He created",
+              "meaning_my": "Dia ciptakan"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "translation": "And from the evil of darkness when it settles",
+          "translation_my": "Dan dari kejahatan malam apabila telah gelap gulita",
+          "words": [
+            {
+              "arabic": "وَمِن",
+              "meaning": "And from",
+              "meaning_my": "Dan dari"
+            },
+            {
+              "arabic": "شَرِّ",
+              "meaning": "the evil",
+              "meaning_my": "kejahatan"
+            },
+            {
+              "arabic": "غَاسِقٍ",
+              "meaning": "darkness",
+              "meaning_my": "malam"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "وَقَبَ",
+              "meaning": "it settles",
+              "meaning_my": "telah gelap gulita"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+          "translation": "And from the evil of the blowers in knots",
+          "translation_my": "Dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul",
+          "words": [
+            {
+              "arabic": "وَمِن",
+              "meaning": "And from",
+              "meaning_my": "Dan dari"
+            },
+            {
+              "arabic": "شَرِّ",
+              "meaning": "the evil",
+              "meaning_my": "kejahatan"
+            },
+            {
+              "arabic": "النَّفَّاثَاتِ",
+              "meaning": "the blowers",
+              "meaning_my": "wanita-wanita tukang sihir yang menghembus"
+            },
+            {
+              "arabic": "فِي",
+              "meaning": "in",
+              "meaning_my": "pada"
+            },
+            {
+              "arabic": "الْعُقَدِ",
+              "meaning": "knots",
+              "meaning_my": "buhul-buhul"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "translation": "And from the evil of an envier when he envies",
+          "translation_my": "Dan dari kejahatan pendengki bila ia dengki",
+          "words": [
+            {
+              "arabic": "وَمِن",
+              "meaning": "And from",
+              "meaning_my": "Dan dari"
+            },
+            {
+              "arabic": "شَرِّ",
+              "meaning": "the evil",
+              "meaning_my": "kejahatan"
+            },
+            {
+              "arabic": "حَاسِدٍ",
+              "meaning": "an envier",
+              "meaning_my": "pendengki"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "bila"
+            },
+            {
+              "arabic": "حَسَدَ",
+              "meaning": "he envies",
+              "meaning_my": "ia dengki"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْفَلَقِ",
           "meaning": "The daybreak",
+          "meaning_my": "Waktu subuh",
           "options": ["The daybreak", "The dawn", "The morning", "The light"],
-          "correct": "The daybreak"
+          "options_my": ["Waktu subuh", "Fajar", "Pagi", "Cahaya"],
+          "correct": "The daybreak",
+          "correct_my": "Waktu subuh"
         },
         {
           "arabic": "شَرِّ",
           "meaning": "Evil",
+          "meaning_my": "Kejahatan",
           "options": ["Evil", "Harm", "Danger", "Darkness"],
-          "correct": "Evil"
+          "options_my": ["Kejahatan", "Kemudaratan", "Bahaya", "Kegelapan"],
+          "correct": "Evil",
+          "correct_my": "Kejahatan"
         },
         {
           "arabic": "خَلَقَ",
           "meaning": "Created",
+          "meaning_my": "Ciptakan",
           "options": ["Created", "Made", "Formed", "Designed"],
-          "correct": "Created"
+          "options_my": ["Ciptakan", "Buat", "Bentuk", "Rancang"],
+          "correct": "Created",
+          "correct_my": "Ciptakan"
         },
         {
           "arabic": "غَاسِقٍ",
           "meaning": "Darkness",
+          "meaning_my": "Malam",
           "options": ["Darkness", "Night", "Shadow", "Gloom"],
-          "correct": "Darkness"
+          "options_my": ["Malam", "Kegelapan", "Bayang", "Suram"],
+          "correct": "Darkness",
+          "correct_my": "Malam"
         },
         {
           "arabic": "وَقَبَ",
           "meaning": "As it settles",
+          "meaning_my": "Telah gelap gulita",
           "options": ["As it settles", "As it spreads", "As it falls", "As it comes"],
-          "correct": "As it settles"
+          "options_my": ["Telah gelap gulita", "Ketika ia menyebar", "Ketika ia jatuh", "Ketika ia datang"],
+          "correct": "As it settles",
+          "correct_my": "Telah gelap gulita"
         },
         {
           "arabic": "النَّفَّاثَاتِ",
           "meaning": "Those who blow",
+          "meaning_my": "Wanita-wanita tukang sihir yang menghembus",
           "options": ["Those who blow", "Those who cast", "Those who practice", "Those who speak"],
-          "correct": "Those who blow"
+          "options_my": ["Wanita-wanita tukang sihir yang menghembus", "Mereka yang menyihir", "Mereka yang mengamal", "Mereka yang berkata"],
+          "correct": "Those who blow",
+          "correct_my": "Wanita-wanita tukang sihir yang menghembus"
         },
         {
           "arabic": "الْعُقَدِ",
           "meaning": "Knots",
+          "meaning_my": "Buhul-buhul",
           "options": ["Knots", "Spells", "Magic", "Charms"],
-          "correct": "Knots"
+          "options_my": ["Buhul-buhul", "Sihir", "Ilmu hitam", "Jampi"],
+          "correct": "Knots",
+          "correct_my": "Buhul-buhul"
         },
         {
           "arabic": "حَاسِدٍ",
           "meaning": "Envier",
+          "meaning_my": "Pendengki",
           "options": ["Envier", "Jealous", "Hater", "Enemy"],
-          "correct": "Envier"
+          "options_my": ["Pendengki", "Cemburu", "Pembenci", "Musuh"],
+          "correct": "Envier",
+          "correct_my": "Pendengki"
         }
       ]
     }
