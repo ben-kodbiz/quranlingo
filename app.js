@@ -29,6 +29,8 @@ createApp({
             // Vocabulary mode data
             currentVocabIndex: 0,
             currentVocabWords: [],
+            randomizedQuestions: [], // For randomized quiz questions
+            randomizedAyahs: [], // For randomized word arrangement
 
             // Word arrangement mode data
             currentAyahIndex: 0,
@@ -84,7 +86,12 @@ createApp({
         },
 
         currentQuestion() {
-            return this.currentLesson.questions[this.currentQuestionIndex];
+            // Use randomized questions if available, otherwise use the original questions
+            if (this.randomizedQuestions && this.randomizedQuestions.length > 0) {
+                return this.randomizedQuestions[this.currentQuestionIndex];
+            } else {
+                return this.currentLesson.questions[this.currentQuestionIndex];
+            }
         },
 
         currentVocabWord() {
@@ -105,7 +112,13 @@ createApp({
             if (!this.currentLesson.ayahs || this.currentLesson.ayahs.length === 0) {
                 return { number: 1, text: '', translation: '', translation_my: '', words: [] };
             }
-            return this.currentLesson.ayahs[this.currentAyahIndex];
+
+            // Use randomized ayahs if available, otherwise use the original ayahs
+            if (this.randomizedAyahs && this.randomizedAyahs.length > 0) {
+                return this.randomizedAyahs[this.currentAyahIndex];
+            } else {
+                return this.currentLesson.ayahs[this.currentAyahIndex];
+            }
         },
 
         localizedTranslation() {
@@ -180,15 +193,26 @@ createApp({
             this.currentVocabWords = [];
 
             if (this.currentLesson.ayahs && this.currentLesson.ayahs.length > 0) {
-                // Get words from ayahs
-                this.currentLesson.ayahs.forEach(ayah => {
+                // Create a randomized copy of the ayahs
+                const randomizedAyahs = [...this.currentLesson.ayahs];
+                this.shuffleArray(randomizedAyahs);
+
+                // Get words from randomized ayahs
+                randomizedAyahs.forEach(ayah => {
                     if (ayah.words && ayah.words.length > 0) {
-                        this.currentVocabWords = this.currentVocabWords.concat(ayah.words);
+                        // Create a randomized copy of the words
+                        const randomizedWords = [...ayah.words];
+                        this.shuffleArray(randomizedWords);
+                        this.currentVocabWords = this.currentVocabWords.concat(randomizedWords);
                     }
                 });
             } else {
-                // Fallback to questions if no ayahs are available
-                this.currentLesson.questions.forEach(question => {
+                // Create a randomized copy of the questions
+                const randomizedQuestions = [...this.currentLesson.questions];
+                this.shuffleArray(randomizedQuestions);
+
+                // Fallback to randomized questions if no ayahs are available
+                randomizedQuestions.forEach(question => {
                     this.currentVocabWords.push({
                         arabic: question.arabic,
                         meaning: question.meaning,
@@ -226,15 +250,26 @@ createApp({
             let words = [];
 
             if (this.currentLesson.ayahs && this.currentLesson.ayahs.length > 0) {
-                // Get words from ayahs
-                this.currentLesson.ayahs.forEach(ayah => {
+                // Create a randomized copy of the ayahs
+                const randomizedAyahs = [...this.currentLesson.ayahs];
+                this.shuffleArray(randomizedAyahs);
+
+                // Get words from randomized ayahs
+                randomizedAyahs.forEach(ayah => {
                     if (ayah.words && ayah.words.length > 0) {
-                        words = words.concat(ayah.words);
+                        // Create a randomized copy of the words
+                        const randomizedWords = [...ayah.words];
+                        this.shuffleArray(randomizedWords);
+                        words = words.concat(randomizedWords);
                     }
                 });
             } else if (this.currentLesson.questions && this.currentLesson.questions.length > 0) {
-                // Fallback to questions if no ayahs are available
-                this.currentLesson.questions.forEach(question => {
+                // Create a randomized copy of the questions
+                const randomizedQuestions = [...this.currentLesson.questions];
+                this.shuffleArray(randomizedQuestions);
+
+                // Fallback to randomized questions if no ayahs are available
+                randomizedQuestions.forEach(question => {
                     words.push({
                         arabic: question.arabic,
                         meaning: question.meaning,
@@ -347,12 +382,20 @@ createApp({
             this.highlightedWordIndex = null;
 
             if (this.currentLesson.ayahs && this.currentLesson.ayahs.length > 0) {
-                // Create shuffled options from the current ayah's words
-                this.shuffledOptions = [...this.currentAyah.words];
+                // Randomize ayahs order
+                this.randomizedAyahs = [...this.currentLesson.ayahs];
+                this.shuffleArray(this.randomizedAyahs);
+
+                // Update currentAyahIndex to use the first randomized ayah
+                this.currentAyahIndex = 0;
+
+                // Create shuffled options from the randomized ayah's words
+                const randomizedAyah = this.randomizedAyahs[this.currentAyahIndex];
+                this.shuffledOptions = [...randomizedAyah.words];
                 this.shuffleArray(this.shuffledOptions);
 
                 // Initialize empty slots for selected options
-                this.selectedOptions = Array(this.currentAyah.words.length).fill(null);
+                this.selectedOptions = Array(randomizedAyah.words.length).fill(null);
             } else {
                 // If no ayahs data is available, create a simple arrangement from questions
                 console.log('No ayahs data found, creating arrangement from questions');
@@ -360,8 +403,12 @@ createApp({
                 // Create a mock ayah from the first question
                 const mockWords = [];
                 if (this.currentLesson.questions && this.currentLesson.questions.length > 0) {
+                    // Create a randomized copy of the questions
+                    const randomizedQuestions = [...this.currentLesson.questions];
+                    this.shuffleArray(randomizedQuestions);
+
                     // Take the first 4 questions or all if less than 4
-                    const questionsToUse = this.currentLesson.questions.slice(0, Math.min(4, this.currentLesson.questions.length));
+                    const questionsToUse = randomizedQuestions.slice(0, Math.min(4, randomizedQuestions.length));
 
                     questionsToUse.forEach(question => {
                         mockWords.push({
@@ -547,6 +594,16 @@ createApp({
 
         startQuiz() {
             this.switchMode('quiz');
+
+            // Randomize the questions order
+            if (this.currentLesson.questions && this.currentLesson.questions.length > 0) {
+                // Create a copy of the questions array to avoid modifying the original
+                const randomizedQuestions = [...this.currentLesson.questions];
+                this.shuffleArray(randomizedQuestions);
+
+                // Store the randomized questions in a temporary array
+                this.randomizedQuestions = randomizedQuestions;
+            }
         },
 
         selectArrangementOption(option) {
