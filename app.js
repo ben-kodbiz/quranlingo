@@ -191,7 +191,8 @@ createApp({
                 this.currentLesson.questions.forEach(question => {
                     this.currentVocabWords.push({
                         arabic: question.arabic,
-                        meaning: question.meaning
+                        meaning: question.meaning,
+                        meaning_my: question.meaning_my || question.meaning
                     });
                 });
             }
@@ -365,7 +366,8 @@ createApp({
                     questionsToUse.forEach(question => {
                         mockWords.push({
                             arabic: question.arabic,
-                            meaning: question.meaning
+                            meaning: question.meaning,
+                            meaning_my: question.meaning_my || question.meaning
                         });
                     });
 
@@ -681,7 +683,10 @@ createApp({
 
         checkAnswer(answer) {
             this.selectedAnswer = answer;
-            this.isCorrect = answer === this.currentQuestion.correct;
+            // Check if the answer is correct based on the current language
+            this.isCorrect = this.language === 'en'
+                ? answer === this.currentQuestion.correct
+                : answer === (this.currentQuestion.correct_my || this.currentQuestion.correct);
             this.currentScreen = 'result';
 
             // Award XP points for correct answers

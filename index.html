@@ -180,7 +180,7 @@
                     <div class="arabic-word" v-html="formatArabicWord(currentQuestion.arabic)"></div>
                     <div class="options">
                         <button
-                            v-for="option in currentQuestion.options"
+                            v-for="option in language === 'en' ? currentQuestion.options : (currentQuestion.options_my || currentQuestion.options)"
                             :key="option"
                             @click="checkAnswer(option)"
                             :class="{'selected': selectedAnswer === option}"
