@@ -1294,148 +1294,750 @@
     {
       "id": "al-kawthar",
       "title": "Surah Al-Kawthar (Abundance)",
+      "title_my": "Surah Al-Kawthar (Nikmat Yang Banyak)",
       "description": "A Meccan surah that consoles the Prophet Muhammad and promises him abundant good.",
+      "description_my": "Surah Mekah yang menghibur Nabi Muhammad dan menjanjikan kepadanya kebaikan yang melimpah.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+          "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar",
+          "translation_my": "Sesungguhnya, Kami telah memberikan kepadamu nikmat yang banyak",
+          "words": [
+            {
+              "arabic": "إِنَّا",
+              "meaning": "Indeed, We",
+              "meaning_my": "Sesungguhnya, Kami"
+            },
+            {
+              "arabic": "أَعْطَيْنَاكَ",
+              "meaning": "have granted you",
+              "meaning_my": "telah memberikan kepadamu"
+            },
+            {
+              "arabic": "الْكَوْثَرَ",
+              "meaning": "al-Kawthar",
+              "meaning_my": "nikmat yang banyak"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+          "translation": "So pray to your Lord and sacrifice [to Him alone]",
+          "translation_my": "Maka dirikanlah solat kerana Tuhanmu dan berkurbanlah",
+          "words": [
+            {
+              "arabic": "فَصَلِّ",
+              "meaning": "So pray",
+              "meaning_my": "Maka dirikanlah solat"
+            },
+            {
+              "arabic": "لِرَبِّكَ",
+              "meaning": "to your Lord",
+              "meaning_my": "kerana Tuhanmu"
+            },
+            {
+              "arabic": "وَانْحَرْ",
+              "meaning": "and sacrifice",
+              "meaning_my": "dan berkurbanlah"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+          "translation": "Indeed, your enemy is the one cut off",
+          "translation_my": "Sesungguhnya, orang yang membencimu dialah yang terputus",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "meaning": "Indeed",
+              "meaning_my": "Sesungguhnya"
+            },
+            {
+              "arabic": "شَانِئَكَ",
+              "meaning": "your enemy",
+              "meaning_my": "orang yang membencimu"
+            },
+            {
+              "arabic": "هُوَ",
+              "meaning": "is the one",
+              "meaning_my": "dialah"
+            },
+            {
+              "arabic": "الْأَبْتَرُ",
+              "meaning": "cut off",
+              "meaning_my": "yang terputus"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْكَوْثَرَ",
           "meaning": "Abundance",
+          "meaning_my": "Nikmat yang banyak",
           "options": ["Abundance", "Scarcity", "Poverty", "Deprivation"],
-          "correct": "Abundance"
+          "options_my": ["Nikmat yang banyak", "Kekurangan", "Kemiskinan", "Kehilangan"],
+          "correct": "Abundance",
+          "correct_my": "Nikmat yang banyak"
         },
         {
           "arabic": "فَصَلِّ",
           "meaning": "So pray",
+          "meaning_my": "Maka dirikanlah solat",
           "options": ["So pray", "So abstain", "So sleep", "So eat"],
-          "correct": "So pray"
+          "options_my": ["Maka dirikanlah solat", "Maka berpuasalah", "Maka tidurlah", "Maka makanlah"],
+          "correct": "So pray",
+          "correct_my": "Maka dirikanlah solat"
         },
         {
           "arabic": "وَانْحَرْ",
           "meaning": "And sacrifice",
+          "meaning_my": "Dan berkurbanlah",
           "options": ["And sacrifice", "And abstain", "And rest", "And travel"],
-          "correct": "And sacrifice"
+          "options_my": ["Dan berkurbanlah", "Dan berpuasalah", "Dan berehatilah", "Dan bermusafirlah"],
+          "correct": "And sacrifice",
+          "correct_my": "Dan berkurbanlah"
         },
         {
           "arabic": "شَانِئَكَ",
           "meaning": "Your enemy",
+          "meaning_my": "Orang yang membencimu",
           "options": ["Your enemy", "Your friend", "Your family", "Your tribe"],
-          "correct": "Your enemy"
+          "options_my": ["Orang yang membencimu", "Sahabatmu", "Keluargamu", "Kaummu"],
+          "correct": "Your enemy",
+          "correct_my": "Orang yang membencimu"
         },
         {
           "arabic": "الْأَبْتَرُ",
           "meaning": "Cut off",
+          "meaning_my": "Yang terputus",
           "options": ["Cut off", "Connected", "Blessed", "Favored"],
-          "correct": "Cut off"
+          "options_my": ["Yang terputus", "Yang bersambung", "Yang diberkati", "Yang disukai"],
+          "correct": "Cut off",
+          "correct_my": "Yang terputus"
         }
       ]
     },
     {
       "id": "al-kafirun",
       "title": "Surah Al-Kafirun (The Disbelievers)",
+      "title_my": "Surah Al-Kafirun (Orang-Orang Kafir)",
       "description": "A Meccan surah that clearly distinguishes between monotheism and polytheism, establishing complete disassociation.",
+      "description_my": "Surah Mekah yang dengan jelas membezakan antara tauhid dan syirik, menetapkan pemisahan yang lengkap.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+          "translation": "Say, \"O disbelievers\"",
+          "translation_my": "Katakanlah, \"Wahai orang-orang kafir\"",
+          "words": [
+            {
+              "arabic": "قُلْ",
+              "meaning": "Say",
+              "meaning_my": "Katakanlah"
+            },
+            {
+              "arabic": "يَا",
+              "meaning": "O",
+              "meaning_my": "Wahai"
+            },
+            {
+              "arabic": "أَيُّهَا",
+              "meaning": "you",
+              "meaning_my": "kamu"
+            },
+            {
+              "arabic": "الْكَافِرُونَ",
+              "meaning": "the disbelievers",
+              "meaning_my": "orang-orang kafir"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+          "translation": "I do not worship what you worship",
+          "translation_my": "Aku tidak menyembah apa yang kamu sembah",
+          "words": [
+            {
+              "arabic": "لَا",
+              "meaning": "Not",
+              "meaning_my": "Tidak"
+            },
+            {
+              "arabic": "أَعْبُدُ",
+              "meaning": "I worship",
+              "meaning_my": "Aku menyembah"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "what",
+              "meaning_my": "apa yang"
+            },
+            {
+              "arabic": "تَعْبُدُونَ",
+              "meaning": "you worship",
+              "meaning_my": "kamu sembah"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+          "translation": "Nor are you worshippers of what I worship",
+          "translation_my": "Dan kamu tidak menyembah apa yang aku sembah",
+          "words": [
+            {
+              "arabic": "وَلَا",
+              "meaning": "And not",
+              "meaning_my": "Dan tidak"
+            },
+            {
+              "arabic": "أَنتُمْ",
+              "meaning": "you",
+              "meaning_my": "kamu"
+            },
+            {
+              "arabic": "عَابِدُونَ",
+              "meaning": "worshippers",
+              "meaning_my": "menyembah"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "what",
+              "meaning_my": "apa yang"
+            },
+            {
+              "arabic": "أَعْبُدُ",
+              "meaning": "I worship",
+              "meaning_my": "aku sembah"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ",
+          "translation": "Nor will I be a worshipper of what you worship",
+          "translation_my": "Dan aku tidak akan menyembah apa yang kamu sembah",
+          "words": [
+            {
+              "arabic": "وَلَا",
+              "meaning": "And not",
+              "meaning_my": "Dan tidak"
+            },
+            {
+              "arabic": "أَنَا",
+              "meaning": "I",
+              "meaning_my": "aku"
+            },
+            {
+              "arabic": "عَابِدٌ",
+              "meaning": "a worshipper",
+              "meaning_my": "akan menyembah"
+            },
+            {
+              "arabic": "مَّا",
+              "meaning": "what",
+              "meaning_my": "apa yang"
+            },
+            {
+              "arabic": "عَبَدتُّمْ",
+              "meaning": "you worship",
+              "meaning_my": "kamu sembah"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+          "translation": "Nor will you be worshippers of what I worship",
+          "translation_my": "Dan kamu tidak akan menyembah apa yang aku sembah",
+          "words": [
+            {
+              "arabic": "وَلَا",
+              "meaning": "And not",
+              "meaning_my": "Dan tidak"
+            },
+            {
+              "arabic": "أَنتُمْ",
+              "meaning": "you",
+              "meaning_my": "kamu"
+            },
+            {
+              "arabic": "عَابِدُونَ",
+              "meaning": "worshippers",
+              "meaning_my": "akan menyembah"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "what",
+              "meaning_my": "apa yang"
+            },
+            {
+              "arabic": "أَعْبُدُ",
+              "meaning": "I worship",
+              "meaning_my": "aku sembah"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+          "translation": "For you is your religion, and for me is my religion",
+          "translation_my": "Untukmu agamamu, dan untukku agamaku",
+          "words": [
+            {
+              "arabic": "لَكُمْ",
+              "meaning": "For you",
+              "meaning_my": "Untukmu"
+            },
+            {
+              "arabic": "دِينُكُمْ",
+              "meaning": "your religion",
+              "meaning_my": "agamamu"
+            },
+            {
+              "arabic": "وَلِيَ",
+              "meaning": "and for me",
+              "meaning_my": "dan untukku"
+            },
+            {
+              "arabic": "دِينِ",
+              "meaning": "my religion",
+              "meaning_my": "agamaku"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْكَافِرُونَ",
           "meaning": "The disbelievers",
+          "meaning_my": "Orang-orang kafir",
           "options": ["The disbelievers", "The believers", "The righteous", "The pious"],
-          "correct": "The disbelievers"
+          "options_my": ["Orang-orang kafir", "Orang-orang beriman", "Orang-orang soleh", "Orang-orang bertakwa"],
+          "correct": "The disbelievers",
+          "correct_my": "Orang-orang kafir"
         },
         {
           "arabic": "أَعْبُدُ",
           "meaning": "I worship",
+          "meaning_my": "Aku menyembah",
           "options": ["I worship", "I reject", "I ignore", "I forget"],
-          "correct": "I worship"
+          "options_my": ["Aku menyembah", "Aku menolak", "Aku mengabaikan", "Aku melupakan"],
+          "correct": "I worship",
+          "correct_my": "Aku menyembah"
         },
         {
           "arabic": "عَابِدُونَ",
           "meaning": "Worshippers",
+          "meaning_my": "Penyembah",
           "options": ["Worshippers", "Rejectors", "Ignorers", "Deniers"],
-          "correct": "Worshippers"
+          "options_my": ["Penyembah", "Penolak", "Pengabaian", "Pengingkar"],
+          "correct": "Worshippers",
+          "correct_my": "Penyembah"
         },
         {
           "arabic": "عَبَدتُّمْ",
           "meaning": "You have worshipped",
+          "meaning_my": "Kamu telah menyembah",
           "options": ["You have worshipped", "You have rejected", "You have ignored", "You have denied"],
-          "correct": "You have worshipped"
+          "options_my": ["Kamu telah menyembah", "Kamu telah menolak", "Kamu telah mengabaikan", "Kamu telah mengingkari"],
+          "correct": "You have worshipped",
+          "correct_my": "Kamu telah menyembah"
         },
         {
           "arabic": "دِينِ",
           "meaning": "Religion",
+          "meaning_my": "Agama",
           "options": ["Religion", "Culture", "Tradition", "Custom"],
-          "correct": "Religion"
+          "options_my": ["Agama", "Budaya", "Tradisi", "Adat"],
+          "correct": "Religion",
+          "correct_my": "Agama"
         }
       ]
     },
     {
       "id": "an-nasr",
       "title": "Surah An-Nasr (Divine Support)",
+      "title_my": "Surah An-Nasr (Pertolongan)",
       "description": "A Medinan surah that was one of the last to be revealed, foretelling the completion of the Prophet's mission.",
+      "description_my": "Surah Madinah yang merupakan salah satu surah terakhir yang diturunkan, meramalkan penyelesaian misi Nabi.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+          "translation": "When the victory of Allah has come and the conquest",
+          "translation_my": "Apabila telah datang pertolongan Allah dan kemenangan",
+          "words": [
+            {
+              "arabic": "إِذَا",
+              "meaning": "When",
+              "meaning_my": "Apabila"
+            },
+            {
+              "arabic": "جَاءَ",
+              "meaning": "has come",
+              "meaning_my": "telah datang"
+            },
+            {
+              "arabic": "نَصْرُ",
+              "meaning": "the victory",
+              "meaning_my": "pertolongan"
+            },
+            {
+              "arabic": "اللَّهِ",
+              "meaning": "of Allah",
+              "meaning_my": "Allah"
+            },
+            {
+              "arabic": "وَالْفَتْحُ",
+              "meaning": "and the conquest",
+              "meaning_my": "dan kemenangan"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+          "translation": "And you see the people entering into the religion of Allah in multitudes",
+          "translation_my": "Dan engkau melihat manusia masuk ke dalam agama Allah dengan berbondong-bondong",
+          "words": [
+            {
+              "arabic": "وَرَأَيْتَ",
+              "meaning": "And you see",
+              "meaning_my": "Dan engkau melihat"
+            },
+            {
+              "arabic": "النَّاسَ",
+              "meaning": "the people",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "يَدْخُلُونَ",
+              "meaning": "entering",
+              "meaning_my": "masuk"
+            },
+            {
+              "arabic": "فِي",
+              "meaning": "into",
+              "meaning_my": "ke dalam"
+            },
+            {
+              "arabic": "دِينِ",
+              "meaning": "the religion",
+              "meaning_my": "agama"
+            },
+            {
+              "arabic": "اللَّهِ",
+              "meaning": "of Allah",
+              "meaning_my": "Allah"
+            },
+            {
+              "arabic": "أَفْوَاجًا",
+              "meaning": "in multitudes",
+              "meaning_my": "dengan berbondong-bondong"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا",
+          "translation": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance",
+          "translation_my": "Maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sesungguhnya Dia adalah Maha Penerima taubat",
+          "words": [
+            {
+              "arabic": "فَسَبِّحْ",
+              "meaning": "Then exalt [Him]",
+              "meaning_my": "Maka bertasbihlah"
+            },
+            {
+              "arabic": "بِحَمْدِ",
+              "meaning": "with praise",
+              "meaning_my": "dengan memuji"
+            },
+            {
+              "arabic": "رَبِّكَ",
+              "meaning": "of your Lord",
+              "meaning_my": "Tuhanmu"
+            },
+            {
+              "arabic": "وَاسْتَغْفِرْهُ",
+              "meaning": "and ask forgiveness of Him",
+              "meaning_my": "dan mohonlah ampunan kepada-Nya"
+            },
+            {
+              "arabic": "إِنَّهُ",
+              "meaning": "Indeed, He",
+              "meaning_my": "Sesungguhnya Dia"
+            },
+            {
+              "arabic": "كَانَ",
+              "meaning": "is ever",
+              "meaning_my": "adalah"
+            },
+            {
+              "arabic": "تَوَّابًا",
+              "meaning": "Accepting of repentance",
+              "meaning_my": "Maha Penerima taubat"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "نَصْرُ",
           "meaning": "Help",
+          "meaning_my": "Pertolongan",
           "options": ["Help", "Harm", "Abandonment", "Defeat"],
-          "correct": "Help"
+          "options_my": ["Pertolongan", "Kemudaratan", "Pengabaian", "Kekalahan"],
+          "correct": "Help",
+          "correct_my": "Pertolongan"
         },
         {
           "arabic": "الْفَتْحُ",
           "meaning": "Victory",
+          "meaning_my": "Kemenangan",
           "options": ["Victory", "Defeat", "Struggle", "Battle"],
-          "correct": "Victory"
+          "options_my": ["Kemenangan", "Kekalahan", "Perjuangan", "Pertempuran"],
+          "correct": "Victory",
+          "correct_my": "Kemenangan"
         },
         {
           "arabic": "يَدْخُلُونَ",
           "meaning": "Entering",
+          "meaning_my": "Masuk",
           "options": ["Entering", "Leaving", "Staying", "Fighting"],
-          "correct": "Entering"
+          "options_my": ["Masuk", "Keluar", "Tinggal", "Berperang"],
+          "correct": "Entering",
+          "correct_my": "Masuk"
         },
         {
           "arabic": "أَفْوَاجًا",
           "meaning": "In crowds",
+          "meaning_my": "Berbondong-bondong",
           "options": ["In crowds", "Individually", "In pairs", "In small groups"],
-          "correct": "In crowds"
+          "options_my": ["Berbondong-bondong", "Secara individu", "Berpasangan", "Dalam kumpulan kecil"],
+          "correct": "In crowds",
+          "correct_my": "Berbondong-bondong"
         },
         {
           "arabic": "فَسَبِّحْ",
           "meaning": "Glorify",
+          "meaning_my": "Bertasbihlah",
           "options": ["Glorify", "Deny", "Ignore", "Forget"],
-          "correct": "Glorify"
+          "options_my": ["Bertasbihlah", "Menafikan", "Mengabaikan", "Melupakan"],
+          "correct": "Glorify",
+          "correct_my": "Bertasbihlah"
         }
       ]
     },
     {
       "id": "al-masad",
       "title": "Surah Al-Masad (The Palm Fiber)",
+      "title_my": "Surah Al-Masad (Sabut)",
       "description": "A Meccan surah that refers to Abu Lahab, an uncle and staunch opponent of the Prophet Muhammad.",
+      "description_my": "Surah Mekah yang merujuk kepada Abu Lahab, pakcik dan penentang keras Nabi Muhammad.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+          "translation": "May the hands of Abu Lahab be ruined, and ruined is he",
+          "translation_my": "Binasalah kedua tangan Abu Lahab dan benar-benar binasa dia",
+          "words": [
+            {
+              "arabic": "تَبَّتْ",
+              "meaning": "May be ruined",
+              "meaning_my": "Binasalah"
+            },
+            {
+              "arabic": "يَدَا",
+              "meaning": "hands",
+              "meaning_my": "kedua tangan"
+            },
+            {
+              "arabic": "أَبِي لَهَبٍ",
+              "meaning": "of Abu Lahab",
+              "meaning_my": "Abu Lahab"
+            },
+            {
+              "arabic": "وَتَبَّ",
+              "meaning": "and ruined is he",
+              "meaning_my": "dan benar-benar binasa dia"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+          "translation": "His wealth will not avail him or that which he gained",
+          "translation_my": "Hartanya dan segala yang diusahakannya tidak akan memberi manfaat kepadanya",
+          "words": [
+            {
+              "arabic": "مَا",
+              "meaning": "Not",
+              "meaning_my": "Tidak"
+            },
+            {
+              "arabic": "أَغْنَىٰ",
+              "meaning": "will avail",
+              "meaning_my": "akan memberi manfaat"
+            },
+            {
+              "arabic": "عَنْهُ",
+              "meaning": "him",
+              "meaning_my": "kepadanya"
+            },
+            {
+              "arabic": "مَالُهُ",
+              "meaning": "his wealth",
+              "meaning_my": "hartanya"
+            },
+            {
+              "arabic": "وَمَا",
+              "meaning": "or that which",
+              "meaning_my": "dan segala yang"
+            },
+            {
+              "arabic": "كَسَبَ",
+              "meaning": "he gained",
+              "meaning_my": "diusahakannya"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+          "translation": "He will [enter to] burn in a Fire of [blazing] flame",
+          "translation_my": "Kelak dia akan masuk ke dalam api yang bergejolak",
+          "words": [
+            {
+              "arabic": "سَيَصْلَىٰ",
+              "meaning": "He will [enter to] burn",
+              "meaning_my": "Kelak dia akan masuk"
+            },
+            {
+              "arabic": "نَارًا",
+              "meaning": "in a Fire",
+              "meaning_my": "ke dalam api"
+            },
+            {
+              "arabic": "ذَاتَ",
+              "meaning": "of",
+              "meaning_my": "yang"
+            },
+            {
+              "arabic": "لَهَبٍ",
+              "meaning": "[blazing] flame",
+              "meaning_my": "bergejolak"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
+          "translation": "And his wife [as well] - the carrier of firewood",
+          "translation_my": "Dan (begitu pula) isterinya, pembawa kayu bakar",
+          "words": [
+            {
+              "arabic": "وَامْرَأَتُهُ",
+              "meaning": "And his wife",
+              "meaning_my": "Dan isterinya"
+            },
+            {
+              "arabic": "حَمَّالَةَ",
+              "meaning": "the carrier",
+              "meaning_my": "pembawa"
+            },
+            {
+              "arabic": "الْحَطَبِ",
+              "meaning": "of firewood",
+              "meaning_my": "kayu bakar"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
+          "translation": "Around her neck is a rope of [twisted] fiber",
+          "translation_my": "Di lehernya ada tali dari sabut",
+          "words": [
+            {
+              "arabic": "فِي",
+              "meaning": "Around",
+              "meaning_my": "Di"
+            },
+            {
+              "arabic": "جِيدِهَا",
+              "meaning": "her neck",
+              "meaning_my": "lehernya"
+            },
+            {
+              "arabic": "حَبْلٌ",
+              "meaning": "is a rope",
+              "meaning_my": "ada tali"
+            },
+            {
+              "arabic": "مِنْ",
+              "meaning": "of",
+              "meaning_my": "dari"
+            },
+            {
+              "arabic": "مَسَدٍ",
+              "meaning": "[twisted] fiber",
+              "meaning_my": "sabut"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "تَبَّتْ",
           "meaning": "Perish",
+          "meaning_my": "Binasa",
           "options": ["Perish", "Prosper", "Succeed", "Thrive"],
-          "correct": "Perish"
+          "options_my": ["Binasa", "Makmur", "Berjaya", "Berkembang"],
+          "correct": "Perish",
+          "correct_my": "Binasa"
         },
         {
           "arabic": "يَدَا",
           "meaning": "Hands",
+          "meaning_my": "Kedua tangan",
           "options": ["Hands", "Feet", "Eyes", "Ears"],
-          "correct": "Hands"
+          "options_my": ["Kedua tangan", "Kaki", "Mata", "Telinga"],
+          "correct": "Hands",
+          "correct_my": "Kedua tangan"
         },
         {
           "arabic": "لَهَبٍ",
           "meaning": "Flame",
+          "meaning_my": "Api",
           "options": ["Flame", "Water", "Earth", "Air"],
-          "correct": "Flame"
+          "options_my": ["Api", "Air", "Tanah", "Udara"],
+          "correct": "Flame",
+          "correct_my": "Api"
         },
         {
           "arabic": "جِيدِهَا",
           "meaning": "Her neck",
+          "meaning_my": "Lehernya",
           "options": ["Her neck", "Her hand", "Her foot", "Her head"],
-          "correct": "Her neck"
+          "options_my": ["Lehernya", "Tangannya", "Kakinya", "Kepalanya"],
+          "correct": "Her neck",
+          "correct_my": "Lehernya"
         },
         {
           "arabic": "مَسَدٍ",
           "meaning": "Palm fiber",
+          "meaning_my": "Sabut",
           "options": ["Palm fiber", "Silk", "Gold", "Silver"],
-          "correct": "Palm fiber"
+          "options_my": ["Sabut", "Sutera", "Emas", "Perak"],
+          "correct": "Palm fiber",
+          "correct_my": "Sabut"
         }
       ]
     },
