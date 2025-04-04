@@ -44,7 +44,14 @@ createApp({
             pairsSelected: null, // Currently selected word
             pairsMatched: [], // Pairs that have been matched
             pairsScore: 0, // Score for the current game
-            pairsErrors: 0 // Number of errors in the current game
+            pairsErrors: 0, // Number of errors in the current game
+
+            // Chat mode data
+            chatMode: false, // Whether chat mode is active
+            chatMessages: [], // Array of chat messages
+            userInput: '', // User's current input in chat
+            chatBotName: 'QuranBot', // Name of the chatbot
+            isTyping: false // Whether the bot is typing
         };
     },
 
@@ -395,12 +402,144 @@ createApp({
         prevVocabWord() {
             if (this.currentVocabIndex > 0) {
                 this.currentVocabIndex--;
+                // Reset chat when moving to a new word
+                if (this.chatMode) {
+                    this.resetChat();
+                }
             }
         },
 
         nextVocabWord() {
             if (this.currentVocabIndex < this.currentVocabWords.length - 1) {
                 this.currentVocabIndex++;
+                // Reset chat when moving to a new word
+                if (this.chatMode) {
+                    this.resetChat();
+                }
+            }
+        },
+
+        toggleChatMode() {
+            this.chatMode = !this.chatMode;
+            if (this.chatMode) {
+                // Initialize chat with a welcome message
+                this.resetChat();
+                this.addBotMessage(this.getWelcomeMessage());
+            }
+        },
+
+        resetChat() {
+            this.chatMessages = [];
+            this.userInput = '';
+            this.isTyping = false;
+        },
+
+        getWelcomeMessage() {
+            const word = this.currentVocabWord;
+            const arabic = word.arabic;
+            const meaning = this.language === 'en' ? word.meaning : (word.meaning_my || word.meaning);
+
+            if (this.language === 'en') {
+                return `I can help you learn more about the word "${arabic}" (${meaning}). What would you like to know about it?`;
+            } else {
+                return `Saya boleh membantu anda mempelajari lebih lanjut tentang kata "${arabic}" (${meaning}). Apa yang ingin anda ketahui tentangnya?`;
+            }
+        },
+
+        sendMessage() {
+            if (!this.userInput.trim() || this.isTyping) return;
+
+            // Add user message
+            this.addUserMessage(this.userInput);
+            const userQuestion = this.userInput;
+            this.userInput = '';
+
+            // Show typing indicator
+            this.isTyping = true;
+
+            // Simulate bot response after a delay
+            setTimeout(() => {
+                this.isTyping = false;
+                this.addBotMessage(this.generateBotResponse(userQuestion));
+
+                // Scroll to bottom after rendering
+                this.$nextTick(() => {
+                    this.scrollChatToBottom();
+                });
+            }, 1000 + Math.random() * 1000); // Random delay between 1-2 seconds
+
+            // Scroll to bottom immediately after user message
+            this.$nextTick(() => {
+                this.scrollChatToBottom();
+            });
+        },
+
+        addUserMessage(text) {
+            this.chatMessages.push({
+                sender: 'user',
+                text: text,
+                time: this.getCurrentTime()
+            });
+        },
+
+        addBotMessage(text) {
+            this.chatMessages.push({
+                sender: 'bot',
+                text: text,
+                time: this.getCurrentTime()
+            });
+        },
+
+        getCurrentTime() {
+            const now = new Date();
+            return now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        },
+
+        scrollChatToBottom() {
+            if (this.$refs.chatMessages) {
+                this.$refs.chatMessages.scrollTop = this.$refs.chatMessages.scrollHeight;
+            }
+        },
+
+        generateBotResponse(question) {
+            const word = this.currentVocabWord;
+            const arabic = word.arabic;
+            const meaning = this.language === 'en' ? word.meaning : (word.meaning_my || word.meaning);
+
+            // Convert question to lowercase for easier matching
+            const lowerQuestion = question.toLowerCase();
+
+            // Check for common questions and provide appropriate responses
+            if (this.language === 'en') {
+                // English responses
+                if (lowerQuestion.includes('pronounce') || lowerQuestion.includes('pronunciation') || lowerQuestion.includes('say')) {
+                    return `The word "${arabic}" is pronounced [pronunciation guide]. You can practice by repeating it several times.`;
+                } else if (lowerQuestion.includes('mean') || lowerQuestion.includes('translation') || lowerQuestion.includes('definition')) {
+                    return `The word "${arabic}" means "${meaning}" in English. It's used in contexts related to [context information].`;
+                } else if (lowerQuestion.includes('example') || lowerQuestion.includes('sentence') || lowerQuestion.includes('usage')) {
+                    return `Here's an example of how "${arabic}" is used in a sentence: [example sentence with the word]. This demonstrates how it's typically used in the Quran.`;
+                } else if (lowerQuestion.includes('root') || lowerQuestion.includes('origin') || lowerQuestion.includes('etymology')) {
+                    return `The word "${arabic}" comes from the root [root letters]. Many related words in Arabic are derived from this same root.`;
+                } else if (lowerQuestion.includes('similar') || lowerQuestion.includes('synonym') || lowerQuestion.includes('related')) {
+                    return `Some words similar to "${arabic}" include [similar words]. They have related but slightly different meanings.`;
+                } else {
+                    return `That's an interesting question about "${arabic}". This word appears in several places in the Quran and has significance in Islamic teachings. Would you like to know about its pronunciation, meaning, or usage?`;
+                }
+            } else {
+                // Malay responses
+                if (lowerQuestion.includes('sebut') || lowerQuestion.includes('bunyi') || lowerQuestion.includes('ucap')) {
+                    return `Perkataan "${arabic}" disebut [panduan sebutan]. Anda boleh berlatih dengan mengulanginya beberapa kali.`;
+                } else if (lowerQuestion.includes('makna') || lowerQuestion.includes('maksud') || lowerQuestion.includes('terjemahan')) {
+                    return `Perkataan "${arabic}" bermaksud "${meaning}" dalam Bahasa Melayu. Ia digunakan dalam konteks berkaitan dengan [maklumat konteks].`;
+                } else if (lowerQuestion.includes('contoh') || lowerQuestion.includes('ayat') || lowerQuestion.includes('penggunaan')) {
+                    return `Berikut adalah contoh bagaimana "${arabic}" digunakan dalam ayat: [contoh ayat dengan perkataan]. Ini menunjukkan bagaimana ia biasanya digunakan dalam Al-Quran.`;
+                } else if (lowerQuestion.includes('asal') || lowerQuestion.includes('akar') || lowerQuestion.includes('etimologi')) {
+                    return `Perkataan "${arabic}" berasal dari akar kata [huruf akar]. Banyak perkataan berkaitan dalam bahasa Arab berasal dari akar kata yang sama.`;
+                } else if (lowerQuestion.includes('sama') || lowerQuestion.includes('sinonim') || lowerQuestion.includes('berkaitan')) {
+                    return `Beberapa perkataan yang serupa dengan "${arabic}" termasuk [perkataan serupa]. Mereka mempunyai makna yang berkaitan tetapi sedikit berbeza.`;
+                } else {
+                    return `Itu soalan yang menarik tentang "${arabic}". Perkataan ini muncul di beberapa tempat dalam Al-Quran dan mempunyai kepentingan dalam ajaran Islam. Adakah anda ingin tahu tentang sebutan, makna, atau penggunaannya?`;
+                }
             }
         },
 
