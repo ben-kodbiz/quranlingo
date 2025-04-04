@@ -1737,111 +1737,508 @@
     {
       "id": "al-ala",
       "title": "Surah Al-A'la (The Most High)",
+      "title_my": "Surah Al-A'la (Yang Maha Tinggi)",
       "description": "A Meccan surah that glorifies Allah and provides guidance to the Prophet Muhammad.",
+      "description_my": "Surah Mekah yang memuliakan Allah dan memberikan panduan kepada Nabi Muhammad.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
+          "translation": "Exalt the name of your Lord, the Most High",
+          "translation_my": "Sucikanlah nama Tuhanmu Yang Maha Tinggi",
+          "words": [
+            {
+              "arabic": "سَبِّحِ",
+              "meaning": "Exalt",
+              "meaning_my": "Sucikanlah"
+            },
+            {
+              "arabic": "اسْمَ",
+              "meaning": "the name",
+              "meaning_my": "nama"
+            },
+            {
+              "arabic": "رَبِّكَ",
+              "meaning": "of your Lord",
+              "meaning_my": "Tuhanmu"
+            },
+            {
+              "arabic": "الْأَعْلَى",
+              "meaning": "the Most High",
+              "meaning_my": "Yang Maha Tinggi"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "الَّذِي خَلَقَ فَسَوَّىٰ",
+          "translation": "Who created and proportioned",
+          "translation_my": "Yang menciptakan dan menyempurnakan (penciptaan-Nya)",
+          "words": [
+            {
+              "arabic": "الَّذِي",
+              "meaning": "Who",
+              "meaning_my": "Yang"
+            },
+            {
+              "arabic": "خَلَقَ",
+              "meaning": "created",
+              "meaning_my": "menciptakan"
+            },
+            {
+              "arabic": "فَسَوَّىٰ",
+              "meaning": "and proportioned",
+              "meaning_my": "dan menyempurnakan (penciptaan-Nya)"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَالَّذِي قَدَّرَ فَهَدَىٰ",
+          "translation": "And who destined and then guided",
+          "translation_my": "Dan Yang menentukan kadar (masing-masing) dan memberi petunjuk",
+          "words": [
+            {
+              "arabic": "وَالَّذِي",
+              "meaning": "And who",
+              "meaning_my": "Dan Yang"
+            },
+            {
+              "arabic": "قَدَّرَ",
+              "meaning": "destined",
+              "meaning_my": "menentukan kadar (masing-masing)"
+            },
+            {
+              "arabic": "فَهَدَىٰ",
+              "meaning": "and then guided",
+              "meaning_my": "dan memberi petunjuk"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَالَّذِي أَخْرَجَ الْمَرْعَىٰ",
+          "translation": "And who brings out the pasture",
+          "translation_my": "Dan yang menumbuhkan tumbuh-tumbuhan",
+          "words": [
+            {
+              "arabic": "وَالَّذِي",
+              "meaning": "And who",
+              "meaning_my": "Dan yang"
+            },
+            {
+              "arabic": "أَخْرَجَ",
+              "meaning": "brings out",
+              "meaning_my": "menumbuhkan"
+            },
+            {
+              "arabic": "الْمَرْعَىٰ",
+              "meaning": "the pasture",
+              "meaning_my": "tumbuh-tumbuhan"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فَجَعَلَهُ غُثَاءً أَحْوَىٰ",
+          "translation": "And then makes it black stubble",
+          "translation_my": "Lalu dijadikan-Nya (tumbuh-tumbuhan) itu kering kehitam-hitaman",
+          "words": [
+            {
+              "arabic": "فَجَعَلَهُ",
+              "meaning": "And then makes it",
+              "meaning_my": "Lalu dijadikan-Nya (tumbuh-tumbuhan) itu"
+            },
+            {
+              "arabic": "غُثَاءً",
+              "meaning": "black",
+              "meaning_my": "kering"
+            },
+            {
+              "arabic": "أَحْوَىٰ",
+              "meaning": "stubble",
+              "meaning_my": "kehitam-hitaman"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْأَعْلَى",
           "meaning": "The Most High",
+          "meaning_my": "Yang Maha Tinggi",
           "options": ["The Most High", "The Most Low", "The Most Near", "The Most Far"],
-          "correct": "The Most High"
+          "options_my": ["Yang Maha Tinggi", "Yang Paling Rendah", "Yang Paling Dekat", "Yang Paling Jauh"],
+          "correct": "The Most High",
+          "correct_my": "Yang Maha Tinggi"
         },
         {
           "arabic": "خَلَقَ",
           "meaning": "Created",
+          "meaning_my": "Menciptakan",
           "options": ["Created", "Destroyed", "Preserved", "Changed"],
-          "correct": "Created"
+          "options_my": ["Menciptakan", "Memusnahkan", "Memelihara", "Mengubah"],
+          "correct": "Created",
+          "correct_my": "Menciptakan"
         },
         {
           "arabic": "فَسَوَّىٰ",
           "meaning": "Proportioned",
+          "meaning_my": "Menyempurnakan",
           "options": ["Proportioned", "Disproportioned", "Enlarged", "Reduced"],
-          "correct": "Proportioned"
+          "options_my": ["Menyempurnakan", "Tidak seimbang", "Membesarkan", "Mengecilkan"],
+          "correct": "Proportioned",
+          "correct_my": "Menyempurnakan"
         },
         {
           "arabic": "قَدَّرَ",
           "meaning": "Destined",
+          "meaning_my": "Menentukan kadar",
           "options": ["Destined", "Neglected", "Forgotten", "Ignored"],
-          "correct": "Destined"
+          "options_my": ["Menentukan kadar", "Mengabaikan", "Melupakan", "Tidak mempedulikan"],
+          "correct": "Destined",
+          "correct_my": "Menentukan kadar"
         },
         {
           "arabic": "فَهَدَىٰ",
           "meaning": "Guided",
+          "meaning_my": "Memberi petunjuk",
           "options": ["Guided", "Misguided", "Abandoned", "Rejected"],
-          "correct": "Guided"
+          "options_my": ["Memberi petunjuk", "Menyesatkan", "Meninggalkan", "Menolak"],
+          "correct": "Guided",
+          "correct_my": "Memberi petunjuk"
         }
       ]
     },
     {
       "id": "al-ghashiyah",
       "title": "Surah Al-Ghashiyah (The Overwhelming)",
+      "title_my": "Surah Al-Ghashiyah (Hari Pembalasan)",
       "description": "A Meccan surah that describes the Day of Judgment and contrasts the fate of the wicked and the righteous.",
+      "description_my": "Surah Mekah yang menggambarkan Hari Kiamat dan membandingkan nasib orang-orang jahat dan orang-orang yang soleh.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ",
+          "translation": "Has there reached you the report of the Overwhelming [event]?",
+          "translation_my": "Sudahkah sampai kepadamu berita tentang hari pembalasan?",
+          "words": [
+            {
+              "arabic": "هَلْ",
+              "meaning": "Has",
+              "meaning_my": "Sudahkah"
+            },
+            {
+              "arabic": "أَتَاكَ",
+              "meaning": "reached you",
+              "meaning_my": "sampai kepadamu"
+            },
+            {
+              "arabic": "حَدِيثُ",
+              "meaning": "the report",
+              "meaning_my": "berita tentang"
+            },
+            {
+              "arabic": "الْغَاشِيَةِ",
+              "meaning": "the Overwhelming [event]",
+              "meaning_my": "hari pembalasan"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ",
+          "translation": "[Some] faces, that Day, will be humbled",
+          "translation_my": "Pada hari itu banyak wajah yang tunduk terhina",
+          "words": [
+            {
+              "arabic": "وُجُوهٌ",
+              "meaning": "[Some] faces",
+              "meaning_my": "Banyak wajah"
+            },
+            {
+              "arabic": "يَوْمَئِذٍ",
+              "meaning": "that Day",
+              "meaning_my": "Pada hari itu"
+            },
+            {
+              "arabic": "خَاشِعَةٌ",
+              "meaning": "will be humbled",
+              "meaning_my": "yang tunduk terhina"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "عَامِلَةٌ نَّاصِبَةٌ",
+          "translation": "Working [hard] and exhausted",
+          "translation_my": "Bekerja keras lagi kepayahan",
+          "words": [
+            {
+              "arabic": "عَامِلَةٌ",
+              "meaning": "Working [hard]",
+              "meaning_my": "Bekerja keras"
+            },
+            {
+              "arabic": "نَّاصِبَةٌ",
+              "meaning": "and exhausted",
+              "meaning_my": "lagi kepayahan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "تَصْلَىٰ نَارًا حَامِيَةً",
+          "translation": "They will [enter to] burn in an intensely hot Fire",
+          "translation_my": "Mereka memasuki api yang sangat panas",
+          "words": [
+            {
+              "arabic": "تَصْلَىٰ",
+              "meaning": "They will [enter to] burn",
+              "meaning_my": "Mereka memasuki"
+            },
+            {
+              "arabic": "نَارًا",
+              "meaning": "in a Fire",
+              "meaning_my": "api"
+            },
+            {
+              "arabic": "حَامِيَةً",
+              "meaning": "intensely hot",
+              "meaning_my": "yang sangat panas"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "تُسْقَىٰ مِنْ عَيْنٍ آنِيَةٍ",
+          "translation": "They will be given drink from a boiling spring",
+          "translation_my": "Mereka diberi minum dari sumber mata air yang sangat panas",
+          "words": [
+            {
+              "arabic": "تُسْقَىٰ",
+              "meaning": "They will be given drink",
+              "meaning_my": "Mereka diberi minum"
+            },
+            {
+              "arabic": "مِنْ",
+              "meaning": "from",
+              "meaning_my": "dari"
+            },
+            {
+              "arabic": "عَيْنٍ",
+              "meaning": "a spring",
+              "meaning_my": "sumber mata air"
+            },
+            {
+              "arabic": "آنِيَةٍ",
+              "meaning": "boiling",
+              "meaning_my": "yang sangat panas"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْغَاشِيَةِ",
           "meaning": "The Overwhelming",
+          "meaning_my": "Hari Pembalasan",
           "options": ["The Overwhelming", "The Gentle", "The Hidden", "The Revealed"],
-          "correct": "The Overwhelming"
+          "options_my": ["Hari Pembalasan", "Yang Lembut", "Yang Tersembunyi", "Yang Didedahkan"],
+          "correct": "The Overwhelming",
+          "correct_my": "Hari Pembalasan"
         },
         {
           "arabic": "خَاشِعَةٌ",
           "meaning": "Humbled",
+          "meaning_my": "Tunduk terhina",
           "options": ["Humbled", "Proud", "Joyful", "Angry"],
-          "correct": "Humbled"
+          "options_my": ["Tunduk terhina", "Sombong", "Gembira", "Marah"],
+          "correct": "Humbled",
+          "correct_my": "Tunduk terhina"
         },
         {
           "arabic": "نَاصِبَةٌ",
           "meaning": "Laboring",
+          "meaning_my": "Kepayahan",
           "options": ["Laboring", "Resting", "Sleeping", "Playing"],
-          "correct": "Laboring"
+          "options_my": ["Kepayahan", "Berehat", "Tidur", "Bermain"],
+          "correct": "Laboring",
+          "correct_my": "Kepayahan"
         },
         {
           "arabic": "حَامِيَةً",
           "meaning": "Intensely hot",
+          "meaning_my": "Sangat panas",
           "options": ["Intensely hot", "Extremely cold", "Pleasantly warm", "Comfortably cool"],
-          "correct": "Intensely hot"
+          "options_my": ["Sangat panas", "Sangat sejuk", "Hangat menyenangkan", "Sejuk nyaman"],
+          "correct": "Intensely hot",
+          "correct_my": "Sangat panas"
         },
         {
           "arabic": "ضَرِيعٍ",
           "meaning": "Bitter thorny plant",
+          "meaning_my": "Tumbuhan berduri yang pahit",
           "options": ["Bitter thorny plant", "Sweet fruit", "Fresh water", "Nutritious food"],
-          "correct": "Bitter thorny plant"
+          "options_my": ["Tumbuhan berduri yang pahit", "Buah yang manis", "Air yang segar", "Makanan yang berkhasiat"],
+          "correct": "Bitter thorny plant",
+          "correct_my": "Tumbuhan berduri yang pahit"
         }
       ]
     },
     {
       "id": "al-fajr",
       "title": "Surah Al-Fajr (The Dawn)",
+      "title_my": "Surah Al-Fajr (Fajar)",
       "description": "A Meccan surah that begins with an oath by the dawn and discusses the fate of past nations who transgressed.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan fajar dan membincangkan nasib umat-umat terdahulu yang melanggar perintah.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالْفَجْرِ",
+          "translation": "By the dawn",
+          "translation_my": "Demi fajar",
+          "words": [
+            {
+              "arabic": "وَالْفَجْرِ",
+              "meaning": "By the dawn",
+              "meaning_my": "Demi fajar"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَلَيَالٍ عَشْرٍ",
+          "translation": "And [by] ten nights",
+          "translation_my": "Dan demi malam yang sepuluh",
+          "words": [
+            {
+              "arabic": "وَلَيَالٍ",
+              "meaning": "And [by] nights",
+              "meaning_my": "Dan demi malam"
+            },
+            {
+              "arabic": "عَشْرٍ",
+              "meaning": "ten",
+              "meaning_my": "yang sepuluh"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَالشَّفْعِ وَالْوَتْرِ",
+          "translation": "And [by] the even [number] and the odd",
+          "translation_my": "Dan demi yang genap dan yang ganjil",
+          "words": [
+            {
+              "arabic": "وَالشَّفْعِ",
+              "meaning": "And [by] the even [number]",
+              "meaning_my": "Dan demi yang genap"
+            },
+            {
+              "arabic": "وَالْوَتْرِ",
+              "meaning": "and the odd",
+              "meaning_my": "dan yang ganjil"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَاللَّيْلِ إِذَا يَسْرِ",
+          "translation": "And [by] the night when it passes",
+          "translation_my": "Dan demi malam apabila berlalu",
+          "words": [
+            {
+              "arabic": "وَاللَّيْلِ",
+              "meaning": "And [by] the night",
+              "meaning_my": "Dan demi malam"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "يَسْرِ",
+              "meaning": "it passes",
+              "meaning_my": "berlalu"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "هَلْ فِي ذَٰلِكَ قَسَمٌ لِّذِي حِجْرٍ",
+          "translation": "Is there [not] in [all] that an oath [sufficient] for one of perception?",
+          "translation_my": "Adakah pada yang demikian itu terdapat sumpah (yang dapat diterima) bagi orang-orang yang berakal?",
+          "words": [
+            {
+              "arabic": "هَلْ",
+              "meaning": "Is there [not]",
+              "meaning_my": "Adakah"
+            },
+            {
+              "arabic": "فِي ذَٰلِكَ",
+              "meaning": "in [all] that",
+              "meaning_my": "pada yang demikian itu"
+            },
+            {
+              "arabic": "قَسَمٌ",
+              "meaning": "an oath [sufficient]",
+              "meaning_my": "terdapat sumpah (yang dapat diterima)"
+            },
+            {
+              "arabic": "لِّذِي حِجْرٍ",
+              "meaning": "for one of perception",
+              "meaning_my": "bagi orang-orang yang berakal"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْفَجْرِ",
           "meaning": "The dawn",
+          "meaning_my": "Fajar",
           "options": ["The dawn", "The sunset", "The noon", "The night"],
-          "correct": "The dawn"
+          "options_my": ["Fajar", "Matahari terbenam", "Tengah hari", "Malam"],
+          "correct": "The dawn",
+          "correct_my": "Fajar"
         },
         {
           "arabic": "عَشْرٍ",
           "meaning": "Ten",
+          "meaning_my": "Sepuluh",
           "options": ["Ten", "Five", "Twenty", "Hundred"],
-          "correct": "Ten"
+          "options_my": ["Sepuluh", "Lima", "Dua puluh", "Seratus"],
+          "correct": "Ten",
+          "correct_my": "Sepuluh"
         },
         {
           "arabic": "الْوَتْرِ",
           "meaning": "The odd",
+          "meaning_my": "Yang ganjil",
           "options": ["The odd", "The even", "The first", "The last"],
-          "correct": "The odd"
+          "options_my": ["Yang ganjil", "Yang genap", "Yang pertama", "Yang terakhir"],
+          "correct": "The odd",
+          "correct_my": "Yang ganjil"
         },
         {
           "arabic": "يَسْرِ",
           "meaning": "Passes",
+          "meaning_my": "Berlalu",
           "options": ["Passes", "Stays", "Begins", "Ends"],
-          "correct": "Passes"
+          "options_my": ["Berlalu", "Tinggal", "Bermula", "Berakhir"],
+          "correct": "Passes",
+          "correct_my": "Berlalu"
         },
         {
           "arabic": "إِرَمَ",
           "meaning": "Iram",
+          "meaning_my": "Iram",
           "options": ["Iram", "Mecca", "Medina", "Jerusalem"],
-          "correct": "Iram"
+          "options_my": ["Iram", "Mekah", "Madinah", "Baitulmaqdis"],
+          "correct": "Iram",
+          "correct_my": "Iram"
         }
       ]
     },
