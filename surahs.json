@@ -160,129 +160,515 @@
     {
       "id": "an-naba",
       "title": "Surah An-Naba (The Great News)",
+      "title_my": "Surah An-Naba (Berita Besar)",
       "description": "A Meccan surah that discusses the Day of Judgment and the fate of the righteous and the wicked.",
+      "description_my": "Surah Mekah yang membincangkan tentang Hari Kiamat dan nasib orang-orang yang soleh dan yang jahat.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "عَمَّ يَتَسَاءَلُونَ",
+          "translation": "About what are they asking one another?",
+          "translation_my": "Tentang apakah mereka saling bertanya-tanya?",
+          "words": [
+            {
+              "arabic": "عَمَّ",
+              "meaning": "About what",
+              "meaning_my": "Tentang apa"
+            },
+            {
+              "arabic": "يَتَسَاءَلُونَ",
+              "meaning": "they ask one another",
+              "meaning_my": "mereka saling bertanya-tanya"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "عَنِ النَّبَإِ الْعَظِيمِ",
+          "translation": "About the great news",
+          "translation_my": "Tentang berita yang besar",
+          "words": [
+            {
+              "arabic": "عَنِ",
+              "meaning": "About",
+              "meaning_my": "Tentang"
+            },
+            {
+              "arabic": "النَّبَإِ",
+              "meaning": "the news",
+              "meaning_my": "berita"
+            },
+            {
+              "arabic": "الْعَظِيمِ",
+              "meaning": "great",
+              "meaning_my": "yang besar"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ",
+          "translation": "That over which they are in disagreement",
+          "translation_my": "Yang mereka perselisihkan tentangnya",
+          "words": [
+            {
+              "arabic": "الَّذِي",
+              "meaning": "That",
+              "meaning_my": "Yang"
+            },
+            {
+              "arabic": "هُمْ",
+              "meaning": "they",
+              "meaning_my": "mereka"
+            },
+            {
+              "arabic": "فِيهِ",
+              "meaning": "over which",
+              "meaning_my": "tentangnya"
+            },
+            {
+              "arabic": "مُخْتَلِفُونَ",
+              "meaning": "are in disagreement",
+              "meaning_my": "perselisihkan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "كَلَّا سَيَعْلَمُونَ",
+          "translation": "No! They are going to know",
+          "translation_my": "Tidak! Mereka kelak akan mengetahui",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "meaning": "No",
+              "meaning_my": "Tidak"
+            },
+            {
+              "arabic": "سَيَعْلَمُونَ",
+              "meaning": "They are going to know",
+              "meaning_my": "Mereka kelak akan mengetahui"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
+          "translation": "Then, no! They are going to know",
+          "translation_my": "Kemudian, tidak! Mereka kelak akan mengetahui",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "meaning": "Then",
+              "meaning_my": "Kemudian"
+            },
+            {
+              "arabic": "كَلَّا",
+              "meaning": "no",
+              "meaning_my": "tidak"
+            },
+            {
+              "arabic": "سَيَعْلَمُونَ",
+              "meaning": "They are going to know",
+              "meaning_my": "Mereka kelak akan mengetahui"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
-          "arabic": "الّ",
+          "arabic": "النَّبَإِ",
           "meaning": "The Great News",
+          "meaning_my": "Berita Besar",
           "options": ["The Great News", "The Message", "The Warning", "The Announcement"],
-          "correct": "The Great News"
+          "options_my": ["Berita Besar", "Pesanan", "Amaran", "Pengumuman"],
+          "correct": "The Great News",
+          "correct_my": "Berita Besar"
         },
         {
           "arabic": "يَتَسَاءَلُونَ",
           "meaning": "They ask one another",
+          "meaning_my": "Mereka saling bertanya-tanya",
           "options": ["They ask one another", "They dispute", "They wonder", "They discuss"],
-          "correct": "They ask one another"
+          "options_my": ["Mereka saling bertanya-tanya", "Mereka berdebat", "Mereka tertanya-tanya", "Mereka berbincang"],
+          "correct": "They ask one another",
+          "correct_my": "Mereka saling bertanya-tanya"
         },
         {
           "arabic": "الْعَظِيمِ",
           "meaning": "Great",
+          "meaning_my": "Besar",
           "options": ["Great", "Small", "Hidden", "Distant"],
-          "correct": "Great"
+          "options_my": ["Besar", "Kecil", "Tersembunyi", "Jauh"],
+          "correct": "Great",
+          "correct_my": "Besar"
         },
         {
           "arabic": "مِهَادًا",
           "meaning": "A bed",
+          "meaning_my": "Hamparan",
           "options": ["A bed", "A mountain", "A river", "A desert"],
-          "correct": "A bed"
+          "options_my": ["Hamparan", "Gunung", "Sungai", "Padang pasir"],
+          "correct": "A bed",
+          "correct_my": "Hamparan"
         },
         {
           "arabic": "أَوْتَادًا",
           "meaning": "Pegs",
+          "meaning_my": "Pasak",
           "options": ["Pegs", "Paths", "Signs", "Lights"],
-          "correct": "Pegs"
+          "options_my": ["Pasak", "Jalan", "Tanda", "Cahaya"],
+          "correct": "Pegs",
+          "correct_my": "Pasak"
         },
         {
           "arabic": "سُبَاتًا",
           "meaning": "Rest",
+          "meaning_my": "Istirahat",
           "options": ["Rest", "Work", "Play", "Travel"],
-          "correct": "Rest"
+          "options_my": ["Istirahat", "Kerja", "Bermain", "Perjalanan"],
+          "correct": "Rest",
+          "correct_my": "Istirahat"
         },
         {
           "arabic": "مَعَاشًا",
           "meaning": "Livelihood",
+          "meaning_my": "Penghidupan",
           "options": ["Livelihood", "Punishment", "Reward", "Test"],
-          "correct": "Livelihood"
+          "options_my": ["Penghidupan", "Hukuman", "Ganjaran", "Ujian"],
+          "correct": "Livelihood",
+          "correct_my": "Penghidupan"
         }
       ]
     },
     {
       "id": "an-naziat",
       "title": "Surah An-Nazi'at (Those Who Pull Out)",
+      "title_my": "Surah An-Nazi'at (Malaikat-Malaikat Yang Mencabut)",
       "description": "A Meccan surah that begins with oaths and discusses resurrection and the story of Moses and Pharaoh.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dan membincangkan kebangkitan semula dan kisah Musa dan Firaun.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالنَّازِعَاتِ غَرْقًا",
+          "translation": "By those [angels] who extract [the souls of the disbelievers] violently",
+          "translation_my": "Demi (malaikat-malaikat) yang mencabut (nyawa) dengan keras",
+          "words": [
+            {
+              "arabic": "وَالنَّازِعَاتِ",
+              "meaning": "By those [angels] who extract [the souls]",
+              "meaning_my": "Demi (malaikat-malaikat) yang mencabut (nyawa)"
+            },
+            {
+              "arabic": "غَرْقًا",
+              "meaning": "violently",
+              "meaning_my": "dengan keras"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَالنَّاشِطَاتِ نَشْطًا",
+          "translation": "And [by] those who remove [the souls of the believers] with ease",
+          "translation_my": "Dan (malaikat-malaikat) yang mencabut (nyawa) dengan lemah-lembut",
+          "words": [
+            {
+              "arabic": "وَالنَّاشِطَاتِ",
+              "meaning": "And [by] those who remove [the souls]",
+              "meaning_my": "Dan (malaikat-malaikat) yang mencabut (nyawa)"
+            },
+            {
+              "arabic": "نَشْطًا",
+              "meaning": "with ease",
+              "meaning_my": "dengan lemah-lembut"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَالسَّابِحَاتِ سَبْحًا",
+          "translation": "And [by] those who glide [as if] swimming",
+          "translation_my": "Dan (malaikat-malaikat) yang turun dari langit dengan cepat",
+          "words": [
+            {
+              "arabic": "وَالسَّابِحَاتِ",
+              "meaning": "And [by] those who glide",
+              "meaning_my": "Dan (malaikat-malaikat) yang turun dari langit"
+            },
+            {
+              "arabic": "سَبْحًا",
+              "meaning": "[as if] swimming",
+              "meaning_my": "dengan cepat"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "فَالسَّابِقَاتِ سَبْقًا",
+          "translation": "And those who race each other in a race",
+          "translation_my": "Dan (malaikat-malaikat) yang mendahului dengan kencang",
+          "words": [
+            {
+              "arabic": "فَالسَّابِقَاتِ",
+              "meaning": "And those who race each other",
+              "meaning_my": "Dan (malaikat-malaikat) yang mendahului"
+            },
+            {
+              "arabic": "سَبْقًا",
+              "meaning": "in a race",
+              "meaning_my": "dengan kencang"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فَالْمُدَبِّرَاتِ أَمْرًا",
+          "translation": "And those who arrange [each] matter",
+          "translation_my": "Dan (malaikat-malaikat) yang mengatur urusan",
+          "words": [
+            {
+              "arabic": "فَالْمُدَبِّرَاتِ",
+              "meaning": "And those who arrange",
+              "meaning_my": "Dan (malaikat-malaikat) yang mengatur"
+            },
+            {
+              "arabic": "أَمْرًا",
+              "meaning": "[each] matter",
+              "meaning_my": "urusan"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "النَّازِعَاتِ",
           "meaning": "Those who pull out",
+          "meaning_my": "Malaikat-malaikat yang mencabut",
           "options": ["Those who pull out", "Those who descend", "Those who rise", "Those who travel"],
-          "correct": "Those who pull out"
+          "options_my": ["Malaikat-malaikat yang mencabut", "Malaikat-malaikat yang turun", "Malaikat-malaikat yang naik", "Malaikat-malaikat yang bergerak"],
+          "correct": "Those who pull out",
+          "correct_my": "Malaikat-malaikat yang mencabut"
         },
         {
           "arabic": "غَرْقًا",
           "meaning": "Violently",
+          "meaning_my": "Dengan keras",
           "options": ["Violently", "Gently", "Quickly", "Slowly"],
-          "correct": "Violently"
+          "options_my": ["Dengan keras", "Dengan lembut", "Dengan cepat", "Dengan perlahan"],
+          "correct": "Violently",
+          "correct_my": "Dengan keras"
         },
         {
           "arabic": "النَّاشِطَاتِ",
           "meaning": "Those who release",
+          "meaning_my": "Malaikat-malaikat yang melepaskan",
           "options": ["Those who release", "Those who bind", "Those who create", "Those who destroy"],
-          "correct": "Those who release"
+          "options_my": ["Malaikat-malaikat yang melepaskan", "Malaikat-malaikat yang mengikat", "Malaikat-malaikat yang mencipta", "Malaikat-malaikat yang memusnahkan"],
+          "correct": "Those who release",
+          "correct_my": "Malaikat-malaikat yang melepaskan"
         },
         {
           "arabic": "السَّابِحَاتِ",
           "meaning": "Those who glide",
+          "meaning_my": "Malaikat-malaikat yang bergerak cepat",
           "options": ["Those who glide", "Those who stand", "Those who fall", "Those who hide"],
-          "correct": "Those who glide"
+          "options_my": ["Malaikat-malaikat yang bergerak cepat", "Malaikat-malaikat yang berdiri", "Malaikat-malaikat yang jatuh", "Malaikat-malaikat yang bersembunyi"],
+          "correct": "Those who glide",
+          "correct_my": "Malaikat-malaikat yang bergerak cepat"
         },
         {
           "arabic": "السَّابِقَاتِ",
           "meaning": "Those who race ahead",
+          "meaning_my": "Malaikat-malaikat yang mendahului",
           "options": ["Those who race ahead", "Those who lag behind", "Those who stay still", "Those who turn away"],
-          "correct": "Those who race ahead"
+          "options_my": ["Malaikat-malaikat yang mendahului", "Malaikat-malaikat yang tertinggal", "Malaikat-malaikat yang diam", "Malaikat-malaikat yang berpaling"],
+          "correct": "Those who race ahead",
+          "correct_my": "Malaikat-malaikat yang mendahului"
         },
         {
           "arabic": "الرَّاجِفَةُ",
           "meaning": "The quaking",
+          "meaning_my": "Goncangan",
           "options": ["The quaking", "The stillness", "The darkness", "The light"],
-          "correct": "The quaking"
+          "options_my": ["Goncangan", "Ketenangan", "Kegelapan", "Cahaya"],
+          "correct": "The quaking",
+          "correct_my": "Goncangan"
         }
       ]
     },
     {
       "id": "abasa",
       "title": "Surah 'Abasa (He Frowned)",
+      "title_my": "Surah 'Abasa (Dia Bermasam Muka)",
       "description": "A Meccan surah that begins with a gentle admonition to the Prophet and discusses the equality of all believers.",
+      "description_my": "Surah Mekah yang bermula dengan teguran lembut kepada Nabi dan membincangkan kesamarataan semua orang beriman.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "عَبَسَ وَتَوَلَّىٰ",
+          "translation": "He frowned and turned away",
+          "translation_my": "Dia bermasam muka dan berpaling",
+          "words": [
+            {
+              "arabic": "عَبَسَ",
+              "meaning": "He frowned",
+              "meaning_my": "Dia bermasam muka"
+            },
+            {
+              "arabic": "وَتَوَلَّىٰ",
+              "meaning": "and turned away",
+              "meaning_my": "dan berpaling"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "أَن جَاءَهُ الْأَعْمَىٰ",
+          "translation": "Because there came to him the blind man",
+          "translation_my": "Kerana telah datang kepadanya seorang buta",
+          "words": [
+            {
+              "arabic": "أَن",
+              "meaning": "Because",
+              "meaning_my": "Kerana"
+            },
+            {
+              "arabic": "جَاءَهُ",
+              "meaning": "there came to him",
+              "meaning_my": "telah datang kepadanya"
+            },
+            {
+              "arabic": "الْأَعْمَىٰ",
+              "meaning": "the blind man",
+              "meaning_my": "seorang buta"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّىٰ",
+          "translation": "But what would make you perceive, [O Muhammad], that perhaps he might be purified",
+          "translation_my": "Dan apa yang memberitahumu, barangkali dia ingin membersihkan dirinya (dari dosa)",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "meaning": "But what",
+              "meaning_my": "Dan apa"
+            },
+            {
+              "arabic": "يُدْرِيكَ",
+              "meaning": "would make you perceive",
+              "meaning_my": "yang memberitahumu"
+            },
+            {
+              "arabic": "لَعَلَّهُ",
+              "meaning": "that perhaps he",
+              "meaning_my": "barangkali dia"
+            },
+            {
+              "arabic": "يَزَّكَّىٰ",
+              "meaning": "might be purified",
+              "meaning_my": "ingin membersihkan dirinya"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ الذِّكْرَىٰ",
+          "translation": "Or be reminded and the reminder would benefit him?",
+          "translation_my": "Atau dia mahu mendapat pengajaran, lalu pengajaran itu memberi manfaat kepadanya?",
+          "words": [
+            {
+              "arabic": "أَوْ",
+              "meaning": "Or",
+              "meaning_my": "Atau"
+            },
+            {
+              "arabic": "يَذَّكَّرُ",
+              "meaning": "be reminded",
+              "meaning_my": "dia mahu mendapat pengajaran"
+            },
+            {
+              "arabic": "فَتَنفَعَهُ",
+              "meaning": "and would benefit him",
+              "meaning_my": "lalu memberi manfaat kepadanya"
+            },
+            {
+              "arabic": "الذِّكْرَىٰ",
+              "meaning": "the reminder",
+              "meaning_my": "pengajaran itu"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "أَمَّا مَنِ اسْتَغْنَىٰ",
+          "translation": "As for he who thinks himself without need",
+          "translation_my": "Adapun orang yang merasa dirinya serba cukup",
+          "words": [
+            {
+              "arabic": "أَمَّا",
+              "meaning": "As for",
+              "meaning_my": "Adapun"
+            },
+            {
+              "arabic": "مَنِ",
+              "meaning": "he who",
+              "meaning_my": "orang yang"
+            },
+            {
+              "arabic": "اسْتَغْنَىٰ",
+              "meaning": "thinks himself without need",
+              "meaning_my": "merasa dirinya serba cukup"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "عَبَسَ",
           "meaning": "He frowned",
+          "meaning_my": "Dia bermasam muka",
           "options": ["He frowned", "He smiled", "He laughed", "He cried"],
-          "correct": "He frowned"
+          "options_my": ["Dia bermasam muka", "Dia tersenyum", "Dia ketawa", "Dia menangis"],
+          "correct": "He frowned",
+          "correct_my": "Dia bermasam muka"
         },
         {
           "arabic": "تَوَلَّىٰ",
           "meaning": "He turned away",
+          "meaning_my": "Dia berpaling",
           "options": ["He turned away", "He approached", "He welcomed", "He embraced"],
-          "correct": "He turned away"
+          "options_my": ["Dia berpaling", "Dia menghampiri", "Dia menyambut", "Dia memeluk"],
+          "correct": "He turned away",
+          "correct_my": "Dia berpaling"
         },
         {
           "arabic": "الْأَعْمَىٰ",
           "meaning": "The blind man",
+          "meaning_my": "Orang buta",
           "options": ["The blind man", "The seeing man", "The rich man", "The poor man"],
-          "correct": "The blind man"
+          "options_my": ["Orang buta", "Orang yang melihat", "Orang kaya", "Orang miskin"],
+          "correct": "The blind man",
+          "correct_my": "Orang buta"
         },
         {
           "arabic": "يَزَّكَّىٰ",
           "meaning": "Purify himself",
+          "meaning_my": "Membersihkan dirinya",
           "options": ["Purify himself", "Harm himself", "Enrich himself", "Praise himself"],
-          "correct": "Purify himself"
+          "options_my": ["Membersihkan dirinya", "Mencederakan dirinya", "Memperkayakan dirinya", "Memuji dirinya"],
+          "correct": "Purify himself",
+          "correct_my": "Membersihkan dirinya"
         },
         {
           "arabic": "تَذْكِرَةٌ",
           "meaning": "A reminder",
+          "meaning_my": "Peringatan",
           "options": ["A reminder", "A warning", "A promise", "A threat"],
-          "correct": "A reminder"
+          "options_my": ["Peringatan", "Amaran", "Janji", "Ancaman"],
+          "correct": "A reminder",
+          "correct_my": "Peringatan"
         }
       ]
     },
