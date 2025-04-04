@@ -2245,111 +2245,513 @@
     {
       "id": "al-balad",
       "title": "Surah Al-Balad (The City)",
+      "title_my": "Surah Al-Balad (Negeri)",
       "description": "A Meccan surah that begins with an oath by the sacred city (Mecca) and discusses the human condition.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan negeri yang suci (Mekah) dan membincangkan keadaan manusia.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "لَا أُقْسِمُ بِهَٰذَا الْبَلَدِ",
+          "translation": "I swear by this city",
+          "translation_my": "Aku bersumpah dengan negeri ini",
+          "words": [
+            {
+              "arabic": "لَا أُقْسِمُ",
+              "meaning": "I swear",
+              "meaning_my": "Aku bersumpah"
+            },
+            {
+              "arabic": "بِهَٰذَا",
+              "meaning": "by this",
+              "meaning_my": "dengan"
+            },
+            {
+              "arabic": "الْبَلَدِ",
+              "meaning": "city",
+              "meaning_my": "negeri ini"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَأَنتَ حِلٌّ بِهَٰذَا الْبَلَدِ",
+          "translation": "And you are free of restriction in this city",
+          "translation_my": "Dan engkau (Muhammad) bertempat di negeri ini",
+          "words": [
+            {
+              "arabic": "وَأَنتَ",
+              "meaning": "And you",
+              "meaning_my": "Dan engkau (Muhammad)"
+            },
+            {
+              "arabic": "حِلٌّ",
+              "meaning": "free of restriction",
+              "meaning_my": "bertempat"
+            },
+            {
+              "arabic": "بِهَٰذَا الْبَلَدِ",
+              "meaning": "in this city",
+              "meaning_my": "di negeri ini"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَوَالِدٍ وَمَا وَلَدَ",
+          "translation": "And [by] the father and that which was born [of him]",
+          "translation_my": "Dan demi bapa dan anak-anaknya",
+          "words": [
+            {
+              "arabic": "وَوَالِدٍ",
+              "meaning": "And [by] the father",
+              "meaning_my": "Dan demi bapa"
+            },
+            {
+              "arabic": "وَمَا وَلَدَ",
+              "meaning": "and that which was born [of him]",
+              "meaning_my": "dan anak-anaknya"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي كَبَدٍ",
+          "translation": "We have certainly created man into hardship",
+          "translation_my": "Sesungguhnya Kami telah menciptakan manusia berada dalam susah payah",
+          "words": [
+            {
+              "arabic": "لَقَدْ",
+              "meaning": "We have certainly",
+              "meaning_my": "Sesungguhnya Kami telah"
+            },
+            {
+              "arabic": "خَلَقْنَا",
+              "meaning": "created",
+              "meaning_my": "menciptakan"
+            },
+            {
+              "arabic": "الْإِنسَانَ",
+              "meaning": "man",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "فِي كَبَدٍ",
+              "meaning": "into hardship",
+              "meaning_my": "berada dalam susah payah"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ",
+          "translation": "Does he think that never will anyone overcome him?",
+          "translation_my": "Apakah dia menyangka bahawa tidak ada seorangpun yang berkuasa terhadapnya?",
+          "words": [
+            {
+              "arabic": "أَيَحْسَبُ",
+              "meaning": "Does he think",
+              "meaning_my": "Apakah dia menyangka"
+            },
+            {
+              "arabic": "أَن لَّن",
+              "meaning": "that never",
+              "meaning_my": "bahawa tidak"
+            },
+            {
+              "arabic": "يَقْدِرَ عَلَيْهِ",
+              "meaning": "will overcome him",
+              "meaning_my": "ada yang berkuasa terhadapnya"
+            },
+            {
+              "arabic": "أَحَدٌ",
+              "meaning": "anyone",
+              "meaning_my": "seorangpun"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْبَلَدِ",
           "meaning": "The city",
+          "meaning_my": "Negeri",
           "options": ["The city", "The village", "The desert", "The mountain"],
-          "correct": "The city"
+          "options_my": ["Negeri", "Kampung", "Padang pasir", "Gunung"],
+          "correct": "The city",
+          "correct_my": "Negeri"
         },
         {
           "arabic": "حِلٌّ",
           "meaning": "Free",
+          "meaning_my": "Bertempat",
           "options": ["Free", "Restricted", "Bound", "Imprisoned"],
-          "correct": "Free"
+          "options_my": ["Bertempat", "Terbatas", "Terikat", "Dipenjarakan"],
+          "correct": "Free",
+          "correct_my": "Bertempat"
         },
         {
           "arabic": "وَالِدٍ",
           "meaning": "Parent",
+          "meaning_my": "Bapa",
           "options": ["Parent", "Child", "Brother", "Sister"],
-          "correct": "Parent"
+          "options_my": ["Bapa", "Anak", "Saudara lelaki", "Saudara perempuan"],
+          "correct": "Parent",
+          "correct_my": "Bapa"
         },
         {
           "arabic": "كَبَدٍ",
           "meaning": "Hardship",
+          "meaning_my": "Susah payah",
           "options": ["Hardship", "Ease", "Pleasure", "Comfort"],
-          "correct": "Hardship"
+          "options_my": ["Susah payah", "Kemudahan", "Kesenangan", "Keselesaan"],
+          "correct": "Hardship",
+          "correct_my": "Susah payah"
         },
         {
           "arabic": "لُبَدًا",
           "meaning": "Abundant",
+          "meaning_my": "Banyak",
           "options": ["Abundant", "Scarce", "Little", "None"],
-          "correct": "Abundant"
+          "options_my": ["Banyak", "Sedikit", "Kurang", "Tiada"],
+          "correct": "Abundant",
+          "correct_my": "Banyak"
         }
       ]
     },
     {
       "id": "ash-shams",
       "title": "Surah Ash-Shams (The Sun)",
+      "title_my": "Surah Ash-Shams (Matahari)",
       "description": "A Meccan surah that begins with oaths by various natural phenomena and tells the story of Thamud.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan pelbagai fenomena alam dan menceritakan kisah kaum Thamud.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالشَّمْسِ وَضُحَاهَا",
+          "translation": "By the sun and its brightness",
+          "translation_my": "Demi matahari dan cahayanya di pagi hari",
+          "words": [
+            {
+              "arabic": "وَالشَّمْسِ",
+              "meaning": "By the sun",
+              "meaning_my": "Demi matahari"
+            },
+            {
+              "arabic": "وَضُحَاهَا",
+              "meaning": "and its brightness",
+              "meaning_my": "dan cahayanya di pagi hari"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَالْقَمَرِ إِذَا تَلَاهَا",
+          "translation": "And [by] the moon when it follows it",
+          "translation_my": "Dan demi bulan apabila mengiringinya",
+          "words": [
+            {
+              "arabic": "وَالْقَمَرِ",
+              "meaning": "And [by] the moon",
+              "meaning_my": "Dan demi bulan"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "تَلَاهَا",
+              "meaning": "it follows it",
+              "meaning_my": "mengiringinya"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَالنَّهَارِ إِذَا جَلَّاهَا",
+          "translation": "And [by] the day when it displays it",
+          "translation_my": "Dan demi siang apabila menampakkannya",
+          "words": [
+            {
+              "arabic": "وَالنَّهَارِ",
+              "meaning": "And [by] the day",
+              "meaning_my": "Dan demi siang"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "جَلَّاهَا",
+              "meaning": "it displays it",
+              "meaning_my": "menampakkannya"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَاللَّيْلِ إِذَا يَغْشَاهَا",
+          "translation": "And [by] the night when it covers it",
+          "translation_my": "Dan demi malam apabila menutupinya",
+          "words": [
+            {
+              "arabic": "وَاللَّيْلِ",
+              "meaning": "And [by] the night",
+              "meaning_my": "Dan demi malam"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "يَغْشَاهَا",
+              "meaning": "it covers it",
+              "meaning_my": "menutupinya"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَالسَّمَاءِ وَمَا بَنَاهَا",
+          "translation": "And [by] the sky and He who constructed it",
+          "translation_my": "Dan demi langit serta pembinaannya",
+          "words": [
+            {
+              "arabic": "وَالسَّمَاءِ",
+              "meaning": "And [by] the sky",
+              "meaning_my": "Dan demi langit"
+            },
+            {
+              "arabic": "وَمَا بَنَاهَا",
+              "meaning": "and He who constructed it",
+              "meaning_my": "serta pembinaannya"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الشَّمْسِ",
           "meaning": "The sun",
+          "meaning_my": "Matahari",
           "options": ["The sun", "The moon", "The stars", "The planets"],
-          "correct": "The sun"
+          "options_my": ["Matahari", "Bulan", "Bintang-bintang", "Planet-planet"],
+          "correct": "The sun",
+          "correct_my": "Matahari"
         },
         {
           "arabic": "ضُحَاهَا",
           "meaning": "Its brightness",
+          "meaning_my": "Cahayanya di pagi hari",
           "options": ["Its brightness", "Its darkness", "Its heat", "Its size"],
-          "correct": "Its brightness"
+          "options_my": ["Cahayanya di pagi hari", "Kegelapannya", "Panasnya", "Saiznya"],
+          "correct": "Its brightness",
+          "correct_my": "Cahayanya di pagi hari"
         },
         {
           "arabic": "تَلَاهَا",
           "meaning": "Follows it",
+          "meaning_my": "Mengiringinya",
           "options": ["Follows it", "Precedes it", "Creates it", "Destroys it"],
-          "correct": "Follows it"
+          "options_my": ["Mengiringinya", "Mendahuluinya", "Menciptanya", "Memusnahkannya"],
+          "correct": "Follows it",
+          "correct_my": "Mengiringinya"
         },
         {
           "arabic": "جَلَّاهَا",
           "meaning": "Displays it",
+          "meaning_my": "Menampakkannya",
           "options": ["Displays it", "Hides it", "Dims it", "Brightens it"],
-          "correct": "Displays it"
+          "options_my": ["Menampakkannya", "Menyembunyikannya", "Meredupkannya", "Mencerahkannya"],
+          "correct": "Displays it",
+          "correct_my": "Menampakkannya"
         },
         {
           "arabic": "يَغْشَاهَا",
           "meaning": "Covers it",
+          "meaning_my": "Menutupinya",
           "options": ["Covers it", "Reveals it", "Illuminates it", "Creates it"],
-          "correct": "Covers it"
+          "options_my": ["Menutupinya", "Mendedahkannya", "Meneranginya", "Menciptanya"],
+          "correct": "Covers it",
+          "correct_my": "Menutupinya"
         }
       ]
     },
     {
       "id": "al-lail",
       "title": "Surah Al-Lail (The Night)",
+      "title_my": "Surah Al-Lail (Malam)",
       "description": "A Meccan surah that begins with oaths by the night and day, and discusses human efforts and divine guidance.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan malam dan siang, dan membincangkan usaha manusia dan bimbingan ilahi.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَاللَّيْلِ إِذَا يَغْشَىٰ",
+          "translation": "By the night when it covers",
+          "translation_my": "Demi malam apabila menutupi (cahaya siang)",
+          "words": [
+            {
+              "arabic": "وَاللَّيْلِ",
+              "meaning": "By the night",
+              "meaning_my": "Demi malam"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "يَغْشَىٰ",
+              "meaning": "it covers",
+              "meaning_my": "menutupi (cahaya siang)"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَالنَّهَارِ إِذَا تَجَلَّىٰ",
+          "translation": "And [by] the day when it appears",
+          "translation_my": "Dan demi siang apabila terang benderang",
+          "words": [
+            {
+              "arabic": "وَالنَّهَارِ",
+              "meaning": "And [by] the day",
+              "meaning_my": "Dan demi siang"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "تَجَلَّىٰ",
+              "meaning": "it appears",
+              "meaning_my": "terang benderang"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنثَىٰ",
+          "translation": "And [by] He who created the male and female",
+          "translation_my": "Dan demi penciptaan lelaki dan perempuan",
+          "words": [
+            {
+              "arabic": "وَمَا خَلَقَ",
+              "meaning": "And [by] He who created",
+              "meaning_my": "Dan demi penciptaan"
+            },
+            {
+              "arabic": "الذَّكَرَ",
+              "meaning": "the male",
+              "meaning_my": "lelaki"
+            },
+            {
+              "arabic": "وَالْأُنثَىٰ",
+              "meaning": "and female",
+              "meaning_my": "dan perempuan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+          "translation": "Indeed, your efforts are diverse",
+          "translation_my": "Sesungguhnya usaha kamu memang berbeza-beza",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "meaning": "Indeed",
+              "meaning_my": "Sesungguhnya"
+            },
+            {
+              "arabic": "سَعْيَكُمْ",
+              "meaning": "your efforts",
+              "meaning_my": "usaha kamu"
+            },
+            {
+              "arabic": "لَشَتَّىٰ",
+              "meaning": "are diverse",
+              "meaning_my": "memang berbeza-beza"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فَأَمَّا مَنْ أَعْطَىٰ وَاتَّقَىٰ",
+          "translation": "As for he who gives and fears Allah",
+          "translation_my": "Adapun orang yang memberikan (hartanya di jalan Allah) dan bertakwa",
+          "words": [
+            {
+              "arabic": "فَأَمَّا",
+              "meaning": "As for",
+              "meaning_my": "Adapun"
+            },
+            {
+              "arabic": "مَنْ",
+              "meaning": "he who",
+              "meaning_my": "orang yang"
+            },
+            {
+              "arabic": "أَعْطَىٰ",
+              "meaning": "gives",
+              "meaning_my": "memberikan (hartanya di jalan Allah)"
+            },
+            {
+              "arabic": "وَاتَّقَىٰ",
+              "meaning": "and fears Allah",
+              "meaning_my": "dan bertakwa"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "اللَّيْلِ",
           "meaning": "The night",
+          "meaning_my": "Malam",
           "options": ["The night", "The day", "The dawn", "The dusk"],
-          "correct": "The night"
+          "options_my": ["Malam", "Siang", "Fajar", "Senja"],
+          "correct": "The night",
+          "correct_my": "Malam"
         },
         {
           "arabic": "يَغْشَىٰ",
           "meaning": "Covers",
+          "meaning_my": "Menutupi",
           "options": ["Covers", "Reveals", "Creates", "Destroys"],
-          "correct": "Covers"
+          "options_my": ["Menutupi", "Mendedahkan", "Mencipta", "Memusnahkan"],
+          "correct": "Covers",
+          "correct_my": "Menutupi"
         },
         {
           "arabic": "تَجَلَّىٰ",
           "meaning": "Appears in brightness",
+          "meaning_my": "Terang benderang",
           "options": ["Appears in brightness", "Disappears in darkness", "Remains hidden", "Becomes dim"],
-          "correct": "Appears in brightness"
+          "options_my": ["Terang benderang", "Hilang dalam kegelapan", "Tetap tersembunyi", "Menjadi redup"],
+          "correct": "Appears in brightness",
+          "correct_my": "Terang benderang"
         },
         {
           "arabic": "لَشَتَّىٰ",
           "meaning": "Diverse",
+          "meaning_my": "Berbeza-beza",
           "options": ["Diverse", "Similar", "Same", "Identical"],
-          "correct": "Diverse"
+          "options_my": ["Berbeza-beza", "Serupa", "Sama", "Seiras"],
+          "correct": "Diverse",
+          "correct_my": "Berbeza-beza"
         },
         {
           "arabic": "فَأَمَّا",
           "meaning": "As for",
+          "meaning_my": "Adapun",
           "options": ["As for", "Except", "Unless", "Until"],
-          "correct": "As for"
+          "options_my": ["Adapun", "Kecuali", "Melainkan", "Sehingga"],
+          "correct": "As for",
+          "correct_my": "Adapun"
         }
       ]
     },
