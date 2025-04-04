@@ -675,37 +675,171 @@
     {
       "id": "at-takwir",
       "title": "Surah At-Takwir (The Folding Up)",
+      "title_my": "Surah At-Takwir (Menggulung)",
       "description": "A Meccan surah that describes the events of the Day of Judgment and affirms the truth of the revelation.",
+      "description_my": "Surah Mekah yang menggambarkan peristiwa-peristiwa Hari Kiamat dan mengesahkan kebenaran wahyu.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "إِذَا الشَّمْسُ كُوِّرَتْ",
+          "translation": "When the sun is wrapped up [in darkness]",
+          "translation_my": "Apabila matahari digulung",
+          "words": [
+            {
+              "arabic": "إِذَا",
+              "meaning": "When",
+              "meaning_my": "Apabila"
+            },
+            {
+              "arabic": "الشَّمْسُ",
+              "meaning": "the sun",
+              "meaning_my": "matahari"
+            },
+            {
+              "arabic": "كُوِّرَتْ",
+              "meaning": "is wrapped up [in darkness]",
+              "meaning_my": "digulung"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَإِذَا النُّجُومُ انكَدَرَتْ",
+          "translation": "And when the stars fall, dispersing",
+          "translation_my": "Dan apabila bintang-bintang berjatuhan",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "النُّجُومُ",
+              "meaning": "the stars",
+              "meaning_my": "bintang-bintang"
+            },
+            {
+              "arabic": "انكَدَرَتْ",
+              "meaning": "fall, dispersing",
+              "meaning_my": "berjatuhan"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَإِذَا الْجِبَالُ سُيِّرَتْ",
+          "translation": "And when the mountains are removed",
+          "translation_my": "Dan apabila gunung-ganang dihapuskan",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "الْجِبَالُ",
+              "meaning": "the mountains",
+              "meaning_my": "gunung-ganang"
+            },
+            {
+              "arabic": "سُيِّرَتْ",
+              "meaning": "are removed",
+              "meaning_my": "dihapuskan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَإِذَا الْعِشَارُ عُطِّلَتْ",
+          "translation": "And when full-term she-camels are neglected",
+          "translation_my": "Dan apabila unta-unta yang bunting ditinggalkan",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "الْعِشَارُ",
+              "meaning": "full-term she-camels",
+              "meaning_my": "unta-unta yang bunting"
+            },
+            {
+              "arabic": "عُطِّلَتْ",
+              "meaning": "are neglected",
+              "meaning_my": "ditinggalkan"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَإِذَا الْوُحُوشُ حُشِرَتْ",
+          "translation": "And when the wild beasts are gathered",
+          "translation_my": "Dan apabila binatang-binatang liar dikumpulkan",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "الْوُحُوشُ",
+              "meaning": "the wild beasts",
+              "meaning_my": "binatang-binatang liar"
+            },
+            {
+              "arabic": "حُشِرَتْ",
+              "meaning": "are gathered",
+              "meaning_my": "dikumpulkan"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "كُوِّرَتْ",
           "meaning": "Is folded up",
+          "meaning_my": "Digulung",
           "options": ["Is folded up", "Is spread out", "Is created", "Is destroyed"],
-          "correct": "Is folded up"
+          "options_my": ["Digulung", "Dibentangkan", "Dicipta", "Dimusnahkan"],
+          "correct": "Is folded up",
+          "correct_my": "Digulung"
         },
         {
           "arabic": "انكَدَرَتْ",
           "meaning": "Fall",
+          "meaning_my": "Berjatuhan",
           "options": ["Fall", "Rise", "Shine", "Disappear"],
-          "correct": "Fall"
+          "options_my": ["Berjatuhan", "Naik", "Bersinar", "Hilang"],
+          "correct": "Fall",
+          "correct_my": "Berjatuhan"
         },
         {
           "arabic": "سُيِّرَتْ",
           "meaning": "Are moved",
+          "meaning_my": "Dihapuskan",
           "options": ["Are moved", "Are fixed", "Are created", "Are destroyed"],
-          "correct": "Are moved"
+          "options_my": ["Dihapuskan", "Ditetapkan", "Dicipta", "Dimusnahkan"],
+          "correct": "Are moved",
+          "correct_my": "Dihapuskan"
         },
         {
           "arabic": "عُطِّلَتْ",
           "meaning": "Are neglected",
+          "meaning_my": "Ditinggalkan",
           "options": ["Are neglected", "Are cared for", "Are increased", "Are decreased"],
-          "correct": "Are neglected"
+          "options_my": ["Ditinggalkan", "Dijaga", "Ditambah", "Dikurangkan"],
+          "correct": "Are neglected",
+          "correct_my": "Ditinggalkan"
         },
         {
           "arabic": "حُشِرَتْ",
           "meaning": "Are gathered",
+          "meaning_my": "Dikumpulkan",
           "options": ["Are gathered", "Are scattered", "Are hidden", "Are revealed"],
-          "correct": "Are gathered"
+          "options_my": ["Dikumpulkan", "Diserakkan", "Disembunyikan", "Didedahkan"],
+          "correct": "Are gathered",
+          "correct_my": "Dikumpulkan"
         },
         {
           "arabic": "سُجِّرَتْ",
@@ -718,74 +852,372 @@
     {
       "id": "al-infitar",
       "title": "Surah Al-Infitar (The Cleaving Asunder)",
+      "title_my": "Surah Al-Infitar (Terbelah)",
       "description": "A Meccan surah that describes the Day of Judgment and reminds humans of their accountability.",
+      "description_my": "Surah Mekah yang menggambarkan Hari Kiamat dan mengingatkan manusia tentang kebertanggungjawaban mereka.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "إِذَا السَّمَاءُ انفَطَرَتْ",
+          "translation": "When the sky breaks apart",
+          "translation_my": "Apabila langit terbelah",
+          "words": [
+            {
+              "arabic": "إِذَا",
+              "meaning": "When",
+              "meaning_my": "Apabila"
+            },
+            {
+              "arabic": "السَّمَاءُ",
+              "meaning": "the sky",
+              "meaning_my": "langit"
+            },
+            {
+              "arabic": "انفَطَرَتْ",
+              "meaning": "breaks apart",
+              "meaning_my": "terbelah"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَإِذَا الْكَوَاكِبُ انتَثَرَتْ",
+          "translation": "And when the stars fall, scattering",
+          "translation_my": "Dan apabila bintang-bintang berjatuhan bertaburan",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "الْكَوَاكِبُ",
+              "meaning": "the stars",
+              "meaning_my": "bintang-bintang"
+            },
+            {
+              "arabic": "انتَثَرَتْ",
+              "meaning": "fall, scattering",
+              "meaning_my": "berjatuhan bertaburan"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَإِذَا الْبِحَارُ فُجِّرَتْ",
+          "translation": "And when the seas are erupted",
+          "translation_my": "Dan apabila lautan dipancarkan",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "الْبِحَارُ",
+              "meaning": "the seas",
+              "meaning_my": "lautan"
+            },
+            {
+              "arabic": "فُجِّرَتْ",
+              "meaning": "are erupted",
+              "meaning_my": "dipancarkan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَإِذَا الْقُبُورُ بُعْثِرَتْ",
+          "translation": "And when the [contents of] graves are scattered",
+          "translation_my": "Dan apabila kubur-kubur dibongkar",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "الْقُبُورُ",
+              "meaning": "the [contents of] graves",
+              "meaning_my": "kubur-kubur"
+            },
+            {
+              "arabic": "بُعْثِرَتْ",
+              "meaning": "are scattered",
+              "meaning_my": "dibongkar"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+          "translation": "A soul will [then] know what it has put forth and kept back",
+          "translation_my": "Maka tiap-tiap jiwa akan mengetahui apa yang telah dikerjakan dan yang dilalaikannya",
+          "words": [
+            {
+              "arabic": "عَلِمَتْ",
+              "meaning": "will [then] know",
+              "meaning_my": "akan mengetahui"
+            },
+            {
+              "arabic": "نَفْسٌ",
+              "meaning": "a soul",
+              "meaning_my": "tiap-tiap jiwa"
+            },
+            {
+              "arabic": "مَّا",
+              "meaning": "what",
+              "meaning_my": "apa yang"
+            },
+            {
+              "arabic": "قَدَّمَتْ",
+              "meaning": "it has put forth",
+              "meaning_my": "telah dikerjakan"
+            },
+            {
+              "arabic": "وَأَخَّرَتْ",
+              "meaning": "and kept back",
+              "meaning_my": "dan yang dilalaikannya"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "انفَطَرَتْ",
           "meaning": "Is cleft asunder",
+          "meaning_my": "Terbelah",
           "options": ["Is cleft asunder", "Is joined together", "Is darkened", "Is brightened"],
-          "correct": "Is cleft asunder"
+          "options_my": ["Terbelah", "Disatukan", "Digelapkan", "Dicerahkan"],
+          "correct": "Is cleft asunder",
+          "correct_my": "Terbelah"
         },
         {
           "arabic": "انتَثَرَتْ",
           "meaning": "Are scattered",
+          "meaning_my": "Bertaburan",
           "options": ["Are scattered", "Are gathered", "Are fixed", "Are removed"],
-          "correct": "Are scattered"
+          "options_my": ["Bertaburan", "Dikumpulkan", "Ditetapkan", "Dibuang"],
+          "correct": "Are scattered",
+          "correct_my": "Bertaburan"
         },
         {
           "arabic": "بُعْثِرَتْ",
           "meaning": "Are turned upside down",
+          "meaning_my": "Dibongkar",
           "options": ["Are turned upside down", "Are stabilized", "Are created", "Are destroyed"],
-          "correct": "Are turned upside down"
+          "options_my": ["Dibongkar", "Distabilkan", "Dicipta", "Dimusnahkan"],
+          "correct": "Are turned upside down",
+          "correct_my": "Dibongkar"
         },
         {
           "arabic": "قَدَّمَتْ",
           "meaning": "Has sent forth",
+          "meaning_my": "Telah dikerjakan",
           "options": ["Has sent forth", "Has held back", "Has hidden", "Has forgotten"],
-          "correct": "Has sent forth"
+          "options_my": ["Telah dikerjakan", "Telah ditahan", "Telah disembunyikan", "Telah dilupakan"],
+          "correct": "Has sent forth",
+          "correct_my": "Telah dikerjakan"
         },
         {
           "arabic": "أَخَّرَتْ",
           "meaning": "Has held back",
+          "meaning_my": "Yang dilalaikannya",
           "options": ["Has held back", "Has sent forth", "Has revealed", "Has concealed"],
-          "correct": "Has held back"
+          "options_my": ["Yang dilalaikannya", "Telah dikerjakan", "Telah didedahkan", "Telah disembunyikan"],
+          "correct": "Has held back",
+          "correct_my": "Yang dilalaikannya"
         }
       ]
     },
     {
       "id": "al-mutaffifin",
       "title": "Surah Al-Mutaffifin (The Defrauders)",
+      "title_my": "Surah Al-Mutaffifin (Orang-Orang Yang Curang)",
       "description": "A surah that condemns those who give less than due measure in business transactions.",
+      "description_my": "Surah yang mengutuk mereka yang memberikan kurang daripada sukatan yang sepatutnya dalam transaksi perniagaan.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَيْلٌ لِّلْمُطَفِّفِينَ",
+          "translation": "Woe to those who give less [than due]",
+          "translation_my": "Kecelakaan bagi orang-orang yang curang",
+          "words": [
+            {
+              "arabic": "وَيْلٌ",
+              "meaning": "Woe",
+              "meaning_my": "Kecelakaan"
+            },
+            {
+              "arabic": "لِّلْمُطَفِّفِينَ",
+              "meaning": "to those who give less [than due]",
+              "meaning_my": "bagi orang-orang yang curang"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "الَّذِينَ إِذَا اكْتَالُوا عَلَى النَّاسِ يَسْتَوْفُونَ",
+          "translation": "Who, when they take a measure from people, take in full",
+          "translation_my": "(Iaitu) orang-orang yang apabila menerima sukatan dari orang lain mereka minta dipenuhi",
+          "words": [
+            {
+              "arabic": "الَّذِينَ",
+              "meaning": "Who",
+              "meaning_my": "(Iaitu) orang-orang yang"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "اكْتَالُوا",
+              "meaning": "they take a measure",
+              "meaning_my": "menerima sukatan"
+            },
+            {
+              "arabic": "عَلَى النَّاسِ",
+              "meaning": "from people",
+              "meaning_my": "dari orang lain"
+            },
+            {
+              "arabic": "يَسْتَوْفُونَ",
+              "meaning": "take in full",
+              "meaning_my": "mereka minta dipenuhi"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+          "translation": "But if they give by measure or by weight to them, they cause loss",
+          "translation_my": "Dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "But if",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "كَالُوهُمْ",
+              "meaning": "they give by measure to them",
+              "meaning_my": "mereka menakar untuk orang lain"
+            },
+            {
+              "arabic": "أَو",
+              "meaning": "or",
+              "meaning_my": "atau"
+            },
+            {
+              "arabic": "وَّزَنُوهُمْ",
+              "meaning": "by weight to them",
+              "meaning_my": "menimbang untuk orang lain"
+            },
+            {
+              "arabic": "يُخْسِرُونَ",
+              "meaning": "they cause loss",
+              "meaning_my": "mereka mengurangi"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "أَلَا يَظُنُّ أُولَٰئِكَ أَنَّهُم مَّبْعُوثُونَ",
+          "translation": "Do they not think that they will be resurrected",
+          "translation_my": "Tidakkah orang-orang itu menyangka, bahwa sesungguhnya mereka akan dibangkitkan",
+          "words": [
+            {
+              "arabic": "أَلَا",
+              "meaning": "Do they not",
+              "meaning_my": "Tidakkah"
+            },
+            {
+              "arabic": "يَظُنُّ",
+              "meaning": "think",
+              "meaning_my": "orang-orang itu menyangka"
+            },
+            {
+              "arabic": "أُولَٰئِكَ",
+              "meaning": "that they",
+              "meaning_my": "bahwa sesungguhnya mereka"
+            },
+            {
+              "arabic": "أَنَّهُم",
+              "meaning": "that they",
+              "meaning_my": "bahwa mereka"
+            },
+            {
+              "arabic": "مَّبْعُوثُونَ",
+              "meaning": "will be resurrected",
+              "meaning_my": "akan dibangkitkan"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "لِيَوْمٍ عَظِيمٍ",
+          "translation": "For a tremendous Day",
+          "translation_my": "Pada suatu hari yang besar",
+          "words": [
+            {
+              "arabic": "لِيَوْمٍ",
+              "meaning": "For a Day",
+              "meaning_my": "Pada suatu hari"
+            },
+            {
+              "arabic": "عَظِيمٍ",
+              "meaning": "tremendous",
+              "meaning_my": "yang besar"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْمُطَفِّفِينَ",
           "meaning": "The defrauders",
+          "meaning_my": "Orang-orang yang curang",
           "options": ["The defrauders", "The generous", "The truthful", "The believers"],
-          "correct": "The defrauders"
+          "options_my": ["Orang-orang yang curang", "Orang-orang yang pemurah", "Orang-orang yang jujur", "Orang-orang yang beriman"],
+          "correct": "The defrauders",
+          "correct_my": "Orang-orang yang curang"
         },
         {
           "arabic": "اكْتَالُوا",
           "meaning": "They take by measure",
+          "meaning_my": "Mereka menerima sukatan",
           "options": ["They take by measure", "They give by measure", "They sell", "They buy"],
-          "correct": "They take by measure"
+          "options_my": ["Mereka menerima sukatan", "Mereka memberi sukatan", "Mereka menjual", "Mereka membeli"],
+          "correct": "They take by measure",
+          "correct_my": "Mereka menerima sukatan"
         },
         {
           "arabic": "يَسْتَوْفُونَ",
           "meaning": "They demand in full",
+          "meaning_my": "Mereka minta dipenuhi",
           "options": ["They demand in full", "They give in full", "They reduce", "They increase"],
-          "correct": "They demand in full"
+          "options_my": ["Mereka minta dipenuhi", "Mereka memberi dengan penuh", "Mereka mengurangkan", "Mereka menambahkan"],
+          "correct": "They demand in full",
+          "correct_my": "Mereka minta dipenuhi"
         },
         {
           "arabic": "كَالُوهُمْ",
           "meaning": "They give by measure",
+          "meaning_my": "Mereka menakar untuk orang lain",
           "options": ["They give by measure", "They take by measure", "They count", "They weigh"],
-          "correct": "They give by measure"
+          "options_my": ["Mereka menakar untuk orang lain", "Mereka menerima sukatan", "Mereka menghitung", "Mereka menimbang"],
+          "correct": "They give by measure",
+          "correct_my": "Mereka menakar untuk orang lain"
         },
         {
           "arabic": "يُخْسِرُونَ",
           "meaning": "They give less",
+          "meaning_my": "Mereka mengurangi",
           "options": ["They give less", "They give more", "They give equally", "They give nothing"],
-          "correct": "They give less"
+          "options_my": ["Mereka mengurangi", "Mereka menambah", "Mereka memberi sama rata", "Mereka tidak memberi apa-apa"],
+          "correct": "They give less",
+          "correct_my": "Mereka mengurangi"
         }
       ]
     },
