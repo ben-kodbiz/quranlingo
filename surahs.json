@@ -4211,185 +4211,839 @@
     {
       "id": "al-qariah",
       "title": "Surah Al-Qari'ah (The Striking Calamity)",
+      "title_my": "Surah Al-Qari'ah (Hari Kiamat)",
       "description": "A Meccan surah that describes the Day of Judgment as a striking calamity.",
+      "description_my": "Surah Mekah yang menggambarkan Hari Kiamat sebagai malapetaka yang menggemparkan.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "الْقَارِعَةُ",
+          "translation": "The Striking Calamity",
+          "translation_my": "Hari Kiamat",
+          "words": [
+            {
+              "arabic": "الْقَارِعَةُ",
+              "meaning": "The Striking Calamity",
+              "meaning_my": "Hari Kiamat"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "مَا الْقَارِعَةُ",
+          "translation": "What is the Striking Calamity?",
+          "translation_my": "Apakah Hari Kiamat itu?",
+          "words": [
+            {
+              "arabic": "مَا",
+              "meaning": "What",
+              "meaning_my": "Apakah"
+            },
+            {
+              "arabic": "الْقَارِعَةُ",
+              "meaning": "is the Striking Calamity",
+              "meaning_my": "Hari Kiamat itu"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ",
+          "translation": "And what can make you know what is the Striking Calamity?",
+          "translation_my": "Dan tahukah kamu apakah Hari Kiamat itu?",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "meaning": "And what",
+              "meaning_my": "Dan"
+            },
+            {
+              "arabic": "أَدْرَاكَ",
+              "meaning": "can make you know",
+              "meaning_my": "tahukah kamu"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "what",
+              "meaning_my": "apakah"
+            },
+            {
+              "arabic": "الْقَارِعَةُ",
+              "meaning": "is the Striking Calamity",
+              "meaning_my": "Hari Kiamat itu"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
+          "translation": "It is the Day when people will be like moths, dispersed",
+          "translation_my": "Pada hari itu manusia seperti anai-anai yang bertebaran",
+          "words": [
+            {
+              "arabic": "يَوْمَ",
+              "meaning": "It is the Day",
+              "meaning_my": "Pada hari itu"
+            },
+            {
+              "arabic": "يَكُونُ النَّاسُ",
+              "meaning": "when people will be",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "كَالْفَرَاشِ",
+              "meaning": "like moths",
+              "meaning_my": "seperti anai-anai"
+            },
+            {
+              "arabic": "الْمَبْثُوثِ",
+              "meaning": "dispersed",
+              "meaning_my": "yang bertebaran"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنفُوشِ",
+          "translation": "And the mountains will be like wool, fluffed up",
+          "translation_my": "Dan gunung-ganang menjadi seperti bulu yang dihambur-hamburkan",
+          "words": [
+            {
+              "arabic": "وَتَكُونُ",
+              "meaning": "And will be",
+              "meaning_my": "Dan menjadi"
+            },
+            {
+              "arabic": "الْجِبَالُ",
+              "meaning": "the mountains",
+              "meaning_my": "gunung-ganang"
+            },
+            {
+              "arabic": "كَالْعِهْنِ",
+              "meaning": "like wool",
+              "meaning_my": "seperti bulu"
+            },
+            {
+              "arabic": "الْمَنفُوشِ",
+              "meaning": "fluffed up",
+              "meaning_my": "yang dihambur-hamburkan"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْقَارِعَةُ",
           "meaning": "The striking calamity",
+          "meaning_my": "Hari Kiamat",
           "options": ["The striking calamity", "The gentle breeze", "The heavy rain", "The bright light"],
-          "correct": "The striking calamity"
+          "options_my": ["Hari Kiamat", "Angin sepoi-sepoi", "Hujan lebat", "Cahaya terang"],
+          "correct": "The striking calamity",
+          "correct_my": "Hari Kiamat"
         },
         {
           "arabic": "الْفَرَاشِ",
           "meaning": "Moths",
+          "meaning_my": "Anai-anai",
           "options": ["Moths", "Bees", "Flies", "Ants"],
-          "correct": "Moths"
+          "options_my": ["Anai-anai", "Lebah", "Lalat", "Semut"],
+          "correct": "Moths",
+          "correct_my": "Anai-anai"
         },
         {
           "arabic": "الْمَبْثُوثِ",
           "meaning": "Scattered",
+          "meaning_my": "Yang bertebaran",
           "options": ["Scattered", "Gathered", "Organized", "Aligned"],
-          "correct": "Scattered"
+          "options_my": ["Yang bertebaran", "Yang berkumpul", "Yang tersusun", "Yang sejajar"],
+          "correct": "Scattered",
+          "correct_my": "Yang bertebaran"
         },
         {
           "arabic": "الْعِهْنِ",
           "meaning": "Wool",
+          "meaning_my": "Bulu",
           "options": ["Wool", "Cotton", "Silk", "Linen"],
-          "correct": "Wool"
+          "options_my": ["Bulu", "Kapas", "Sutera", "Linen"],
+          "correct": "Wool",
+          "correct_my": "Bulu"
         },
         {
           "arabic": "الْمَنفُوشِ",
           "meaning": "Fluffed up",
+          "meaning_my": "Yang dihambur-hamburkan",
           "options": ["Fluffed up", "Compressed", "Wet", "Burned"],
-          "correct": "Fluffed up"
+          "options_my": ["Yang dihambur-hamburkan", "Yang dipadatkan", "Yang basah", "Yang terbakar"],
+          "correct": "Fluffed up",
+          "correct_my": "Yang dihambur-hamburkan"
         }
       ]
     },
     {
       "id": "at-takathur",
       "title": "Surah At-Takathur (Competition in Increase)",
+      "title_my": "Surah At-Takathur (Bermegah-Megah)",
       "description": "A Meccan surah that warns against excessive competition for worldly gains.",
+      "description_my": "Surah Mekah yang memberi amaran terhadap persaingan berlebihan untuk keuntungan duniawi.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "أَلْهَاكُمُ التَّكَاثُرُ",
+          "translation": "Competition in [worldly] increase diverts you",
+          "translation_my": "Bermegah-megah telah melalaikan kamu",
+          "words": [
+            {
+              "arabic": "أَلْهَاكُمُ",
+              "meaning": "Diverts you",
+              "meaning_my": "Telah melalaikan kamu"
+            },
+            {
+              "arabic": "التَّكَاثُرُ",
+              "meaning": "Competition in [worldly] increase",
+              "meaning_my": "Bermegah-megah"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ",
+          "translation": "Until you visit the graveyards",
+          "translation_my": "Sampai kamu masuk ke dalam kubur",
+          "words": [
+            {
+              "arabic": "حَتَّىٰ",
+              "meaning": "Until",
+              "meaning_my": "Sampai"
+            },
+            {
+              "arabic": "زُرْتُمُ",
+              "meaning": "you visit",
+              "meaning_my": "kamu masuk"
+            },
+            {
+              "arabic": "الْمَقَابِرَ",
+              "meaning": "the graveyards",
+              "meaning_my": "ke dalam kubur"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "كَلَّا سَوْفَ تَعْلَمُونَ",
+          "translation": "No! You are going to know",
+          "translation_my": "Janganlah begitu, kelak kamu akan mengetahui (akibat perbuatanmu itu)",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "meaning": "No!",
+              "meaning_my": "Janganlah begitu"
+            },
+            {
+              "arabic": "سَوْفَ",
+              "meaning": "You are going to",
+              "meaning_my": "kelak kamu akan"
+            },
+            {
+              "arabic": "تَعْلَمُونَ",
+              "meaning": "know",
+              "meaning_my": "mengetahui (akibat perbuatanmu itu)"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+          "translation": "Then, no! You are going to know",
+          "translation_my": "Sekali lagi janganlah begitu, kelak kamu akan mengetahui",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "meaning": "Then",
+              "meaning_my": "Sekali lagi"
+            },
+            {
+              "arabic": "كَلَّا",
+              "meaning": "no!",
+              "meaning_my": "janganlah begitu"
+            },
+            {
+              "arabic": "سَوْفَ تَعْلَمُونَ",
+              "meaning": "You are going to know",
+              "meaning_my": "kelak kamu akan mengetahui"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
+          "translation": "No! If you only knew with knowledge of certainty",
+          "translation_my": "Janganlah begitu, jika kamu mengetahui dengan pengetahuan yang yakin",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "meaning": "No!",
+              "meaning_my": "Janganlah begitu"
+            },
+            {
+              "arabic": "لَوْ",
+              "meaning": "If",
+              "meaning_my": "jika"
+            },
+            {
+              "arabic": "تَعْلَمُونَ",
+              "meaning": "you only knew",
+              "meaning_my": "kamu mengetahui"
+            },
+            {
+              "arabic": "عِلْمَ الْيَقِينِ",
+              "meaning": "with knowledge of certainty",
+              "meaning_my": "dengan pengetahuan yang yakin"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "التَّكَاثُرُ",
           "meaning": "Competition in increase",
+          "meaning_my": "Bermegah-megah",
           "options": ["Competition in increase", "Cooperation in sharing", "Moderation in spending", "Abstention from wealth"],
-          "correct": "Competition in increase"
+          "options_my": ["Bermegah-megah", "Kerjasama dalam berkongsi", "Kesederhanaan dalam berbelanja", "Menjauhkan diri dari kekayaan"],
+          "correct": "Competition in increase",
+          "correct_my": "Bermegah-megah"
         },
         {
           "arabic": "زُرْتُمُ",
           "meaning": "You visit",
+          "meaning_my": "Kamu masuk",
           "options": ["You visit", "You leave", "You build", "You destroy"],
-          "correct": "You visit"
+          "options_my": ["Kamu masuk", "Kamu tinggalkan", "Kamu bina", "Kamu musnahkan"],
+          "correct": "You visit",
+          "correct_my": "Kamu masuk"
         },
         {
           "arabic": "الْمَقَابِرَ",
           "meaning": "The graves",
+          "meaning_my": "Kubur",
           "options": ["The graves", "The houses", "The palaces", "The gardens"],
-          "correct": "The graves"
+          "options_my": ["Kubur", "Rumah-rumah", "Istana-istana", "Taman-taman"],
+          "correct": "The graves",
+          "correct_my": "Kubur"
         },
         {
           "arabic": "عِلْمَ",
           "meaning": "Knowledge",
+          "meaning_my": "Pengetahuan",
           "options": ["Knowledge", "Ignorance", "Doubt", "Certainty"],
-          "correct": "Knowledge"
+          "options_my": ["Pengetahuan", "Kejahilan", "Keraguan", "Keyakinan"],
+          "correct": "Knowledge",
+          "correct_my": "Pengetahuan"
         },
         {
           "arabic": "الْيَقِينِ",
           "meaning": "Certainty",
+          "meaning_my": "Keyakinan",
           "options": ["Certainty", "Doubt", "Ignorance", "Knowledge"],
-          "correct": "Certainty"
+          "options_my": ["Keyakinan", "Keraguan", "Kejahilan", "Pengetahuan"],
+          "correct": "Certainty",
+          "correct_my": "Keyakinan"
         }
       ]
     },
     {
       "id": "al-asr",
       "title": "Surah Al-'Asr (Time)",
+      "title_my": "Surah Al-'Asr (Masa)",
       "description": "A Meccan surah that emphasizes the importance of time and outlines the path to salvation.",
+      "description_my": "Surah Mekah yang menekankan kepentingan masa dan menggariskan jalan menuju keselamatan.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالْعَصْرِ",
+          "translation": "By time",
+          "translation_my": "Demi masa",
+          "words": [
+            {
+              "arabic": "وَالْعَصْرِ",
+              "meaning": "By time",
+              "meaning_my": "Demi masa"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+          "translation": "Indeed, mankind is in loss",
+          "translation_my": "Sesungguhnya manusia itu benar-benar dalam kerugian",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "meaning": "Indeed",
+              "meaning_my": "Sesungguhnya"
+            },
+            {
+              "arabic": "الْإِنسَانَ",
+              "meaning": "mankind",
+              "meaning_my": "manusia itu"
+            },
+            {
+              "arabic": "لَفِي",
+              "meaning": "is in",
+              "meaning_my": "benar-benar dalam"
+            },
+            {
+              "arabic": "خُسْرٍ",
+              "meaning": "loss",
+              "meaning_my": "kerugian"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+          "translation": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience",
+          "translation_my": "Kecuali orang-orang yang beriman dan mengerjakan amal soleh dan nasihat menasihati supaya mentaati kebenaran dan nasihat menasihati supaya menetapi kesabaran",
+          "words": [
+            {
+              "arabic": "إِلَّا",
+              "meaning": "Except",
+              "meaning_my": "Kecuali"
+            },
+            {
+              "arabic": "الَّذِينَ آمَنُوا",
+              "meaning": "those who have believed",
+              "meaning_my": "orang-orang yang beriman"
+            },
+            {
+              "arabic": "وَعَمِلُوا الصَّالِحَاتِ",
+              "meaning": "and done righteous deeds",
+              "meaning_my": "dan mengerjakan amal soleh"
+            },
+            {
+              "arabic": "وَتَوَاصَوْا بِالْحَقِّ",
+              "meaning": "and advised each other to truth",
+              "meaning_my": "dan nasihat menasihati supaya mentaati kebenaran"
+            },
+            {
+              "arabic": "وَتَوَاصَوْا بِالصَّبْرِ",
+              "meaning": "and advised each other to patience",
+              "meaning_my": "dan nasihat menasihati supaya menetapi kesabaran"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْعَصْرِ",
           "meaning": "Time",
+          "meaning_my": "Masa",
           "options": ["Time", "Space", "Matter", "Energy"],
-          "correct": "Time"
+          "options_my": ["Masa", "Ruang", "Benda", "Tenaga"],
+          "correct": "Time",
+          "correct_my": "Masa"
         },
         {
           "arabic": "خُسْرٍ",
           "meaning": "Loss",
+          "meaning_my": "Kerugian",
           "options": ["Loss", "Gain", "Profit", "Wealth"],
-          "correct": "Loss"
+          "options_my": ["Kerugian", "Keuntungan", "Laba", "Kekayaan"],
+          "correct": "Loss",
+          "correct_my": "Kerugian"
         },
         {
           "arabic": "الصَّالِحَاتِ",
           "meaning": "Righteous deeds",
+          "meaning_my": "Amal soleh",
           "options": ["Righteous deeds", "Evil actions", "Neutral behaviors", "Idle talk"],
-          "correct": "Righteous deeds"
+          "options_my": ["Amal soleh", "Perbuatan jahat", "Tingkah laku neutral", "Percakapan kosong"],
+          "correct": "Righteous deeds",
+          "correct_my": "Amal soleh"
         },
         {
           "arabic": "بِالْحَقِّ",
           "meaning": "To the truth",
+          "meaning_my": "Kepada kebenaran",
           "options": ["To the truth", "To falsehood", "To doubt", "To uncertainty"],
-          "correct": "To the truth"
+          "options_my": ["Kepada kebenaran", "Kepada kebatilan", "Kepada keraguan", "Kepada ketidakpastian"],
+          "correct": "To the truth",
+          "correct_my": "Kepada kebenaran"
         },
         {
           "arabic": "بِالصَّبْرِ",
           "meaning": "To patience",
+          "meaning_my": "Kepada kesabaran",
           "options": ["To patience", "To haste", "To anger", "To fear"],
-          "correct": "To patience"
+          "options_my": ["Kepada kesabaran", "Kepada ketergesa-gesaan", "Kepada kemarahan", "Kepada ketakutan"],
+          "correct": "To patience",
+          "correct_my": "Kepada kesabaran"
         }
       ]
     },
     {
       "id": "al-humazah",
       "title": "Surah Al-Humazah (The Slanderer)",
+      "title_my": "Surah Al-Humazah (Pengumpat)",
       "description": "A Meccan surah that condemns those who slander others and amass wealth without spending in charity.",
+      "description_my": "Surah Mekah yang mengutuk mereka yang memfitnah orang lain dan mengumpul kekayaan tanpa membelanjakan untuk kebajikan.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+          "translation": "Woe to every scorner and mocker",
+          "translation_my": "Kecelakaan bagi setiap pengumpat lagi pencela",
+          "words": [
+            {
+              "arabic": "وَيْلٌ",
+              "meaning": "Woe",
+              "meaning_my": "Kecelakaan"
+            },
+            {
+              "arabic": "لِّكُلِّ",
+              "meaning": "to every",
+              "meaning_my": "bagi setiap"
+            },
+            {
+              "arabic": "هُمَزَةٍ",
+              "meaning": "scorner",
+              "meaning_my": "pengumpat"
+            },
+            {
+              "arabic": "لُّمَزَةٍ",
+              "meaning": "and mocker",
+              "meaning_my": "lagi pencela"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ",
+          "translation": "Who collects wealth and [continuously] counts it",
+          "translation_my": "Yang mengumpulkan harta dan menghitung-hitungnya",
+          "words": [
+            {
+              "arabic": "الَّذِي",
+              "meaning": "Who",
+              "meaning_my": "Yang"
+            },
+            {
+              "arabic": "جَمَعَ",
+              "meaning": "collects",
+              "meaning_my": "mengumpulkan"
+            },
+            {
+              "arabic": "مَالًا",
+              "meaning": "wealth",
+              "meaning_my": "harta"
+            },
+            {
+              "arabic": "وَعَدَّدَهُ",
+              "meaning": "and [continuously] counts it",
+              "meaning_my": "dan menghitung-hitungnya"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ",
+          "translation": "He thinks that his wealth will make him immortal",
+          "translation_my": "Dia menyangka bahawa hartanya itu dapat mengekalkannya",
+          "words": [
+            {
+              "arabic": "يَحْسَبُ",
+              "meaning": "He thinks",
+              "meaning_my": "Dia menyangka"
+            },
+            {
+              "arabic": "أَنَّ مَالَهُ",
+              "meaning": "that his wealth",
+              "meaning_my": "bahawa hartanya itu"
+            },
+            {
+              "arabic": "أَخْلَدَهُ",
+              "meaning": "will make him immortal",
+              "meaning_my": "dapat mengekalkannya"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "كَلَّا ۚ لَيُنبَذَنَّ فِي الْحُطَمَةِ",
+          "translation": "No! He will surely be thrown into the Crusher",
+          "translation_my": "Sekali-kali tidak! Sesungguhnya dia benar-benar akan dilemparkan ke dalam Hutamah",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "meaning": "No!",
+              "meaning_my": "Sekali-kali tidak!"
+            },
+            {
+              "arabic": "لَيُنبَذَنَّ",
+              "meaning": "He will surely be thrown",
+              "meaning_my": "Sesungguhnya dia benar-benar akan dilemparkan"
+            },
+            {
+              "arabic": "فِي الْحُطَمَةِ",
+              "meaning": "into the Crusher",
+              "meaning_my": "ke dalam Hutamah"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَمَا أَدْرَاكَ مَا الْحُطَمَةُ",
+          "translation": "And what can make you know what is the Crusher?",
+          "translation_my": "Dan tahukah kamu apakah Hutamah itu?",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "meaning": "And what",
+              "meaning_my": "Dan"
+            },
+            {
+              "arabic": "أَدْرَاكَ",
+              "meaning": "can make you know",
+              "meaning_my": "tahukah kamu"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "what",
+              "meaning_my": "apakah"
+            },
+            {
+              "arabic": "الْحُطَمَةُ",
+              "meaning": "is the Crusher",
+              "meaning_my": "Hutamah itu"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "هُمَزَةٍ",
           "meaning": "Slanderer",
+          "meaning_my": "Pengumpat",
           "options": ["Slanderer", "Praiser", "Helper", "Friend"],
-          "correct": "Slanderer"
+          "options_my": ["Pengumpat", "Pemuji", "Penolong", "Kawan"],
+          "correct": "Slanderer",
+          "correct_my": "Pengumpat"
         },
         {
           "arabic": "لُمَزَةٍ",
           "meaning": "Backbiter",
+          "meaning_my": "Pencela",
           "options": ["Backbiter", "Supporter", "Defender", "Protector"],
-          "correct": "Backbiter"
+          "options_my": ["Pencela", "Penyokong", "Pembela", "Pelindung"],
+          "correct": "Backbiter",
+          "correct_my": "Pencela"
         },
         {
           "arabic": "عَدَّدَهُ",
           "meaning": "Counts it",
+          "meaning_my": "Menghitung-hitungnya",
           "options": ["Counts it", "Spends it", "Gives it away", "Hides it"],
-          "correct": "Counts it"
+          "options_my": ["Menghitung-hitungnya", "Membelanjakannya", "Mendermakannya", "Menyembunyikannya"],
+          "correct": "Counts it",
+          "correct_my": "Menghitung-hitungnya"
         },
         {
           "arabic": "الْحُطَمَةِ",
           "meaning": "The Crusher",
+          "meaning_my": "Hutamah",
           "options": ["The Crusher", "The Gentle", "The Kind", "The Merciful"],
-          "correct": "The Crusher"
+          "options_my": ["Hutamah", "Yang Lembut", "Yang Baik", "Yang Pengasih"],
+          "correct": "The Crusher",
+          "correct_my": "Hutamah"
         },
         {
           "arabic": "مُوْصَدَةٌ",
           "meaning": "Closed in",
+          "meaning_my": "Tertutup rapat",
           "options": ["Closed in", "Open", "Spacious", "Vast"],
-          "correct": "Closed in"
+          "options_my": ["Tertutup rapat", "Terbuka", "Luas", "Lapang"],
+          "correct": "Closed in",
+          "correct_my": "Tertutup rapat"
         }
       ]
     },
     {
       "id": "al-fil",
       "title": "Surah Al-Fil (The Elephant)",
+      "title_my": "Surah Al-Fil (Gajah)",
       "description": "A Meccan surah that recounts the story of the Army of the Elephant that attempted to destroy the Kaaba.",
+      "description_my": "Surah Mekah yang menceritakan kisah Tentera Bergajah yang cuba menghancurkan Kaabah.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+          "translation": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?",
+          "translation_my": "Apakah kamu tidak memperhatikan bagaimana Tuhanmu telah bertindak terhadap tentara bergajah?",
+          "words": [
+            {
+              "arabic": "أَلَمْ تَرَ",
+              "meaning": "Have you not considered",
+              "meaning_my": "Apakah kamu tidak memperhatikan"
+            },
+            {
+              "arabic": "كَيْفَ فَعَلَ",
+              "meaning": "how dealt",
+              "meaning_my": "bagaimana telah bertindak"
+            },
+            {
+              "arabic": "رَبُّكَ",
+              "meaning": "your Lord",
+              "meaning_my": "Tuhanmu"
+            },
+            {
+              "arabic": "بِأَصْحَابِ الْفِيلِ",
+              "meaning": "with the companions of the elephant",
+              "meaning_my": "terhadap tentara bergajah"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+          "translation": "Did He not make their plan into misguidance?",
+          "translation_my": "Bukankah Dia telah menjadikan tipu daya mereka (untuk menghancurkan Kaabah) itu sia-sia?",
+          "words": [
+            {
+              "arabic": "أَلَمْ يَجْعَلْ",
+              "meaning": "Did He not make",
+              "meaning_my": "Bukankah Dia telah menjadikan"
+            },
+            {
+              "arabic": "كَيْدَهُمْ",
+              "meaning": "their plan",
+              "meaning_my": "tipu daya mereka (untuk menghancurkan Kaabah) itu"
+            },
+            {
+              "arabic": "فِي تَضْلِيلٍ",
+              "meaning": "into misguidance",
+              "meaning_my": "sia-sia"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+          "translation": "And He sent against them birds in flocks",
+          "translation_my": "Dan Dia mengirimkan kepada mereka burung yang berbondong-bondong",
+          "words": [
+            {
+              "arabic": "وَأَرْسَلَ",
+              "meaning": "And He sent",
+              "meaning_my": "Dan Dia mengirimkan"
+            },
+            {
+              "arabic": "عَلَيْهِمْ",
+              "meaning": "against them",
+              "meaning_my": "kepada mereka"
+            },
+            {
+              "arabic": "طَيْرًا",
+              "meaning": "birds",
+              "meaning_my": "burung"
+            },
+            {
+              "arabic": "أَبَابِيلَ",
+              "meaning": "in flocks",
+              "meaning_my": "yang berbondong-bondong"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+          "translation": "Striking them with stones of hard clay",
+          "translation_my": "Yang melempari mereka dengan batu (berasal) dari tanah yang terbakar",
+          "words": [
+            {
+              "arabic": "تَرْمِيهِم",
+              "meaning": "Striking them",
+              "meaning_my": "Yang melempari mereka"
+            },
+            {
+              "arabic": "بِحِجَارَةٍ",
+              "meaning": "with stones",
+              "meaning_my": "dengan batu"
+            },
+            {
+              "arabic": "مِّن سِجِّيلٍ",
+              "meaning": "of hard clay",
+              "meaning_my": "(berasal) dari tanah yang terbakar"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ",
+          "translation": "And He made them like eaten straw",
+          "translation_my": "Lalu Dia menjadikan mereka seperti daun-daun yang dimakan (ulat)",
+          "words": [
+            {
+              "arabic": "فَجَعَلَهُمْ",
+              "meaning": "And He made them",
+              "meaning_my": "Lalu Dia menjadikan mereka"
+            },
+            {
+              "arabic": "كَعَصْفٍ",
+              "meaning": "like straw",
+              "meaning_my": "seperti daun-daun"
+            },
+            {
+              "arabic": "مَّأْكُولٍ",
+              "meaning": "eaten",
+              "meaning_my": "yang dimakan (ulat)"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْفِيلِ",
           "meaning": "The elephant",
+          "meaning_my": "Gajah",
           "options": ["The elephant", "The camel", "The horse", "The lion"],
-          "correct": "The elephant"
+          "options_my": ["Gajah", "Unta", "Kuda", "Singa"],
+          "correct": "The elephant",
+          "correct_my": "Gajah"
         },
         {
           "arabic": "كَيْدَهُمْ",
           "meaning": "Their plan",
+          "meaning_my": "Tipu daya mereka",
           "options": ["Their plan", "Their wealth", "Their army", "Their power"],
-          "correct": "Their plan"
+          "options_my": ["Tipu daya mereka", "Kekayaan mereka", "Tentera mereka", "Kekuatan mereka"],
+          "correct": "Their plan",
+          "correct_my": "Tipu daya mereka"
         },
         {
           "arabic": "تَضْلِيلٍ",
           "meaning": "Astray",
+          "meaning_my": "Sia-sia",
           "options": ["Astray", "Guided", "Successful", "Victorious"],
-          "correct": "Astray"
+          "options_my": ["Sia-sia", "Terpimpin", "Berjaya", "Menang"],
+          "correct": "Astray",
+          "correct_my": "Sia-sia"
         },
         {
           "arabic": "أَبَابِيلَ",
           "meaning": "Flocks",
+          "meaning_my": "Berbondong-bondong",
           "options": ["Flocks", "Individuals", "Pairs", "Groups"],
-          "correct": "Flocks"
+          "options_my": ["Berbondong-bondong", "Individu", "Berpasangan", "Berkumpulan"],
+          "correct": "Flocks",
+          "correct_my": "Berbondong-bondong"
         },
         {
           "arabic": "سِجِّيلٍ",
           "meaning": "Baked clay",
+          "meaning_my": "Tanah yang terbakar",
           "options": ["Baked clay", "Pure gold", "Hard stone", "Sharp iron"],
-          "correct": "Baked clay"
+          "options_my": ["Tanah yang terbakar", "Emas tulen", "Batu keras", "Besi tajam"],
+          "correct": "Baked clay",
+          "correct_my": "Tanah yang terbakar"
         }
       ]
     },
