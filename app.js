@@ -154,13 +154,13 @@ createApp({
         },
 
         totalQuestions() {
-            return this.lessons.reduce((total, lesson) => total + lesson.questions.length, 0);
+            return this.lessons.reduce((total, lesson) => total + this.getTotalVocabularyCount(lesson), 0);
         },
 
         completedQuestions() {
             let completed = 0;
             for (let i = 0; i < this.currentLessonIndex; i++) {
-                completed += this.lessons[i].questions.length;
+                completed += this.getTotalVocabularyCount(this.lessons[i]);
             }
             completed += this.currentQuestionIndex;
             return completed;
@@ -168,6 +168,27 @@ createApp({
     },
 
     methods: {
+        // Calculate total vocabulary count for a lesson, including words from ayahs and questions
+        getTotalVocabularyCount(lesson) {
+            let count = 0;
+
+            // Count words from ayahs
+            if (lesson.ayahs && lesson.ayahs.length > 0) {
+                lesson.ayahs.forEach(ayah => {
+                    if (ayah.words && ayah.words.length > 0) {
+                        count += ayah.words.length;
+                    }
+                });
+            }
+
+            // If no ayahs or no words in ayahs, use questions count
+            if (count === 0 && lesson.questions) {
+                count = lesson.questions.length;
+            }
+
+            return count;
+        },
+
         // Format Arabic word to highlight specific parts if needed
         formatArabicWord(word) {
             // This is a placeholder for more advanced formatting

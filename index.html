@@ -90,7 +90,7 @@
                     >
                         <h3>{{ language === 'en' ? lesson.title : (lesson.title_my || lesson.title) }}</h3>
                         <p v-if="lesson.description" class="surah-description">{{ language === 'en' ? lesson.description : (lesson.description_my || lesson.description) }}</p>
-                        <p>{{ lesson.questions.length }} {{ language === 'en' ? 'vocabulary items' : 'kosa kata' }}</p>
+                        <p>{{ getTotalVocabularyCount(lesson) }} {{ language === 'en' ? 'vocabulary items' : 'kosa kata' }}</p>
                     </div>
                 </div>
             </div>
