@@ -1,0 +1,1689 @@
+{
+  "surahs": [
+    {
+      "id": "al-ikhlas",
+      "title": "Surah Al-Ikhlas (The Sincerity)",
+      "description": "A Meccan surah that emphasizes the oneness of Allah.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "translation": "Say, \"He is Allah, [who is] One\"",
+          "words": [
+            {
+              "arabic": "قُلْ",
+              "meaning": "Say"
+            },
+            {
+              "arabic": "هُوَ",
+              "meaning": "He"
+            },
+            {
+              "arabic": "اللَّهُ",
+              "meaning": "Allah"
+            },
+            {
+              "arabic": "أَحَدٌ",
+              "meaning": "One"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "اللَّهُ الصَّمَدُ",
+          "translation": "Allah, the Eternal Refuge",
+          "words": [
+            {
+              "arabic": "اللَّهُ",
+              "meaning": "Allah"
+            },
+            {
+              "arabic": "الصَّمَدُ",
+              "meaning": "the Eternal Refuge"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "translation": "He neither begets nor is born",
+          "words": [
+            {
+              "arabic": "لَمْ",
+              "meaning": "not"
+            },
+            {
+              "arabic": "يَلِدْ",
+              "meaning": "he begets"
+            },
+            {
+              "arabic": "وَ",
+              "meaning": "and"
+            },
+            {
+              "arabic": "لَمْ",
+              "meaning": "not"
+            },
+            {
+              "arabic": "يُولَدْ",
+              "meaning": "is born"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+          "translation": "Nor is there to Him any equivalent",
+          "words": [
+            {
+              "arabic": "وَ",
+              "meaning": "and"
+            },
+            {
+              "arabic": "لَمْ",
+              "meaning": "not"
+            },
+            {
+              "arabic": "يَكُن",
+              "meaning": "is"
+            },
+            {
+              "arabic": "لَّهُ",
+              "meaning": "for Him"
+            },
+            {
+              "arabic": "كُفُوًا",
+              "meaning": "equivalent"
+            },
+            {
+              "arabic": "أَحَدٌ",
+              "meaning": "anyone"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "arabic": "قُلْ",
+          "meaning": "Say",
+          "options": ["Say", "Speak", "Tell", "Recite"],
+          "correct": "Say"
+        },
+        {
+          "arabic": "هُوَ",
+          "meaning": "He",
+          "options": ["He", "She", "It", "They"],
+          "correct": "He"
+        },
+        {
+          "arabic": "اللَّهُ",
+          "meaning": "Allah",
+          "options": ["Allah", "God", "Lord", "Creator"],
+          "correct": "Allah"
+        },
+        {
+          "arabic": "أَحَدٌ",
+          "meaning": "One",
+          "options": ["One", "Two", "Many", "None"],
+          "correct": "One"
+        },
+        {
+          "arabic": "الصَّمَدُ",
+          "meaning": "the Eternal Refuge",
+          "options": ["the Eternal Refuge", "the Creator", "the Provider", "the Merciful"],
+          "correct": "the Eternal Refuge"
+        },
+        {
+          "arabic": "لَمْ",
+          "meaning": "not",
+          "options": ["not", "yes", "maybe", "never"],
+          "correct": "not"
+        },
+        {
+          "arabic": "يَلِدْ",
+          "meaning": "he begets",
+          "options": ["he begets", "he creates", "he provides", "he guides"],
+          "correct": "he begets"
+        }
+      ]
+    },
+    {
+      "id": "an-naba",
+      "title": "Surah An-Naba (The Great News)",
+      "description": "A Meccan surah that discusses the Day of Judgment and the fate of the righteous and the wicked.",
+      "questions": [
+        {
+          "arabic": "الّ",
+          "meaning": "The Great News",
+          "options": ["The Great News", "The Message", "The Warning", "The Announcement"],
+          "correct": "The Great News"
+        },
+        {
+          "arabic": "يَتَسَاءَلُونَ",
+          "meaning": "They ask one another",
+          "options": ["They ask one another", "They dispute", "They wonder", "They discuss"],
+          "correct": "They ask one another"
+        },
+        {
+          "arabic": "الْعَظِيمِ",
+          "meaning": "Great",
+          "options": ["Great", "Small", "Hidden", "Distant"],
+          "correct": "Great"
+        },
+        {
+          "arabic": "مِهَادًا",
+          "meaning": "A bed",
+          "options": ["A bed", "A mountain", "A river", "A desert"],
+          "correct": "A bed"
+        },
+        {
+          "arabic": "أَوْتَادًا",
+          "meaning": "Pegs",
+          "options": ["Pegs", "Paths", "Signs", "Lights"],
+          "correct": "Pegs"
+        },
+        {
+          "arabic": "سُبَاتًا",
+          "meaning": "Rest",
+          "options": ["Rest", "Work", "Play", "Travel"],
+          "correct": "Rest"
+        },
+        {
+          "arabic": "مَعَاشًا",
+          "meaning": "Livelihood",
+          "options": ["Livelihood", "Punishment", "Reward", "Test"],
+          "correct": "Livelihood"
+        }
+      ]
+    },
+    {
+      "id": "an-naziat",
+      "title": "Surah An-Nazi'at (Those Who Pull Out)",
+      "description": "A Meccan surah that begins with oaths and discusses resurrection and the story of Moses and Pharaoh.",
+      "questions": [
+        {
+          "arabic": "النَّازِعَاتِ",
+          "meaning": "Those who pull out",
+          "options": ["Those who pull out", "Those who descend", "Those who rise", "Those who travel"],
+          "correct": "Those who pull out"
+        },
+        {
+          "arabic": "غَرْقًا",
+          "meaning": "Violently",
+          "options": ["Violently", "Gently", "Quickly", "Slowly"],
+          "correct": "Violently"
+        },
+        {
+          "arabic": "النَّاشِطَاتِ",
+          "meaning": "Those who release",
+          "options": ["Those who release", "Those who bind", "Those who create", "Those who destroy"],
+          "correct": "Those who release"
+        },
+        {
+          "arabic": "السَّابِحَاتِ",
+          "meaning": "Those who glide",
+          "options": ["Those who glide", "Those who stand", "Those who fall", "Those who hide"],
+          "correct": "Those who glide"
+        },
+        {
+          "arabic": "السَّابِقَاتِ",
+          "meaning": "Those who race ahead",
+          "options": ["Those who race ahead", "Those who lag behind", "Those who stay still", "Those who turn away"],
+          "correct": "Those who race ahead"
+        },
+        {
+          "arabic": "الرَّاجِفَةُ",
+          "meaning": "The quaking",
+          "options": ["The quaking", "The stillness", "The darkness", "The light"],
+          "correct": "The quaking"
+        }
+      ]
+    },
+    {
+      "id": "abasa",
+      "title": "Surah 'Abasa (He Frowned)",
+      "description": "A Meccan surah that begins with a gentle admonition to the Prophet and discusses the equality of all believers.",
+      "questions": [
+        {
+          "arabic": "عَبَسَ",
+          "meaning": "He frowned",
+          "options": ["He frowned", "He smiled", "He laughed", "He cried"],
+          "correct": "He frowned"
+        },
+        {
+          "arabic": "تَوَلَّىٰ",
+          "meaning": "He turned away",
+          "options": ["He turned away", "He approached", "He welcomed", "He embraced"],
+          "correct": "He turned away"
+        },
+        {
+          "arabic": "الْأَعْمَىٰ",
+          "meaning": "The blind man",
+          "options": ["The blind man", "The seeing man", "The rich man", "The poor man"],
+          "correct": "The blind man"
+        },
+        {
+          "arabic": "يَزَّكَّىٰ",
+          "meaning": "Purify himself",
+          "options": ["Purify himself", "Harm himself", "Enrich himself", "Praise himself"],
+          "correct": "Purify himself"
+        },
+        {
+          "arabic": "تَذْكِرَةٌ",
+          "meaning": "A reminder",
+          "options": ["A reminder", "A warning", "A promise", "A threat"],
+          "correct": "A reminder"
+        }
+      ]
+    },
+    {
+      "id": "at-takwir",
+      "title": "Surah At-Takwir (The Folding Up)",
+      "description": "A Meccan surah that describes the events of the Day of Judgment and affirms the truth of the revelation.",
+      "questions": [
+        {
+          "arabic": "كُوِّرَتْ",
+          "meaning": "Is folded up",
+          "options": ["Is folded up", "Is spread out", "Is created", "Is destroyed"],
+          "correct": "Is folded up"
+        },
+        {
+          "arabic": "انكَدَرَتْ",
+          "meaning": "Fall",
+          "options": ["Fall", "Rise", "Shine", "Disappear"],
+          "correct": "Fall"
+        },
+        {
+          "arabic": "سُيِّرَتْ",
+          "meaning": "Are moved",
+          "options": ["Are moved", "Are fixed", "Are created", "Are destroyed"],
+          "correct": "Are moved"
+        },
+        {
+          "arabic": "عُطِّلَتْ",
+          "meaning": "Are neglected",
+          "options": ["Are neglected", "Are cared for", "Are increased", "Are decreased"],
+          "correct": "Are neglected"
+        },
+        {
+          "arabic": "حُشِرَتْ",
+          "meaning": "Are gathered",
+          "options": ["Are gathered", "Are scattered", "Are hidden", "Are revealed"],
+          "correct": "Are gathered"
+        },
+        {
+          "arabic": "سُجِّرَتْ",
+          "meaning": "Are filled",
+          "options": ["Are filled", "Are emptied", "Are frozen", "Are heated"],
+          "correct": "Are filled"
+        }
+      ]
+    },
+    {
+      "id": "al-infitar",
+      "title": "Surah Al-Infitar (The Cleaving Asunder)",
+      "description": "A Meccan surah that describes the Day of Judgment and reminds humans of their accountability.",
+      "questions": [
+        {
+          "arabic": "انفَطَرَتْ",
+          "meaning": "Is cleft asunder",
+          "options": ["Is cleft asunder", "Is joined together", "Is darkened", "Is brightened"],
+          "correct": "Is cleft asunder"
+        },
+        {
+          "arabic": "انتَثَرَتْ",
+          "meaning": "Are scattered",
+          "options": ["Are scattered", "Are gathered", "Are fixed", "Are removed"],
+          "correct": "Are scattered"
+        },
+        {
+          "arabic": "بُعْثِرَتْ",
+          "meaning": "Are turned upside down",
+          "options": ["Are turned upside down", "Are stabilized", "Are created", "Are destroyed"],
+          "correct": "Are turned upside down"
+        },
+        {
+          "arabic": "قَدَّمَتْ",
+          "meaning": "Has sent forth",
+          "options": ["Has sent forth", "Has held back", "Has hidden", "Has forgotten"],
+          "correct": "Has sent forth"
+        },
+        {
+          "arabic": "أَخَّرَتْ",
+          "meaning": "Has held back",
+          "options": ["Has held back", "Has sent forth", "Has revealed", "Has concealed"],
+          "correct": "Has held back"
+        }
+      ]
+    },
+    {
+      "id": "al-mutaffifin",
+      "title": "Surah Al-Mutaffifin (The Defrauders)",
+      "description": "A surah that condemns those who give less than due measure in business transactions.",
+      "questions": [
+        {
+          "arabic": "الْمُطَفِّفِينَ",
+          "meaning": "The defrauders",
+          "options": ["The defrauders", "The generous", "The truthful", "The believers"],
+          "correct": "The defrauders"
+        },
+        {
+          "arabic": "اكْتَالُوا",
+          "meaning": "They take by measure",
+          "options": ["They take by measure", "They give by measure", "They sell", "They buy"],
+          "correct": "They take by measure"
+        },
+        {
+          "arabic": "يَسْتَوْفُونَ",
+          "meaning": "They demand in full",
+          "options": ["They demand in full", "They give in full", "They reduce", "They increase"],
+          "correct": "They demand in full"
+        },
+        {
+          "arabic": "كَالُوهُمْ",
+          "meaning": "They give by measure",
+          "options": ["They give by measure", "They take by measure", "They count", "They weigh"],
+          "correct": "They give by measure"
+        },
+        {
+          "arabic": "يُخْسِرُونَ",
+          "meaning": "They give less",
+          "options": ["They give less", "They give more", "They give equally", "They give nothing"],
+          "correct": "They give less"
+        }
+      ]
+    },
+    {
+      "id": "al-inshiqaq",
+      "title": "Surah Al-Inshiqaq (The Splitting Asunder)",
+      "description": "A Meccan surah that describes the Day of Judgment and the different fates of the believers and disbelievers.",
+      "questions": [
+        {
+          "arabic": "انشَقَّتْ",
+          "meaning": "Is split asunder",
+          "options": ["Is split asunder", "Is joined together", "Is darkened", "Is brightened"],
+          "correct": "Is split asunder"
+        },
+        {
+          "arabic": "أَذِنَتْ",
+          "meaning": "Listens",
+          "options": ["Listens", "Speaks", "Ignores", "Rejects"],
+          "correct": "Listens"
+        },
+        {
+          "arabic": "حُقَّتْ",
+          "meaning": "It must do so",
+          "options": ["It must do so", "It must not do so", "It may do so", "It cannot do so"],
+          "correct": "It must do so"
+        },
+        {
+          "arabic": "مُدَّتْ",
+          "meaning": "Is stretched out",
+          "options": ["Is stretched out", "Is folded up", "Is raised", "Is lowered"],
+          "correct": "Is stretched out"
+        },
+        {
+          "arabic": "تَخَلَّتْ",
+          "meaning": "Casts out",
+          "options": ["Casts out", "Holds in", "Creates", "Destroys"],
+          "correct": "Casts out"
+        }
+      ]
+    },
+    {
+      "id": "al-buruj",
+      "title": "Surah Al-Buruj (The Constellations)",
+      "description": "A Meccan surah that begins with an oath by the constellations and discusses the persecution of believers.",
+      "questions": [
+        {
+          "arabic": "الْبُرُوجِ",
+          "meaning": "The constellations",
+          "options": ["The constellations", "The stars", "The planets", "The moons"],
+          "correct": "The constellations"
+        },
+        {
+          "arabic": "الْمَوْعُودِ",
+          "meaning": "The promised",
+          "options": ["The promised", "The forbidden", "The hidden", "The revealed"],
+          "correct": "The promised"
+        },
+        {
+          "arabic": "شَاهِدٍ",
+          "meaning": "A witness",
+          "options": ["A witness", "A judge", "A creator", "A destroyer"],
+          "correct": "A witness"
+        },
+        {
+          "arabic": "مَشْهُودٍ",
+          "meaning": "That which is witnessed",
+          "options": ["That which is witnessed", "That which is hidden", "That which is created", "That which is destroyed"],
+          "correct": "That which is witnessed"
+        },
+        {
+          "arabic": "الْأُخْدُودِ",
+          "meaning": "The pit",
+          "options": ["The pit", "The mountain", "The river", "The desert"],
+          "correct": "The pit"
+        }
+      ]
+    },
+    {
+      "id": "at-tariq",
+      "title": "Surah At-Tariq (The Night Visitor)",
+      "description": "A Meccan surah that begins with an oath by the night visitor (a star) and discusses the creation of humans.",
+      "questions": [
+        {
+          "arabic": "الطَّارِقِ",
+          "meaning": "The night visitor",
+          "options": ["The night visitor", "The day visitor", "The morning star", "The evening star"],
+          "correct": "The night visitor"
+        },
+        {
+          "arabic": "الثَّاقِبُ",
+          "meaning": "The piercing star",
+          "options": ["The piercing star", "The dim star", "The falling star", "The rising star"],
+          "correct": "The piercing star"
+        },
+        {
+          "arabic": "حَافِظٌ",
+          "meaning": "A protector",
+          "options": ["A protector", "An enemy", "A friend", "A guide"],
+          "correct": "A protector"
+        },
+        {
+          "arabic": "دَافِقٍ",
+          "meaning": "Gushing",
+          "options": ["Gushing", "Flowing slowly", "Dripping", "Frozen"],
+          "correct": "Gushing"
+        },
+        {
+          "arabic": "الصُّلْبِ",
+          "meaning": "The backbone",
+          "options": ["The backbone", "The heart", "The mind", "The soul"],
+          "correct": "The backbone"
+        }
+      ]
+    },
+    {
+      "id": "al-ala",
+      "title": "Surah Al-A'la (The Most High)",
+      "description": "A Meccan surah that glorifies Allah and provides guidance to the Prophet Muhammad.",
+      "questions": [
+        {
+          "arabic": "الْأَعْلَى",
+          "meaning": "The Most High",
+          "options": ["The Most High", "The Most Low", "The Most Near", "The Most Far"],
+          "correct": "The Most High"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "meaning": "Created",
+          "options": ["Created", "Destroyed", "Preserved", "Changed"],
+          "correct": "Created"
+        },
+        {
+          "arabic": "فَسَوَّىٰ",
+          "meaning": "Proportioned",
+          "options": ["Proportioned", "Disproportioned", "Enlarged", "Reduced"],
+          "correct": "Proportioned"
+        },
+        {
+          "arabic": "قَدَّرَ",
+          "meaning": "Destined",
+          "options": ["Destined", "Neglected", "Forgotten", "Ignored"],
+          "correct": "Destined"
+        },
+        {
+          "arabic": "فَهَدَىٰ",
+          "meaning": "Guided",
+          "options": ["Guided", "Misguided", "Abandoned", "Rejected"],
+          "correct": "Guided"
+        }
+      ]
+    },
+    {
+      "id": "al-ghashiyah",
+      "title": "Surah Al-Ghashiyah (The Overwhelming)",
+      "description": "A Meccan surah that describes the Day of Judgment and contrasts the fate of the wicked and the righteous.",
+      "questions": [
+        {
+          "arabic": "الْغَاشِيَةِ",
+          "meaning": "The Overwhelming",
+          "options": ["The Overwhelming", "The Gentle", "The Hidden", "The Revealed"],
+          "correct": "The Overwhelming"
+        },
+        {
+          "arabic": "خَاشِعَةٌ",
+          "meaning": "Humbled",
+          "options": ["Humbled", "Proud", "Joyful", "Angry"],
+          "correct": "Humbled"
+        },
+        {
+          "arabic": "نَاصِبَةٌ",
+          "meaning": "Laboring",
+          "options": ["Laboring", "Resting", "Sleeping", "Playing"],
+          "correct": "Laboring"
+        },
+        {
+          "arabic": "حَامِيَةً",
+          "meaning": "Intensely hot",
+          "options": ["Intensely hot", "Extremely cold", "Pleasantly warm", "Comfortably cool"],
+          "correct": "Intensely hot"
+        },
+        {
+          "arabic": "ضَرِيعٍ",
+          "meaning": "Bitter thorny plant",
+          "options": ["Bitter thorny plant", "Sweet fruit", "Fresh water", "Nutritious food"],
+          "correct": "Bitter thorny plant"
+        }
+      ]
+    },
+    {
+      "id": "al-fajr",
+      "title": "Surah Al-Fajr (The Dawn)",
+      "description": "A Meccan surah that begins with an oath by the dawn and discusses the fate of past nations who transgressed.",
+      "questions": [
+        {
+          "arabic": "الْفَجْرِ",
+          "meaning": "The dawn",
+          "options": ["The dawn", "The sunset", "The noon", "The night"],
+          "correct": "The dawn"
+        },
+        {
+          "arabic": "عَشْرٍ",
+          "meaning": "Ten",
+          "options": ["Ten", "Five", "Twenty", "Hundred"],
+          "correct": "Ten"
+        },
+        {
+          "arabic": "الْوَتْرِ",
+          "meaning": "The odd",
+          "options": ["The odd", "The even", "The first", "The last"],
+          "correct": "The odd"
+        },
+        {
+          "arabic": "يَسْرِ",
+          "meaning": "Passes",
+          "options": ["Passes", "Stays", "Begins", "Ends"],
+          "correct": "Passes"
+        },
+        {
+          "arabic": "إِرَمَ",
+          "meaning": "Iram",
+          "options": ["Iram", "Mecca", "Medina", "Jerusalem"],
+          "correct": "Iram"
+        }
+      ]
+    },
+    {
+      "id": "al-balad",
+      "title": "Surah Al-Balad (The City)",
+      "description": "A Meccan surah that begins with an oath by the sacred city (Mecca) and discusses the human condition.",
+      "questions": [
+        {
+          "arabic": "الْبَلَدِ",
+          "meaning": "The city",
+          "options": ["The city", "The village", "The desert", "The mountain"],
+          "correct": "The city"
+        },
+        {
+          "arabic": "حِلٌّ",
+          "meaning": "Free",
+          "options": ["Free", "Restricted", "Bound", "Imprisoned"],
+          "correct": "Free"
+        },
+        {
+          "arabic": "وَالِدٍ",
+          "meaning": "Parent",
+          "options": ["Parent", "Child", "Brother", "Sister"],
+          "correct": "Parent"
+        },
+        {
+          "arabic": "كَبَدٍ",
+          "meaning": "Hardship",
+          "options": ["Hardship", "Ease", "Pleasure", "Comfort"],
+          "correct": "Hardship"
+        },
+        {
+          "arabic": "لُبَدًا",
+          "meaning": "Abundant",
+          "options": ["Abundant", "Scarce", "Little", "None"],
+          "correct": "Abundant"
+        }
+      ]
+    },
+    {
+      "id": "ash-shams",
+      "title": "Surah Ash-Shams (The Sun)",
+      "description": "A Meccan surah that begins with oaths by various natural phenomena and tells the story of Thamud.",
+      "questions": [
+        {
+          "arabic": "الشَّمْسِ",
+          "meaning": "The sun",
+          "options": ["The sun", "The moon", "The stars", "The planets"],
+          "correct": "The sun"
+        },
+        {
+          "arabic": "ضُحَاهَا",
+          "meaning": "Its brightness",
+          "options": ["Its brightness", "Its darkness", "Its heat", "Its size"],
+          "correct": "Its brightness"
+        },
+        {
+          "arabic": "تَلَاهَا",
+          "meaning": "Follows it",
+          "options": ["Follows it", "Precedes it", "Creates it", "Destroys it"],
+          "correct": "Follows it"
+        },
+        {
+          "arabic": "جَلَّاهَا",
+          "meaning": "Displays it",
+          "options": ["Displays it", "Hides it", "Dims it", "Brightens it"],
+          "correct": "Displays it"
+        },
+        {
+          "arabic": "يَغْشَاهَا",
+          "meaning": "Covers it",
+          "options": ["Covers it", "Reveals it", "Illuminates it", "Creates it"],
+          "correct": "Covers it"
+        }
+      ]
+    },
+    {
+      "id": "al-lail",
+      "title": "Surah Al-Lail (The Night)",
+      "description": "A Meccan surah that begins with oaths by the night and day, and discusses human efforts and divine guidance.",
+      "questions": [
+        {
+          "arabic": "اللَّيْلِ",
+          "meaning": "The night",
+          "options": ["The night", "The day", "The dawn", "The dusk"],
+          "correct": "The night"
+        },
+        {
+          "arabic": "يَغْشَىٰ",
+          "meaning": "Covers",
+          "options": ["Covers", "Reveals", "Creates", "Destroys"],
+          "correct": "Covers"
+        },
+        {
+          "arabic": "تَجَلَّىٰ",
+          "meaning": "Appears in brightness",
+          "options": ["Appears in brightness", "Disappears in darkness", "Remains hidden", "Becomes dim"],
+          "correct": "Appears in brightness"
+        },
+        {
+          "arabic": "لَشَتَّىٰ",
+          "meaning": "Diverse",
+          "options": ["Diverse", "Similar", "Same", "Identical"],
+          "correct": "Diverse"
+        },
+        {
+          "arabic": "فَأَمَّا",
+          "meaning": "As for",
+          "options": ["As for", "Except", "Unless", "Until"],
+          "correct": "As for"
+        }
+      ]
+    },
+    {
+      "id": "ad-duha",
+      "title": "Surah Ad-Duha (The Morning Hours)",
+      "description": "A Meccan surah that consoles the Prophet Muhammad and reminds him of Allah's favors.",
+      "questions": [
+        {
+          "arabic": "الضُّحَىٰ",
+          "meaning": "The morning brightness",
+          "options": ["The morning brightness", "The night darkness", "The evening twilight", "The dawn light"],
+          "correct": "The morning brightness"
+        },
+        {
+          "arabic": "سَجَىٰ",
+          "meaning": "Grows still",
+          "options": ["Grows still", "Becomes active", "Brightens", "Darkens"],
+          "correct": "Grows still"
+        },
+        {
+          "arabic": "وَدَّعَكَ",
+          "meaning": "Forsaken you",
+          "options": ["Forsaken you", "Embraced you", "Created you", "Guided you"],
+          "correct": "Forsaken you"
+        },
+        {
+          "arabic": "قَلَىٰ",
+          "meaning": "Displeased with you",
+          "options": ["Displeased with you", "Pleased with you", "Forgotten you", "Remembered you"],
+          "correct": "Displeased with you"
+        },
+        {
+          "arabic": "فَآوَىٰ",
+          "meaning": "Sheltered you",
+          "options": ["Sheltered you", "Abandoned you", "Tested you", "Punished you"],
+          "correct": "Sheltered you"
+        }
+      ]
+    },
+    {
+      "id": "ash-sharh",
+      "title": "Surah Ash-Sharh (The Relief)",
+      "description": "A Meccan surah that consoles and encourages the Prophet Muhammad during difficult times.",
+      "questions": [
+        {
+          "arabic": "نَشْرَحْ",
+          "meaning": "Expanded",
+          "options": ["Expanded", "Contracted", "Closed", "Sealed"],
+          "correct": "Expanded"
+        },
+        {
+          "arabic": "وِزْرَكَ",
+          "meaning": "Your burden",
+          "options": ["Your burden", "Your wealth", "Your honor", "Your knowledge"],
+          "correct": "Your burden"
+        },
+        {
+          "arabic": "أَنقَضَ",
+          "meaning": "Weighed down",
+          "options": ["Weighed down", "Lifted up", "Strengthened", "Weakened"],
+          "correct": "Weighed down"
+        },
+        {
+          "arabic": "ذِكْرَكَ",
+          "meaning": "Your fame",
+          "options": ["Your fame", "Your wealth", "Your family", "Your knowledge"],
+          "correct": "Your fame"
+        },
+        {
+          "arabic": "يُسْرًا",
+          "meaning": "Ease",
+          "options": ["Ease", "Difficulty", "Hardship", "Burden"],
+          "correct": "Ease"
+        }
+      ]
+    },
+    {
+      "id": "at-tin",
+      "title": "Surah At-Tin (The Fig)",
+      "description": "A Meccan surah that begins with oaths by the fig, olive, Mount Sinai, and Mecca, and discusses human creation.",
+      "questions": [
+        {
+          "arabic": "التِّينِ",
+          "meaning": "The fig",
+          "options": ["The fig", "The date", "The grape", "The olive"],
+          "correct": "The fig"
+        },
+        {
+          "arabic": "الزَّيْتُونِ",
+          "meaning": "The olive",
+          "options": ["The olive", "The fig", "The date", "The grape"],
+          "correct": "The olive"
+        },
+        {
+          "arabic": "سِينِينَ",
+          "meaning": "Sinai",
+          "options": ["Sinai", "Mecca", "Medina", "Jerusalem"],
+          "correct": "Sinai"
+        },
+        {
+          "arabic": "الْأَمِينِ",
+          "meaning": "The secure",
+          "options": ["The secure", "The dangerous", "The distant", "The near"],
+          "correct": "The secure"
+        },
+        {
+          "arabic": "تَقْوِيمٍ",
+          "meaning": "Mold",
+          "options": ["Mold", "Shape", "Form", "All of these"],
+          "correct": "Mold"
+        }
+      ]
+    },
+    {
+      "id": "al-alaq",
+      "title": "Surah Al-'Alaq (The Clot)",
+      "description": "The first surah to be revealed to Prophet Muhammad, beginning with the command to read.",
+      "questions": [
+        {
+          "arabic": "اقْرَأْ",
+          "meaning": "Read",
+          "options": ["Read", "Write", "Speak", "Listen"],
+          "correct": "Read"
+        },
+        {
+          "arabic": "عَلَقٍ",
+          "meaning": "A clot",
+          "options": ["A clot", "A drop", "A seed", "A cell"],
+          "correct": "A clot"
+        },
+        {
+          "arabic": "الْأَكْرَمُ",
+          "meaning": "Most Generous",
+          "options": ["Most Generous", "Most Powerful", "Most Wise", "Most Merciful"],
+          "correct": "Most Generous"
+        },
+        {
+          "arabic": "بِالْقَلَمِ",
+          "meaning": "By the pen",
+          "options": ["By the pen", "By the sword", "By the book", "By the word"],
+          "correct": "By the pen"
+        },
+        {
+          "arabic": "يَعْلَمْ",
+          "meaning": "Knew",
+          "options": ["Knew", "Forgot", "Learned", "Taught"],
+          "correct": "Knew"
+        }
+      ]
+    },
+    {
+      "id": "al-qadr",
+      "title": "Surah Al-Qadr (The Night of Decree)",
+      "description": "A Meccan surah that describes the Night of Decree (Laylat al-Qadr) when the Quran was first revealed.",
+      "questions": [
+        {
+          "arabic": "الْقَدْرِ",
+          "meaning": "The Decree",
+          "options": ["The Decree", "The Power", "The Glory", "The Honor"],
+          "correct": "The Decree"
+        },
+        {
+          "arabic": "أَدْرَاكَ",
+          "meaning": "Make you know",
+          "options": ["Make you know", "Make you forget", "Make you understand", "Make you remember"],
+          "correct": "Make you know"
+        },
+        {
+          "arabic": "خَيْرٌ",
+          "meaning": "Better",
+          "options": ["Better", "Worse", "Equal", "Different"],
+          "correct": "Better"
+        },
+        {
+          "arabic": "شَهْرٍ",
+          "meaning": "Month",
+          "options": ["Month", "Day", "Year", "Week"],
+          "correct": "Month"
+        },
+        {
+          "arabic": "سَلَامٌ",
+          "meaning": "Peace",
+          "options": ["Peace", "War", "Conflict", "Struggle"],
+          "correct": "Peace"
+        }
+      ]
+    },
+    {
+      "id": "al-bayyinah",
+      "title": "Surah Al-Bayyinah (The Clear Evidence)",
+      "description": "A Medinan surah that discusses the arrival of clear evidence and the division of people based on their response.",
+      "questions": [
+        {
+          "arabic": "الْبَيِّنَةُ",
+          "meaning": "Clear evidence",
+          "options": ["Clear evidence", "Hidden secret", "Vague sign", "Minor hint"],
+          "correct": "Clear evidence"
+        },
+        {
+          "arabic": "مُنفَكِّينَ",
+          "meaning": "Departing",
+          "options": ["Departing", "Arriving", "Staying", "Returning"],
+          "correct": "Departing"
+        },
+        {
+          "arabic": "صُحُفٌ",
+          "meaning": "Scriptures",
+          "options": ["Scriptures", "Letters", "Books", "Pages"],
+          "correct": "Scriptures"
+        },
+        {
+          "arabic": "مُطَهَّرَةٌ",
+          "meaning": "Purified",
+          "options": ["Purified", "Corrupted", "Hidden", "Revealed"],
+          "correct": "Purified"
+        },
+        {
+          "arabic": "قَيِّمَةٌ",
+          "meaning": "Straight",
+          "options": ["Straight", "Crooked", "Circular", "Bent"],
+          "correct": "Straight"
+        }
+      ]
+    },
+    {
+      "id": "az-zalzalah",
+      "title": "Surah Az-Zalzalah (The Earthquake)",
+      "description": "A Medinan surah that vividly describes the Day of Judgment beginning with a massive earthquake.",
+      "questions": [
+        {
+          "arabic": "زُلْزِلَتِ",
+          "meaning": "Is shaken",
+          "options": ["Is shaken", "Is still", "Is created", "Is destroyed"],
+          "correct": "Is shaken"
+        },
+        {
+          "arabic": "زِلْزَالَهَا",
+          "meaning": "Its earthquake",
+          "options": ["Its earthquake", "Its stillness", "Its creation", "Its destruction"],
+          "correct": "Its earthquake"
+        },
+        {
+          "arabic": "أَثْقَالَهَا",
+          "meaning": "Its burdens",
+          "options": ["Its burdens", "Its treasures", "Its secrets", "Its people"],
+          "correct": "Its burdens"
+        },
+        {
+          "arabic": "أَوْحَىٰ",
+          "meaning": "Inspired",
+          "options": ["Inspired", "Commanded", "Created", "Destroyed"],
+          "correct": "Inspired"
+        },
+        {
+          "arabic": "أَشْتَاتًا",
+          "meaning": "Separate groups",
+          "options": ["Separate groups", "Together", "Alone", "In pairs"],
+          "correct": "Separate groups"
+        }
+      ]
+    },
+    {
+      "id": "al-adiyat",
+      "title": "Surah Al-'Adiyat (The Chargers)",
+      "description": "A Meccan surah that begins with an oath by the charging horses and discusses human ingratitude.",
+      "questions": [
+        {
+          "arabic": "الْعَادِيَاتِ",
+          "meaning": "The chargers",
+          "options": ["The chargers", "The walkers", "The flyers", "The swimmers"],
+          "correct": "The chargers"
+        },
+        {
+          "arabic": "ضَبْحًا",
+          "meaning": "Panting",
+          "options": ["Panting", "Resting", "Sleeping", "Eating"],
+          "correct": "Panting"
+        },
+        {
+          "arabic": "الْمُورِيَاتِ",
+          "meaning": "Strike sparks",
+          "options": ["Strike sparks", "Create shadows", "Make sounds", "Raise dust"],
+          "correct": "Strike sparks"
+        },
+        {
+          "arabic": "نَقْعًا",
+          "meaning": "Dust",
+          "options": ["Dust", "Water", "Fire", "Air"],
+          "correct": "Dust"
+        },
+        {
+          "arabic": "لَكَنُودٌ",
+          "meaning": "Ungrateful",
+          "options": ["Ungrateful", "Thankful", "Generous", "Kind"],
+          "correct": "Ungrateful"
+        }
+      ]
+    },
+    {
+      "id": "al-qariah",
+      "title": "Surah Al-Qari'ah (The Striking Calamity)",
+      "description": "A Meccan surah that describes the Day of Judgment as a striking calamity.",
+      "questions": [
+        {
+          "arabic": "الْقَارِعَةُ",
+          "meaning": "The striking calamity",
+          "options": ["The striking calamity", "The gentle breeze", "The heavy rain", "The bright light"],
+          "correct": "The striking calamity"
+        },
+        {
+          "arabic": "الْفَرَاشِ",
+          "meaning": "Moths",
+          "options": ["Moths", "Bees", "Flies", "Ants"],
+          "correct": "Moths"
+        },
+        {
+          "arabic": "الْمَبْثُوثِ",
+          "meaning": "Scattered",
+          "options": ["Scattered", "Gathered", "Organized", "Aligned"],
+          "correct": "Scattered"
+        },
+        {
+          "arabic": "الْعِهْنِ",
+          "meaning": "Wool",
+          "options": ["Wool", "Cotton", "Silk", "Linen"],
+          "correct": "Wool"
+        },
+        {
+          "arabic": "الْمَنفُوشِ",
+          "meaning": "Fluffed up",
+          "options": ["Fluffed up", "Compressed", "Wet", "Burned"],
+          "correct": "Fluffed up"
+        }
+      ]
+    },
+    {
+      "id": "at-takathur",
+      "title": "Surah At-Takathur (Competition in Increase)",
+      "description": "A Meccan surah that warns against excessive competition for worldly gains.",
+      "questions": [
+        {
+          "arabic": "التَّكَاثُرُ",
+          "meaning": "Competition in increase",
+          "options": ["Competition in increase", "Cooperation in sharing", "Moderation in spending", "Abstention from wealth"],
+          "correct": "Competition in increase"
+        },
+        {
+          "arabic": "زُرْتُمُ",
+          "meaning": "You visit",
+          "options": ["You visit", "You leave", "You build", "You destroy"],
+          "correct": "You visit"
+        },
+        {
+          "arabic": "الْمَقَابِرَ",
+          "meaning": "The graves",
+          "options": ["The graves", "The houses", "The palaces", "The gardens"],
+          "correct": "The graves"
+        },
+        {
+          "arabic": "عِلْمَ",
+          "meaning": "Knowledge",
+          "options": ["Knowledge", "Ignorance", "Doubt", "Certainty"],
+          "correct": "Knowledge"
+        },
+        {
+          "arabic": "الْيَقِينِ",
+          "meaning": "Certainty",
+          "options": ["Certainty", "Doubt", "Ignorance", "Knowledge"],
+          "correct": "Certainty"
+        }
+      ]
+    },
+    {
+      "id": "al-asr",
+      "title": "Surah Al-'Asr (Time)",
+      "description": "A Meccan surah that emphasizes the importance of time and outlines the path to salvation.",
+      "questions": [
+        {
+          "arabic": "الْعَصْرِ",
+          "meaning": "Time",
+          "options": ["Time", "Space", "Matter", "Energy"],
+          "correct": "Time"
+        },
+        {
+          "arabic": "خُسْرٍ",
+          "meaning": "Loss",
+          "options": ["Loss", "Gain", "Profit", "Wealth"],
+          "correct": "Loss"
+        },
+        {
+          "arabic": "الصَّالِحَاتِ",
+          "meaning": "Righteous deeds",
+          "options": ["Righteous deeds", "Evil actions", "Neutral behaviors", "Idle talk"],
+          "correct": "Righteous deeds"
+        },
+        {
+          "arabic": "بِالْحَقِّ",
+          "meaning": "To the truth",
+          "options": ["To the truth", "To falsehood", "To doubt", "To uncertainty"],
+          "correct": "To the truth"
+        },
+        {
+          "arabic": "بِالصَّبْرِ",
+          "meaning": "To patience",
+          "options": ["To patience", "To haste", "To anger", "To fear"],
+          "correct": "To patience"
+        }
+      ]
+    },
+    {
+      "id": "al-humazah",
+      "title": "Surah Al-Humazah (The Slanderer)",
+      "description": "A Meccan surah that condemns those who slander others and amass wealth without spending in charity.",
+      "questions": [
+        {
+          "arabic": "هُمَزَةٍ",
+          "meaning": "Slanderer",
+          "options": ["Slanderer", "Praiser", "Helper", "Friend"],
+          "correct": "Slanderer"
+        },
+        {
+          "arabic": "لُمَزَةٍ",
+          "meaning": "Backbiter",
+          "options": ["Backbiter", "Supporter", "Defender", "Protector"],
+          "correct": "Backbiter"
+        },
+        {
+          "arabic": "عَدَّدَهُ",
+          "meaning": "Counts it",
+          "options": ["Counts it", "Spends it", "Gives it away", "Hides it"],
+          "correct": "Counts it"
+        },
+        {
+          "arabic": "الْحُطَمَةِ",
+          "meaning": "The Crusher",
+          "options": ["The Crusher", "The Gentle", "The Kind", "The Merciful"],
+          "correct": "The Crusher"
+        },
+        {
+          "arabic": "مُوْصَدَةٌ",
+          "meaning": "Closed in",
+          "options": ["Closed in", "Open", "Spacious", "Vast"],
+          "correct": "Closed in"
+        }
+      ]
+    },
+    {
+      "id": "al-fil",
+      "title": "Surah Al-Fil (The Elephant)",
+      "description": "A Meccan surah that recounts the story of the Army of the Elephant that attempted to destroy the Kaaba.",
+      "questions": [
+        {
+          "arabic": "الْفِيلِ",
+          "meaning": "The elephant",
+          "options": ["The elephant", "The camel", "The horse", "The lion"],
+          "correct": "The elephant"
+        },
+        {
+          "arabic": "كَيْدَهُمْ",
+          "meaning": "Their plan",
+          "options": ["Their plan", "Their wealth", "Their army", "Their power"],
+          "correct": "Their plan"
+        },
+        {
+          "arabic": "تَضْلِيلٍ",
+          "meaning": "Astray",
+          "options": ["Astray", "Guided", "Successful", "Victorious"],
+          "correct": "Astray"
+        },
+        {
+          "arabic": "أَبَابِيلَ",
+          "meaning": "Flocks",
+          "options": ["Flocks", "Individuals", "Pairs", "Groups"],
+          "correct": "Flocks"
+        },
+        {
+          "arabic": "سِجِّيلٍ",
+          "meaning": "Baked clay",
+          "options": ["Baked clay", "Pure gold", "Hard stone", "Sharp iron"],
+          "correct": "Baked clay"
+        }
+      ]
+    },
+    {
+      "id": "quraysh",
+      "title": "Surah Quraysh (Quraysh)",
+      "description": "A Meccan surah that reminds the Quraysh tribe of Allah's favors upon them and calls them to worship Him.",
+      "questions": [
+        {
+          "arabic": "قُرَيْشٍ",
+          "meaning": "Quraysh",
+          "options": ["Quraysh", "Aws", "Khazraj", "Thaqif"],
+          "correct": "Quraysh"
+        },
+        {
+          "arabic": "إِيلَافِ",
+          "meaning": "Familiarity",
+          "options": ["Familiarity", "Strangeness", "Fear", "Hatred"],
+          "correct": "Familiarity"
+        },
+        {
+          "arabic": "رِحْلَةَ",
+          "meaning": "Journey",
+          "options": ["Journey", "Stay", "Battle", "Trade"],
+          "correct": "Journey"
+        },
+        {
+          "arabic": "الشِّتَاءِ",
+          "meaning": "Winter",
+          "options": ["Winter", "Summer", "Spring", "Autumn"],
+          "correct": "Winter"
+        },
+        {
+          "arabic": "الصَّيْفِ",
+          "meaning": "Summer",
+          "options": ["Summer", "Winter", "Spring", "Autumn"],
+          "correct": "Summer"
+        }
+      ]
+    },
+    {
+      "id": "al-maun",
+      "title": "Surah Al-Ma'un (Small Kindnesses)",
+      "description": "A Meccan surah that describes the characteristics of those who deny the faith and neglect their duties.",
+      "questions": [
+        {
+          "arabic": "يُكَذِّبُ",
+          "meaning": "Denies",
+          "options": ["Denies", "Affirms", "Believes", "Accepts"],
+          "correct": "Denies"
+        },
+        {
+          "arabic": "يَدُعُّ",
+          "meaning": "Repels",
+          "options": ["Repels", "Welcomes", "Embraces", "Invites"],
+          "correct": "Repels"
+        },
+        {
+          "arabic": "الْيَتِيمَ",
+          "meaning": "The orphan",
+          "options": ["The orphan", "The wealthy", "The powerful", "The ruler"],
+          "correct": "The orphan"
+        },
+        {
+          "arabic": "الْمِسْكِينِ",
+          "meaning": "The poor",
+          "options": ["The poor", "The rich", "The strong", "The noble"],
+          "correct": "The poor"
+        },
+        {
+          "arabic": "الْمَاعُونَ",
+          "meaning": "Small kindnesses",
+          "options": ["Small kindnesses", "Great wealth", "High positions", "Strong armies"],
+          "correct": "Small kindnesses"
+        }
+      ]
+    },
+    {
+      "id": "al-kawthar",
+      "title": "Surah Al-Kawthar (Abundance)",
+      "description": "A Meccan surah that consoles the Prophet Muhammad and promises him abundant good.",
+      "questions": [
+        {
+          "arabic": "الْكَوْثَرَ",
+          "meaning": "Abundance",
+          "options": ["Abundance", "Scarcity", "Poverty", "Deprivation"],
+          "correct": "Abundance"
+        },
+        {
+          "arabic": "فَصَلِّ",
+          "meaning": "So pray",
+          "options": ["So pray", "So abstain", "So sleep", "So eat"],
+          "correct": "So pray"
+        },
+        {
+          "arabic": "وَانْحَرْ",
+          "meaning": "And sacrifice",
+          "options": ["And sacrifice", "And abstain", "And rest", "And travel"],
+          "correct": "And sacrifice"
+        },
+        {
+          "arabic": "شَانِئَكَ",
+          "meaning": "Your enemy",
+          "options": ["Your enemy", "Your friend", "Your family", "Your tribe"],
+          "correct": "Your enemy"
+        },
+        {
+          "arabic": "الْأَبْتَرُ",
+          "meaning": "Cut off",
+          "options": ["Cut off", "Connected", "Blessed", "Favored"],
+          "correct": "Cut off"
+        }
+      ]
+    },
+    {
+      "id": "al-kafirun",
+      "title": "Surah Al-Kafirun (The Disbelievers)",
+      "description": "A Meccan surah that clearly distinguishes between monotheism and polytheism, establishing complete disassociation.",
+      "questions": [
+        {
+          "arabic": "الْكَافِرُونَ",
+          "meaning": "The disbelievers",
+          "options": ["The disbelievers", "The believers", "The righteous", "The pious"],
+          "correct": "The disbelievers"
+        },
+        {
+          "arabic": "أَعْبُدُ",
+          "meaning": "I worship",
+          "options": ["I worship", "I reject", "I ignore", "I forget"],
+          "correct": "I worship"
+        },
+        {
+          "arabic": "عَابِدُونَ",
+          "meaning": "Worshippers",
+          "options": ["Worshippers", "Rejectors", "Ignorers", "Deniers"],
+          "correct": "Worshippers"
+        },
+        {
+          "arabic": "عَبَدتُّمْ",
+          "meaning": "You have worshipped",
+          "options": ["You have worshipped", "You have rejected", "You have ignored", "You have denied"],
+          "correct": "You have worshipped"
+        },
+        {
+          "arabic": "دِينِ",
+          "meaning": "Religion",
+          "options": ["Religion", "Culture", "Tradition", "Custom"],
+          "correct": "Religion"
+        }
+      ]
+    },
+    {
+      "id": "an-nasr",
+      "title": "Surah An-Nasr (Divine Support)",
+      "description": "A Medinan surah that was one of the last to be revealed, foretelling the completion of the Prophet's mission.",
+      "questions": [
+        {
+          "arabic": "نَصْرُ",
+          "meaning": "Help",
+          "options": ["Help", "Harm", "Abandonment", "Defeat"],
+          "correct": "Help"
+        },
+        {
+          "arabic": "الْفَتْحُ",
+          "meaning": "Victory",
+          "options": ["Victory", "Defeat", "Struggle", "Battle"],
+          "correct": "Victory"
+        },
+        {
+          "arabic": "يَدْخُلُونَ",
+          "meaning": "Entering",
+          "options": ["Entering", "Leaving", "Staying", "Fighting"],
+          "correct": "Entering"
+        },
+        {
+          "arabic": "أَفْوَاجًا",
+          "meaning": "In crowds",
+          "options": ["In crowds", "Individually", "In pairs", "In small groups"],
+          "correct": "In crowds"
+        },
+        {
+          "arabic": "فَسَبِّحْ",
+          "meaning": "Glorify",
+          "options": ["Glorify", "Deny", "Ignore", "Forget"],
+          "correct": "Glorify"
+        }
+      ]
+    },
+    {
+      "id": "al-masad",
+      "title": "Surah Al-Masad (The Palm Fiber)",
+      "description": "A Meccan surah that refers to Abu Lahab, an uncle and staunch opponent of the Prophet Muhammad.",
+      "questions": [
+        {
+          "arabic": "تَبَّتْ",
+          "meaning": "Perish",
+          "options": ["Perish", "Prosper", "Succeed", "Thrive"],
+          "correct": "Perish"
+        },
+        {
+          "arabic": "يَدَا",
+          "meaning": "Hands",
+          "options": ["Hands", "Feet", "Eyes", "Ears"],
+          "correct": "Hands"
+        },
+        {
+          "arabic": "لَهَبٍ",
+          "meaning": "Flame",
+          "options": ["Flame", "Water", "Earth", "Air"],
+          "correct": "Flame"
+        },
+        {
+          "arabic": "جِيدِهَا",
+          "meaning": "Her neck",
+          "options": ["Her neck", "Her hand", "Her foot", "Her head"],
+          "correct": "Her neck"
+        },
+        {
+          "arabic": "مَسَدٍ",
+          "meaning": "Palm fiber",
+          "options": ["Palm fiber", "Silk", "Gold", "Silver"],
+          "correct": "Palm fiber"
+        }
+      ]
+    },
+    {
+      "id": "basic-words",
+      "title": "Basic Quranic Words",
+      "questions": [
+        {
+          "arabic": "الله",
+          "meaning": "Allah (God)",
+          "options": ["Allah (God)", "Earth", "Human", "Book"],
+          "correct": "Allah (God)"
+        },
+        {
+          "arabic": "الرحمن",
+          "meaning": "The Most Merciful",
+          "options": ["The Most Merciful", "The Creator", "The Light", "The King"],
+          "correct": "The Most Merciful"
+        },
+        {
+          "arabic": "كتاب",
+          "meaning": "Book",
+          "options": ["Water", "Book", "Sky", "Heart"],
+          "correct": "Book"
+        },
+        {
+          "arabic": "قلب",
+          "meaning": "Heart",
+          "options": ["Heart", "Mind", "Soul", "Spirit"],
+          "correct": "Heart"
+        }
+      ]
+    },
+    {
+      "id": "common-verbs",
+      "title": "Common Quranic Verbs",
+      "questions": [
+        {
+          "arabic": "قال",
+          "meaning": "He said",
+          "options": ["He said", "He went", "He saw", "He heard"],
+          "correct": "He said"
+        },
+        {
+          "arabic": "يعلم",
+          "meaning": "He knows",
+          "options": ["He prays", "He knows", "He creates", "He guides"],
+          "correct": "He knows"
+        }
+      ]
+    },
+    {
+      "id": "al-fatihah",
+      "title": "Surah Al-Fatihah (The Opening)",
+      "description": "The first chapter of the Quran, consisting of seven verses.",
+      "questions": [
+        {
+          "arabic": "الْحَمْدُ",
+          "meaning": "All praise",
+          "options": ["All praise", "The mercy", "The guidance", "The power"],
+          "correct": "All praise"
+        },
+        {
+          "arabic": "رَبِّ",
+          "meaning": "Lord",
+          "options": ["Lord", "King", "Creator", "Master"],
+          "correct": "Lord"
+        },
+        {
+          "arabic": "الْعَالَمِينَ",
+          "meaning": "The worlds",
+          "options": ["The worlds", "The heavens", "The earth", "The people"],
+          "correct": "The worlds"
+        },
+        {
+          "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+          "meaning": "The Most Compassionate, Most Merciful",
+          "options": ["The Most Compassionate, Most Merciful", "The All-Knowing, All-Wise", "The Creator, The Sustainer", "The First, The Last"],
+          "correct": "The Most Compassionate, Most Merciful"
+        },
+        {
+          "arabic": "مَالِكِ",
+          "meaning": "Master",
+          "options": ["Master", "Creator", "Protector", "Guide"],
+          "correct": "Master"
+        },
+        {
+          "arabic": "يَوْمِ الدِّينِ",
+          "meaning": "Day of Judgment",
+          "options": ["Day of Judgment", "Day of Creation", "Day of Mercy", "Day of Reward"],
+          "correct": "Day of Judgment"
+        },
+        {
+          "arabic": "نَعْبُدُ",
+          "meaning": "We worship",
+          "options": ["We worship", "We praise", "We seek", "We follow"],
+          "correct": "We worship"
+        },
+        {
+          "arabic": "نَسْتَعِينُ",
+          "meaning": "We seek help",
+          "options": ["We seek help", "We pray", "We believe", "We trust"],
+          "correct": "We seek help"
+        },
+        {
+          "arabic": "اهْدِنَا",
+          "meaning": "Guide us",
+          "options": ["Guide us", "Bless us", "Forgive us", "Protect us"],
+          "correct": "Guide us"
+        },
+        {
+          "arabic": "الصِّرَاطَ الْمُسْتَقِيمَ",
+          "meaning": "The straight path",
+          "options": ["The straight path", "The blessed way", "The righteous life", "The divine light"],
+          "correct": "The straight path"
+        }
+      ]
+    },
+    {
+      "id": "al-ikhlas",
+      "title": "Surah Al-Ikhlas (Sincerity)",
+      "description": "A short four-verse chapter that is considered to be equivalent to one-third of the Quran in meaning.",
+      "questions": [
+        {
+          "arabic": "أَحَدٌ",
+          "meaning": "One",
+          "options": ["One", "First", "Unique", "Eternal"],
+          "correct": "One"
+        },
+        {
+          "arabic": "الصَّمَدُ",
+          "meaning": "The Eternal",
+          "options": ["The Eternal", "The Creator", "The Merciful", "The Wise"],
+          "correct": "The Eternal"
+        },
+        {
+          "arabic": "لَمْ يَلِدْ",
+          "meaning": "He begets not",
+          "options": ["He begets not", "He creates not", "He forgives not", "He sees not"],
+          "correct": "He begets not"
+        },
+        {
+          "arabic": "وَلَمْ يُولَدْ",
+          "meaning": "Nor is He begotten",
+          "options": ["Nor is He begotten", "Nor is He created", "Nor is He seen", "Nor is He known"],
+          "correct": "Nor is He begotten"
+        },
+        {
+          "arabic": "كُفُوًا",
+          "meaning": "Equal",
+          "options": ["Equal", "Similar", "Comparable", "Like"],
+          "correct": "Equal"
+        }
+      ]
+    },
+    {
+      "id": "an-nas",
+      "title": "Surah An-Nas (Mankind)",
+      "description": "The last chapter of the Quran, seeking refuge with Allah from the evil of the whisperer.",
+      "questions": [
+        {
+          "arabic": "النَّاسِ",
+          "meaning": "Mankind",
+          "options": ["Mankind", "People", "Humans", "Creation"],
+          "correct": "Mankind"
+        },
+        {
+          "arabic": "مَلِكِ",
+          "meaning": "King",
+          "options": ["King", "Lord", "Master", "Ruler"],
+          "correct": "King"
+        },
+        {
+          "arabic": "إِلَٰهِ",
+          "meaning": "God",
+          "options": ["God", "Deity", "Creator", "Sustainer"],
+          "correct": "God"
+        },
+        {
+          "arabic": "أَعُوذُ",
+          "meaning": "I seek refuge",
+          "options": ["I seek refuge", "I pray", "I worship", "I believe"],
+          "correct": "I seek refuge"
+        },
+        {
+          "arabic": "الْوَسْوَاسِ",
+          "meaning": "The whisperer",
+          "options": ["The whisperer", "The deceiver", "The tempter", "The evil"],
+          "correct": "The whisperer"
+        },
+        {
+          "arabic": "الْخَنَّاسِ",
+          "meaning": "Who withdraws",
+          "options": ["Who withdraws", "Who hides", "Who retreats", "Who disappears"],
+          "correct": "Who withdraws"
+        },
+        {
+          "arabic": "صُدُورِ",
+          "meaning": "Chests (hearts)",
+          "options": ["Chests (hearts)", "Minds", "Souls", "Bodies"],
+          "correct": "Chests (hearts)"
+        }
+      ]
+    },
+    {
+      "id": "al-falaq",
+      "title": "Surah Al-Falaq (The Daybreak)",
+      "description": "A chapter seeking refuge with Allah from various forms of evil.",
+      "questions": [
+        {
+          "arabic": "الْفَلَقِ",
+          "meaning": "The daybreak",
+          "options": ["The daybreak", "The dawn", "The morning", "The light"],
+          "correct": "The daybreak"
+        },
+        {
+          "arabic": "شَرِّ",
+          "meaning": "Evil",
+          "options": ["Evil", "Harm", "Danger", "Darkness"],
+          "correct": "Evil"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "meaning": "Created",
+          "options": ["Created", "Made", "Formed", "Designed"],
+          "correct": "Created"
+        },
+        {
+          "arabic": "غَاسِقٍ",
+          "meaning": "Darkness",
+          "options": ["Darkness", "Night", "Shadow", "Gloom"],
+          "correct": "Darkness"
+        },
+        {
+          "arabic": "وَقَبَ",
+          "meaning": "As it settles",
+          "options": ["As it settles", "As it spreads", "As it falls", "As it comes"],
+          "correct": "As it settles"
+        },
+        {
+          "arabic": "النَّفَّاثَاتِ",
+          "meaning": "Those who blow",
+          "options": ["Those who blow", "Those who cast", "Those who practice", "Those who speak"],
+          "correct": "Those who blow"
+        },
+        {
+          "arabic": "الْعُقَدِ",
+          "meaning": "Knots",
+          "options": ["Knots", "Spells", "Magic", "Charms"],
+          "correct": "Knots"
+        },
+        {
+          "arabic": "حَاسِدٍ",
+          "meaning": "Envier",
+          "options": ["Envier", "Jealous", "Hater", "Enemy"],
+          "correct": "Envier"
+        }
+      ]
+    }
+  ]
+}

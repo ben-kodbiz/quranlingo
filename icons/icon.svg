@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#4b9f46" rx="100" ry="100"/>
+
+  <!-- Quran Book Shape -->
+  <rect x="106" y="106" width="300" height="300" rx="20" ry="20" fill="#f5f5f5"/>
+  <rect x="126" y="126" width="260" height="260" rx="10" ry="10" fill="#2a2a2a"/>
+
+  <!-- Arabic Text Representation -->
+  <g fill="#ffffff">
+    <!-- Line 1 -->
+    <rect x="156" y="166" width="200" height="20" rx="10" ry="10"/>
+    <!-- Line 2 -->
+    <rect x="176" y="206" width="160" height="20" rx="10" ry="10"/>
+    <!-- Line 3 -->
+    <rect x="156" y="246" width="200" height="20" rx="10" ry="10"/>
+    <!-- Line 4 -->
+    <rect x="186" y="286" width="140" height="20" rx="10" ry="10"/>
+    <!-- Line 5 -->
+    <rect x="156" y="326" width="200" height="20" rx="10" ry="10"/>
+  </g>
+
+  <!-- App Name -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#ffffff" text-anchor="middle">QuranLingo</text>
+</svg>

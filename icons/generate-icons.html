@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate Icons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .instructions {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    canvas {
+      border: 1px solid #ddd;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="instructions">
+    <h1>Icon Generator for QuranLingo PWA</h1>
+    <p>This page will generate the necessary icon sizes for your PWA. Follow these steps:</p>
+    <ol>
+      <li>Open this page in a browser</li>
+      <li>The icons will be drawn on canvases below</li>
+      <li>Right-click each canvas and select "Save Image As..."</li>
+      <li>Save each image with the corresponding filename shown above it</li>
+    </ol>
+  </div>
+
+  <div id="icons-container"></div>
+
+  <script>
+    // Icon sizes needed for PWA
+    const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+    
+    // Create a container for each icon size
+    const container = document.getElementById('icons-container');
+    
+    // Load the SVG
+    const img = new Image();
+    img.onload = function() {
+      // For each size, create a canvas and draw the image
+      sizes.forEach(size => {
+        const div = document.createElement('div');
+        
+        const label = document.createElement('p');
+        label.textContent = `icon-${size}x${size}.png`;
+        div.appendChild(label);
+        
+        const canvas = document.createElement('canvas');
+        canvas.width = size;
+        canvas.height = size;
+        div.appendChild(canvas);
+        
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, size, size);
+        
+        container.appendChild(div);
+      });
+    };
+    
+    img.src = 'icon.svg';
+  </script>
+</body>
+</html>
