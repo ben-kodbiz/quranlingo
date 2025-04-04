@@ -3,28 +3,35 @@
     {
       "id": "al-ikhlas",
       "title": "Surah Al-Ikhlas (The Sincerity)",
+      "title_my": "Surah Al-Ikhlas (Ikhlas)",
       "description": "A Meccan surah that emphasizes the oneness of Allah.",
+      "description_my": "Surah Mekah yang menekankan keesaan Allah.",
       "ayahs": [
         {
           "number": 1,
           "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
           "translation": "Say, \"He is Allah, [who is] One\"",
+          "translation_my": "Katakanlah, \"Dialah Allah, Yang Maha Esa\"",
           "words": [
             {
               "arabic": "قُلْ",
-              "meaning": "Say"
+              "meaning": "Say",
+              "meaning_my": "Katakanlah"
             },
             {
               "arabic": "هُوَ",
-              "meaning": "He"
+              "meaning": "He",
+              "meaning_my": "Dia"
             },
             {
               "arabic": "اللَّهُ",
-              "meaning": "Allah"
+              "meaning": "Allah",
+              "meaning_my": "Allah"
             },
             {
               "arabic": "أَحَدٌ",
-              "meaning": "One"
+              "meaning": "One",
+              "meaning_my": "Maha Esa"
             }
           ]
         },
@@ -32,14 +39,17 @@
           "number": 2,
           "text": "اللَّهُ الصَّمَدُ",
           "translation": "Allah, the Eternal Refuge",
+          "translation_my": "Allah, Yang Maha Dibutuhkan",
           "words": [
             {
               "arabic": "اللَّهُ",
-              "meaning": "Allah"
+              "meaning": "Allah",
+              "meaning_my": "Allah"
             },
             {
               "arabic": "الصَّمَدُ",
-              "meaning": "the Eternal Refuge"
+              "meaning": "the Eternal Refuge",
+              "meaning_my": "Yang Maha Dibutuhkan"
             }
           ]
         },

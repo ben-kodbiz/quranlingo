@@ -28,8 +28,11 @@
         <button @click="toggleDarkMode" class="theme-toggle" :title="darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'">
             {{ darkMode ? '☀️' : '🌙' }}
         </button>
+        <button @click="switchLanguage" class="language-toggle" :title="language === 'en' ? 'Tukar ke Bahasa Melayu' : 'Switch to English'">
+            {{ language === 'en' ? '🇲🇾' : '🇬🇧' }}
+        </button>
         <header>
-            <h1>Quranic Arabic Learning</h1>
+            <h1>{{ language === 'en' ? 'Quranic Arabic Learning' : 'Pembelajaran Bahasa Arab Al-Quran' }}</h1>
             <div class="user-stats">
                 <div class="xp-container">
                     <span class="xp-icon">⭐</span>
@@ -49,7 +52,7 @@
             <!-- Loading Screen -->
             <div v-if="isLoading" class="loading-container">
                 <div class="loading-spinner"></div>
-                <p>Loading Surah data...</p>
+                <p>{{ language === 'en' ? 'Loading Surah data...' : 'Memuat data Surah...' }}</p>
             </div>
 
             <!-- Achievement Notification -->
@@ -65,19 +68,19 @@
             <div v-if="!isLoading && currentScreen === 'menu'" class="menu-container">
                 <div class="stats-summary">
                     <div class="stats-card">
-                        <h3>Your Progress</h3>
+                        <h3>{{ language === 'en' ? 'Your Progress' : 'Kemajuan Anda' }}</h3>
                         <div class="overall-progress-bar">
                             <div class="overall-progress" :style="{width: (completedQuestions / totalQuestions * 100) + '%'}"></div>
                         </div>
-                        <p>{{ completedQuestions }} / {{ totalQuestions }} vocabulary items learned</p>
+                        <p>{{ completedQuestions }} / {{ totalQuestions }} {{ language === 'en' ? 'vocabulary items learned' : 'kosa kata dipelajari' }}</p>
                     </div>
                     <div class="stats-card">
-                        <h3>Achievements</h3>
-                        <p>{{ achievements.length }} unlocked</p>
-                        <button @click="currentScreen = 'achievements'" class="view-achievements-btn">View All</button>
+                        <h3>{{ language === 'en' ? 'Achievements' : 'Pencapaian' }}</h3>
+                        <p>{{ achievements.length }} {{ language === 'en' ? 'unlocked' : 'dibuka' }}</p>
+                        <button @click="currentScreen = 'achievements'" class="view-achievements-btn">{{ language === 'en' ? 'View All' : 'Lihat Semua' }}</button>
                     </div>
                 </div>
-                <h2>Select a Surah or Lesson</h2>
+                <h2>{{ language === 'en' ? 'Select a Surah or Lesson' : 'Pilih Surah atau Pelajaran' }}</h2>
                 <div class="surah-list">
                     <div
                         v-for="(lesson, index) in lessons"
@@ -85,9 +88,9 @@
                         class="surah-card"
                         @click="selectLesson(index)"
                     >
-                        <h3>{{ lesson.title }}</h3>
-                        <p v-if="lesson.description" class="surah-description">{{ lesson.description }}</p>
-                        <p>{{ lesson.questions.length }} vocabulary items</p>
+                        <h3>{{ language === 'en' ? lesson.title : (lesson.title_my || lesson.title) }}</h3>
+                        <p v-if="lesson.description" class="surah-description">{{ language === 'en' ? lesson.description : (lesson.description_my || lesson.description) }}</p>
+                        <p>{{ lesson.questions.length }} {{ language === 'en' ? 'vocabulary items' : 'kosa kata' }}</p>
                     </div>
                 </div>
             </div>
@@ -95,20 +98,20 @@
             <!-- Lesson Screen -->
             <div v-if="!isLoading && currentScreen === 'lesson'" class="lesson-container">
                 <div class="lesson-header">
-                    <button @click="returnToMenu" class="back-btn">← Back to Menu</button>
-                    <h2>{{ currentLesson.title }}</h2>
+                    <button @click="returnToMenu" class="back-btn">← {{ language === 'en' ? 'Back to Menu' : 'Kembali ke Menu' }}</button>
+                    <h2>{{ localizedTitle }}</h2>
                     <div class="lesson-mode-buttons">
                         <button @click="switchMode('vocabulary')" :class="{'active': lessonMode === 'vocabulary'}" class="mode-switch-btn">
-                            Vocabulary Mode
+                            {{ language === 'en' ? 'Vocabulary Mode' : 'Mode Kosa Kata' }}
                         </button>
                         <button @click="switchMode('quiz')" :class="{'active': lessonMode === 'quiz'}" class="mode-switch-btn">
-                            Quiz Mode
+                            {{ language === 'en' ? 'Quiz Mode' : 'Mode Kuiz' }}
                         </button>
                         <button @click="switchMode('arrangement')" :class="{'active': lessonMode === 'arrangement'}" class="mode-switch-btn">
-                            Word Arrangement
+                            {{ language === 'en' ? 'Word Arrangement' : 'Susunan Kata' }}
                         </button>
                         <button @click="switchMode('pairs')" :class="{'active': lessonMode === 'pairs'}" class="mode-switch-btn">
-                            Tap the Pairs
+                            {{ language === 'en' ? 'Tap the Pairs' : 'Ketuk Pasangan' }}
                         </button>
                     </div>
                 </div>
@@ -116,7 +119,7 @@
                 <!-- Vocabulary Learning Mode -->
                 <div v-if="lessonMode === 'vocabulary'" class="vocabulary-container">
                     <div class="vocabulary-header">
-                        <h3>Learn the words from {{ currentLesson.title }}</h3>
+                        <h3>{{ language === 'en' ? 'Learn the words from' : 'Pelajari kata-kata dari' }} {{ localizedTitle }}</h3>
                         <div class="progress-indicator">
                             <span>{{ currentVocabIndex + 1 }} / {{ currentVocabWords.length }}</span>
                         </div>
@@ -124,27 +127,27 @@
 
                     <div class="vocabulary-card">
                         <div class="arabic-word">{{ currentVocabWord.arabic }}</div>
-                        <div class="word-meaning">{{ currentVocabWord.meaning }}</div>
+                        <div class="word-meaning">{{ localizedMeaning }}</div>
                     </div>
 
                     <div class="vocabulary-navigation">
                         <button @click="prevVocabWord" :disabled="currentVocabIndex === 0" class="nav-btn">
-                            Previous
+                            {{ language === 'en' ? 'Previous' : 'Sebelumnya' }}
                         </button>
                         <button @click="nextVocabWord" :disabled="currentVocabIndex === currentVocabWords.length - 1" class="nav-btn">
-                            Next
+                            {{ language === 'en' ? 'Next' : 'Seterusnya' }}
                         </button>
                     </div>
 
                     <button @click="startQuiz" class="start-btn">
-                        START QUIZ
+                        {{ language === 'en' ? 'START QUIZ' : 'MULAKAN KUIZ' }}
                     </button>
                 </div>
 
                 <!-- Quiz Mode -->
                 <div v-if="lessonMode === 'quiz'" class="question-card">
                     <button class="close-button" @click="returnToMenu">×</button>
-                    <div class="question-prompt">Choose the correct meaning</div>
+                    <div class="question-prompt">{{ language === 'en' ? 'Choose the correct meaning' : 'Pilih makna yang betul' }}</div>
                     <div class="arabic-word" v-html="formatArabicWord(currentQuestion.arabic)"></div>
                     <div class="options">
                         <button
@@ -164,18 +167,18 @@
                 <!-- Word Arrangement Mode -->
                 <div v-if="lessonMode === 'arrangement'" class="arrangement-card">
                     <div v-if="!currentAyah.words || currentAyah.words.length === 0" class="no-data-message">
-                        <p>Word arrangement is not available for this surah.</p>
-                        <button @click="switchMode('vocabulary')" class="nav-btn">Go to Vocabulary Mode</button>
+                        <p>{{ language === 'en' ? 'Word arrangement is not available for this surah.' : 'Susunan kata tidak tersedia untuk surah ini.' }}</p>
+                        <button @click="switchMode('vocabulary')" class="nav-btn">{{ language === 'en' ? 'Go to Vocabulary Mode' : 'Pergi ke Mode Kosa Kata' }}</button>
                     </div>
                     <template v-else>
                     <button class="close-button" @click="returnToMenu">×</button>
-                    <div class="question-prompt">Choose the correct words</div>
+                    <div class="question-prompt">{{ language === 'en' ? 'Choose the correct words' : 'Pilih kata-kata yang betul' }}</div>
 
                     <div class="ayah-display">
                         <span v-for="(word, index) in currentAyah.words" :key="index" :class="{'highlight': highlightedWordIndex === index}">
                             {{ word.arabic }}
                         </span>
-                        <div class="ayah-reference">~ {{ currentLesson.title.split(' ')[1] }} {{ currentAyah.number }}</div>
+                        <div class="ayah-reference">~ {{ localizedTitle.split(' ')[1] }} {{ currentAyah.number }}</div>
                     </div>
 
                     <div class="arrangement-area">
@@ -187,7 +190,7 @@
                                 :disabled="selectedOptions.some(selected => selected && selected.meaning === option.meaning)"
                                 class="word-option-btn"
                             >
-                                {{ option.meaning }}
+                                {{ language === 'en' ? option.meaning : (option.meaning_my || option.meaning) }}
                             </button>
                         </div>
 
@@ -198,13 +201,13 @@
                                 :class="{'selected-option': slot, 'empty-slot': !slot}"
                                 @click="slot ? removeSelectedOption(index) : null"
                             >
-                                {{ slot ? slot.meaning : '___' }}
+                                {{ slot ? (language === 'en' ? slot.meaning : (slot.meaning_my || slot.meaning)) : '___' }}
                             </div>
                         </div>
                     </div>
 
                     <button @click="checkArrangement" class="check-btn" :disabled="!isArrangementComplete">
-                        Check Answer
+                        {{ language === 'en' ? 'Check Answer' : 'Semak Jawapan' }}
                     </button>
                     </template>
                 </div>
@@ -216,11 +219,11 @@
                         <div class="pairs-progress" :style="{width: (pairsMatched.length / (pairsWords.length / 2) * 100) + '%'}"></div>
                     </div>
                     <div class="pairs-header">
-                        <h3>Tap the pairs</h3>
+                        <h3>{{ language === 'en' ? 'Tap the pairs' : 'Ketuk pasangan' }}</h3>
                     </div>
                     <div class="pairs-stats">
-                        <div class="pairs-score">Score: {{ pairsScore }}</div>
-                        <div class="pairs-errors">Errors: {{ pairsErrors }}</div>
+                        <div class="pairs-score">{{ language === 'en' ? 'Score' : 'Skor' }}: {{ pairsScore }}</div>
+                        <div class="pairs-errors">{{ language === 'en' ? 'Errors' : 'Ralat' }}: {{ pairsErrors }}</div>
                     </div>
 
                     <div class="pairs-grid">

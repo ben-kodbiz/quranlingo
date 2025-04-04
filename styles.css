@@ -1077,11 +1077,10 @@ h1 {
     to { opacity: 0; }
 }
 
-/* Theme toggle button */
-.theme-toggle {
+/* Theme and language toggle buttons */
+.theme-toggle, .language-toggle {
     position: absolute;
     top: 20px;
-    right: 20px;
     background: none;
     border: none;
     cursor: pointer;
@@ -1099,7 +1098,15 @@ h1 {
     box-shadow: 0 2px 5px var(--shadow-color);
 }
 
-.theme-toggle:hover {
+.theme-toggle {
+    right: 20px;
+}
+
+.language-toggle {
+    right: 70px;
+}
+
+.theme-toggle:hover, .language-toggle:hover {
     transform: scale(1.1);
 }
 

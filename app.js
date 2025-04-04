@@ -5,6 +5,7 @@ createApp({
         return {
             currentScreen: 'menu', // 'menu', 'lesson', 'result', 'wordArrangement'
             lessonMode: 'vocabulary', // 'vocabulary', 'quiz', 'arrangement', 'pairs'
+            language: localStorage.getItem('language') || 'en', // 'en' for English, 'my' for Bahasa Melayu
             currentLessonIndex: 0,
             currentQuestionIndex: 0,
             selectedAnswer: null,
@@ -80,13 +81,39 @@ createApp({
         },
 
         currentVocabWord() {
-            return this.currentVocabWords.length > 0 ? this.currentVocabWords[this.currentVocabIndex] : { arabic: '', meaning: '' };
+            if (this.currentVocabWords.length === 0) {
+                return { arabic: '', meaning: '', meaning_my: '' };
+            }
+            const word = this.currentVocabWords[this.currentVocabIndex];
+            return word;
+        },
+
+        localizedMeaning() {
+            if (this.currentVocabWords.length === 0) return '';
+            const word = this.currentVocabWords[this.currentVocabIndex];
+            return this.language === 'en' ? word.meaning : (word.meaning_my || word.meaning);
         },
 
         currentAyah() {
-            return this.currentLesson.ayahs && this.currentLesson.ayahs.length > 0
-                ? this.currentLesson.ayahs[this.currentAyahIndex]
-                : { number: 1, text: '', translation: '', words: [] };
+            if (!this.currentLesson.ayahs || this.currentLesson.ayahs.length === 0) {
+                return { number: 1, text: '', translation: '', translation_my: '', words: [] };
+            }
+            return this.currentLesson.ayahs[this.currentAyahIndex];
+        },
+
+        localizedTranslation() {
+            if (!this.currentAyah) return '';
+            return this.language === 'en' ? this.currentAyah.translation : (this.currentAyah.translation_my || this.currentAyah.translation);
+        },
+
+        localizedTitle() {
+            if (!this.currentLesson) return '';
+            return this.language === 'en' ? this.currentLesson.title : (this.currentLesson.title_my || this.currentLesson.title);
+        },
+
+        localizedDescription() {
+            if (!this.currentLesson) return '';
+            return this.language === 'en' ? this.currentLesson.description : (this.currentLesson.description_my || this.currentLesson.description);
         },
 
         isArrangementComplete() {
@@ -202,7 +229,8 @@ createApp({
                 this.currentLesson.questions.forEach(question => {
                     words.push({
                         arabic: question.arabic,
-                        meaning: question.meaning
+                        meaning: question.meaning,
+                        meaning_my: question.meaning_my || question.meaning
                     });
                 });
             }
@@ -213,21 +241,24 @@ createApp({
 
             // Create pairs array with both Arabic and English versions
             words.forEach(word => {
+                // Get the appropriate meaning based on language
+                const meaningText = this.language === 'en' ? word.meaning : (word.meaning_my || word.meaning);
+
                 // Add Arabic word
                 this.pairsWords.push({
                     id: this.generateUniqueId(),
                     text: word.arabic,
                     type: 'arabic',
-                    pairId: word.meaning, // Use meaning as the pair identifier
+                    pairId: word.meaning, // Use English meaning as the pair identifier (consistent across languages)
                     matched: false
                 });
 
-                // Add English meaning
+                // Add translated meaning
                 this.pairsWords.push({
                     id: this.generateUniqueId(),
-                    text: word.meaning,
+                    text: meaningText,
                     type: 'english',
-                    pairId: word.meaning, // Use meaning as the pair identifier
+                    pairId: word.meaning, // Use English meaning as the pair identifier
                     matched: false
                 });
             });
@@ -670,6 +701,18 @@ createApp({
                 localStorage.setItem('lastLogin', today);
                 localStorage.setItem('currentStreak', this.streak.current);
             }
+        },
+
+        // Language switching methods
+        switchLanguage() {
+            // Toggle between English and Bahasa Melayu
+            this.language = this.language === 'en' ? 'my' : 'en';
+            localStorage.setItem('language', this.language);
+        },
+
+        // Get the appropriate text based on current language
+        getLocalizedText(enText, myText) {
+            return this.language === 'en' ? enText : myText;
         },
 
         // XP award method
