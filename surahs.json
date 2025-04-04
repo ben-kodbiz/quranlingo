@@ -1224,111 +1224,513 @@
     {
       "id": "al-inshiqaq",
       "title": "Surah Al-Inshiqaq (The Splitting Asunder)",
+      "title_my": "Surah Al-Inshiqaq (Terbelah)",
       "description": "A Meccan surah that describes the Day of Judgment and the different fates of the believers and disbelievers.",
+      "description_my": "Surah Mekah yang menggambarkan Hari Kiamat dan nasib yang berbeza bagi orang-orang beriman dan orang-orang kafir.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "إِذَا السَّمَاءُ انشَقَّتْ",
+          "translation": "When the sky has split [open]",
+          "translation_my": "Apabila langit terbelah",
+          "words": [
+            {
+              "arabic": "إِذَا",
+              "meaning": "When",
+              "meaning_my": "Apabila"
+            },
+            {
+              "arabic": "السَّمَاءُ",
+              "meaning": "the sky",
+              "meaning_my": "langit"
+            },
+            {
+              "arabic": "انشَقَّتْ",
+              "meaning": "has split [open]",
+              "meaning_my": "terbelah"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+          "translation": "And has listened to its Lord and was obligated [to do so]",
+          "translation_my": "Dan mendengar (patuh) kepada Tuhannya, dan sudah semestinya langit itu patuh",
+          "words": [
+            {
+              "arabic": "وَأَذِنَتْ",
+              "meaning": "And has listened",
+              "meaning_my": "Dan mendengar (patuh)"
+            },
+            {
+              "arabic": "لِرَبِّهَا",
+              "meaning": "to its Lord",
+              "meaning_my": "kepada Tuhannya"
+            },
+            {
+              "arabic": "وَحُقَّتْ",
+              "meaning": "and was obligated [to do so]",
+              "meaning_my": "dan sudah semestinya langit itu patuh"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَإِذَا الْأَرْضُ مُدَّتْ",
+          "translation": "And when the earth has been extended",
+          "translation_my": "Dan apabila bumi diratakan",
+          "words": [
+            {
+              "arabic": "وَإِذَا",
+              "meaning": "And when",
+              "meaning_my": "Dan apabila"
+            },
+            {
+              "arabic": "الْأَرْضُ",
+              "meaning": "the earth",
+              "meaning_my": "bumi"
+            },
+            {
+              "arabic": "مُدَّتْ",
+              "meaning": "has been extended",
+              "meaning_my": "diratakan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+          "translation": "And has cast out that within it and relinquished [it]",
+          "translation_my": "Dan mengeluarkan apa yang ada di dalamnya dan menjadi kosong",
+          "words": [
+            {
+              "arabic": "وَأَلْقَتْ",
+              "meaning": "And has cast out",
+              "meaning_my": "Dan mengeluarkan"
+            },
+            {
+              "arabic": "مَا فِيهَا",
+              "meaning": "that within it",
+              "meaning_my": "apa yang ada di dalamnya"
+            },
+            {
+              "arabic": "وَتَخَلَّتْ",
+              "meaning": "and relinquished [it]",
+              "meaning_my": "dan menjadi kosong"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+          "translation": "And has listened to its Lord and was obligated [to do so]",
+          "translation_my": "Dan mendengar (patuh) kepada Tuhannya, dan sudah semestinya bumi itu patuh",
+          "words": [
+            {
+              "arabic": "وَأَذِنَتْ",
+              "meaning": "And has listened",
+              "meaning_my": "Dan mendengar (patuh)"
+            },
+            {
+              "arabic": "لِرَبِّهَا",
+              "meaning": "to its Lord",
+              "meaning_my": "kepada Tuhannya"
+            },
+            {
+              "arabic": "وَحُقَّتْ",
+              "meaning": "and was obligated [to do so]",
+              "meaning_my": "dan sudah semestinya bumi itu patuh"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "انشَقَّتْ",
           "meaning": "Is split asunder",
+          "meaning_my": "Terbelah",
           "options": ["Is split asunder", "Is joined together", "Is darkened", "Is brightened"],
-          "correct": "Is split asunder"
+          "options_my": ["Terbelah", "Disatukan", "Digelapkan", "Dicerahkan"],
+          "correct": "Is split asunder",
+          "correct_my": "Terbelah"
         },
         {
           "arabic": "أَذِنَتْ",
           "meaning": "Listens",
+          "meaning_my": "Mendengar (patuh)",
           "options": ["Listens", "Speaks", "Ignores", "Rejects"],
-          "correct": "Listens"
+          "options_my": ["Mendengar (patuh)", "Berbicara", "Mengabaikan", "Menolak"],
+          "correct": "Listens",
+          "correct_my": "Mendengar (patuh)"
         },
         {
           "arabic": "حُقَّتْ",
           "meaning": "It must do so",
+          "meaning_my": "Sudah semestinya patuh",
           "options": ["It must do so", "It must not do so", "It may do so", "It cannot do so"],
-          "correct": "It must do so"
+          "options_my": ["Sudah semestinya patuh", "Tidak sepatutnya patuh", "Mungkin patuh", "Tidak boleh patuh"],
+          "correct": "It must do so",
+          "correct_my": "Sudah semestinya patuh"
         },
         {
           "arabic": "مُدَّتْ",
           "meaning": "Is stretched out",
+          "meaning_my": "Diratakan",
           "options": ["Is stretched out", "Is folded up", "Is raised", "Is lowered"],
-          "correct": "Is stretched out"
+          "options_my": ["Diratakan", "Digulung", "Diangkat", "Direndahkan"],
+          "correct": "Is stretched out",
+          "correct_my": "Diratakan"
         },
         {
           "arabic": "تَخَلَّتْ",
           "meaning": "Casts out",
+          "meaning_my": "Menjadi kosong",
           "options": ["Casts out", "Holds in", "Creates", "Destroys"],
-          "correct": "Casts out"
+          "options_my": ["Menjadi kosong", "Menahan", "Mencipta", "Memusnahkan"],
+          "correct": "Casts out",
+          "correct_my": "Menjadi kosong"
         }
       ]
     },
     {
       "id": "al-buruj",
       "title": "Surah Al-Buruj (The Constellations)",
+      "title_my": "Surah Al-Buruj (Gugusan Bintang)",
       "description": "A Meccan surah that begins with an oath by the constellations and discusses the persecution of believers.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan gugusan bintang dan membincangkan penganiayaan terhadap orang-orang beriman.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالسَّمَاءِ ذَاتِ الْبُرُوجِ",
+          "translation": "By the sky containing great stars",
+          "translation_my": "Demi langit yang mempunyai gugusan bintang",
+          "words": [
+            {
+              "arabic": "وَالسَّمَاءِ",
+              "meaning": "By the sky",
+              "meaning_my": "Demi langit"
+            },
+            {
+              "arabic": "ذَاتِ",
+              "meaning": "containing",
+              "meaning_my": "yang mempunyai"
+            },
+            {
+              "arabic": "الْبُرُوجِ",
+              "meaning": "great stars",
+              "meaning_my": "gugusan bintang"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَالْيَوْمِ الْمَوْعُودِ",
+          "translation": "And [by] the promised Day",
+          "translation_my": "Dan demi hari yang dijanjikan",
+          "words": [
+            {
+              "arabic": "وَالْيَوْمِ",
+              "meaning": "And [by] the Day",
+              "meaning_my": "Dan demi hari"
+            },
+            {
+              "arabic": "الْمَوْعُودِ",
+              "meaning": "the promised",
+              "meaning_my": "yang dijanjikan"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَشَاهِدٍ وَمَشْهُودٍ",
+          "translation": "And [by] the witness and what is witnessed",
+          "translation_my": "Dan demi yang menyaksikan dan yang disaksikan",
+          "words": [
+            {
+              "arabic": "وَشَاهِدٍ",
+              "meaning": "And [by] the witness",
+              "meaning_my": "Dan demi yang menyaksikan"
+            },
+            {
+              "arabic": "وَمَشْهُودٍ",
+              "meaning": "and what is witnessed",
+              "meaning_my": "dan yang disaksikan"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "قُتِلَ أَصْحَابُ الْأُخْدُودِ",
+          "translation": "Cursed were the companions of the trench",
+          "translation_my": "Binasalah orang-orang yang membuat parit",
+          "words": [
+            {
+              "arabic": "قُتِلَ",
+              "meaning": "Cursed were",
+              "meaning_my": "Binasalah"
+            },
+            {
+              "arabic": "أَصْحَابُ",
+              "meaning": "the companions",
+              "meaning_my": "orang-orang"
+            },
+            {
+              "arabic": "الْأُخْدُودِ",
+              "meaning": "of the trench",
+              "meaning_my": "yang membuat parit"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "النَّارِ ذَاتِ الْوَقُودِ",
+          "translation": "[Containing] the fire full of fuel",
+          "translation_my": "Yang berapi (dinyalakan dengan) kayu bakar",
+          "words": [
+            {
+              "arabic": "النَّارِ",
+              "meaning": "[Containing] the fire",
+              "meaning_my": "Yang berapi"
+            },
+            {
+              "arabic": "ذَاتِ",
+              "meaning": "full of",
+              "meaning_my": "(dinyalakan dengan)"
+            },
+            {
+              "arabic": "الْوَقُودِ",
+              "meaning": "fuel",
+              "meaning_my": "kayu bakar"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الْبُرُوجِ",
           "meaning": "The constellations",
+          "meaning_my": "Gugusan bintang",
           "options": ["The constellations", "The stars", "The planets", "The moons"],
-          "correct": "The constellations"
+          "options_my": ["Gugusan bintang", "Bintang-bintang", "Planet-planet", "Bulan-bulan"],
+          "correct": "The constellations",
+          "correct_my": "Gugusan bintang"
         },
         {
           "arabic": "الْمَوْعُودِ",
           "meaning": "The promised",
+          "meaning_my": "Yang dijanjikan",
           "options": ["The promised", "The forbidden", "The hidden", "The revealed"],
-          "correct": "The promised"
+          "options_my": ["Yang dijanjikan", "Yang dilarang", "Yang tersembunyi", "Yang didedahkan"],
+          "correct": "The promised",
+          "correct_my": "Yang dijanjikan"
         },
         {
           "arabic": "شَاهِدٍ",
           "meaning": "A witness",
+          "meaning_my": "Yang menyaksikan",
           "options": ["A witness", "A judge", "A creator", "A destroyer"],
-          "correct": "A witness"
+          "options_my": ["Yang menyaksikan", "Seorang hakim", "Pencipta", "Pemusnah"],
+          "correct": "A witness",
+          "correct_my": "Yang menyaksikan"
         },
         {
           "arabic": "مَشْهُودٍ",
           "meaning": "That which is witnessed",
+          "meaning_my": "Yang disaksikan",
           "options": ["That which is witnessed", "That which is hidden", "That which is created", "That which is destroyed"],
-          "correct": "That which is witnessed"
+          "options_my": ["Yang disaksikan", "Yang tersembunyi", "Yang dicipta", "Yang dimusnahkan"],
+          "correct": "That which is witnessed",
+          "correct_my": "Yang disaksikan"
         },
         {
           "arabic": "الْأُخْدُودِ",
           "meaning": "The pit",
+          "meaning_my": "Parit",
           "options": ["The pit", "The mountain", "The river", "The desert"],
-          "correct": "The pit"
+          "options_my": ["Parit", "Gunung", "Sungai", "Padang pasir"],
+          "correct": "The pit",
+          "correct_my": "Parit"
         }
       ]
     },
     {
       "id": "at-tariq",
       "title": "Surah At-Tariq (The Night Visitor)",
+      "title_my": "Surah At-Tariq (Yang Datang Pada Malam Hari)",
       "description": "A Meccan surah that begins with an oath by the night visitor (a star) and discusses the creation of humans.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan yang datang pada malam hari (bintang) dan membincangkan penciptaan manusia.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالسَّمَاءِ وَالطَّارِقِ",
+          "translation": "By the sky and the night visitor",
+          "translation_my": "Demi langit dan yang datang pada malam hari",
+          "words": [
+            {
+              "arabic": "وَالسَّمَاءِ",
+              "meaning": "By the sky",
+              "meaning_my": "Demi langit"
+            },
+            {
+              "arabic": "وَالطَّارِقِ",
+              "meaning": "and the night visitor",
+              "meaning_my": "dan yang datang pada malam hari"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَمَا أَدْرَاكَ مَا الطَّارِقُ",
+          "translation": "And what can make you know what is the night visitor?",
+          "translation_my": "Dan tahukah kamu apakah yang datang pada malam hari itu?",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "meaning": "And what",
+              "meaning_my": "Dan"
+            },
+            {
+              "arabic": "أَدْرَاكَ",
+              "meaning": "can make you know",
+              "meaning_my": "tahukah kamu"
+            },
+            {
+              "arabic": "مَا",
+              "meaning": "what",
+              "meaning_my": "apakah"
+            },
+            {
+              "arabic": "الطَّارِقُ",
+              "meaning": "is the night visitor",
+              "meaning_my": "yang datang pada malam hari itu"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "النَّجْمُ الثَّاقِبُ",
+          "translation": "It is the piercing star",
+          "translation_my": "Iaitu bintang yang cahayanya menembusi",
+          "words": [
+            {
+              "arabic": "النَّجْمُ",
+              "meaning": "It is the star",
+              "meaning_my": "Iaitu bintang"
+            },
+            {
+              "arabic": "الثَّاقِبُ",
+              "meaning": "the piercing",
+              "meaning_my": "yang cahayanya menembusi"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
+          "translation": "There is no soul but has a protector over it",
+          "translation_my": "Tidak ada suatu jiwapun melainkan ada penjaganya",
+          "words": [
+            {
+              "arabic": "إِن",
+              "meaning": "There is",
+              "meaning_my": "Tidak ada"
+            },
+            {
+              "arabic": "كُلُّ نَفْسٍ",
+              "meaning": "no soul",
+              "meaning_my": "suatu jiwapun"
+            },
+            {
+              "arabic": "لَّمَّا",
+              "meaning": "but",
+              "meaning_my": "melainkan"
+            },
+            {
+              "arabic": "عَلَيْهَا",
+              "meaning": "over it",
+              "meaning_my": "ada"
+            },
+            {
+              "arabic": "حَافِظٌ",
+              "meaning": "a protector",
+              "meaning_my": "penjaganya"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فَلْيَنظُرِ الْإِنسَانُ مِمَّ خُلِقَ",
+          "translation": "So let man observe from what he was created",
+          "translation_my": "Maka hendaklah manusia memperhatikan dari apakah dia diciptakan",
+          "words": [
+            {
+              "arabic": "فَلْيَنظُرِ",
+              "meaning": "So let observe",
+              "meaning_my": "Maka hendaklah memperhatikan"
+            },
+            {
+              "arabic": "الْإِنسَانُ",
+              "meaning": "man",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "مِمَّ",
+              "meaning": "from what",
+              "meaning_my": "dari apakah"
+            },
+            {
+              "arabic": "خُلِقَ",
+              "meaning": "he was created",
+              "meaning_my": "dia diciptakan"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الطَّارِقِ",
           "meaning": "The night visitor",
+          "meaning_my": "Yang datang pada malam hari",
           "options": ["The night visitor", "The day visitor", "The morning star", "The evening star"],
-          "correct": "The night visitor"
+          "options_my": ["Yang datang pada malam hari", "Yang datang pada siang hari", "Bintang pagi", "Bintang petang"],
+          "correct": "The night visitor",
+          "correct_my": "Yang datang pada malam hari"
         },
         {
           "arabic": "الثَّاقِبُ",
           "meaning": "The piercing star",
+          "meaning_my": "Bintang yang cahayanya menembusi",
           "options": ["The piercing star", "The dim star", "The falling star", "The rising star"],
-          "correct": "The piercing star"
+          "options_my": ["Bintang yang cahayanya menembusi", "Bintang yang redup", "Bintang yang jatuh", "Bintang yang terbit"],
+          "correct": "The piercing star",
+          "correct_my": "Bintang yang cahayanya menembusi"
         },
         {
           "arabic": "حَافِظٌ",
           "meaning": "A protector",
+          "meaning_my": "Penjaga",
           "options": ["A protector", "An enemy", "A friend", "A guide"],
-          "correct": "A protector"
+          "options_my": ["Penjaga", "Musuh", "Kawan", "Pembimbing"],
+          "correct": "A protector",
+          "correct_my": "Penjaga"
         },
         {
           "arabic": "دَافِقٍ",
           "meaning": "Gushing",
+          "meaning_my": "Yang terpancar",
           "options": ["Gushing", "Flowing slowly", "Dripping", "Frozen"],
-          "correct": "Gushing"
+          "options_my": ["Yang terpancar", "Yang mengalir perlahan", "Yang menitik", "Yang beku"],
+          "correct": "Gushing",
+          "correct_my": "Yang terpancar"
         },
         {
           "arabic": "الصُّلْبِ",
           "meaning": "The backbone",
+          "meaning_my": "Tulang sulbi",
           "options": ["The backbone", "The heart", "The mind", "The soul"],
-          "correct": "The backbone"
+          "options_my": ["Tulang sulbi", "Jantung", "Akal", "Jiwa"],
+          "correct": "The backbone",
+          "correct_my": "Tulang sulbi"
         }
       ]
     },
