@@ -2,7 +2,7 @@
   "name": "QuranLingo",
   "short_name": "QuranLingo",
   "description": "Learn Quranic vocabulary with an interactive app",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#4b9f46",
