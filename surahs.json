@@ -1594,49 +1594,272 @@
     {
       "id": "an-nas",
       "title": "Surah An-Nas (Mankind)",
+      "title_my": "Surah An-Nas (Manusia)",
       "description": "The last chapter of the Quran, seeking refuge with Allah from the evil of the whisperer.",
+      "description_my": "Surah terakhir dalam Al-Quran, memohon perlindungan kepada Allah dari kejahatan pembisik.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+          "translation": "Say, \"I seek refuge in the Lord of mankind\"",
+          "translation_my": "Katakanlah, \"Aku berlindung kepada Tuhan manusia\"",
+          "words": [
+            {
+              "arabic": "قُلْ",
+              "meaning": "Say",
+              "meaning_my": "Katakanlah"
+            },
+            {
+              "arabic": "أَعُوذُ",
+              "meaning": "I seek refuge",
+              "meaning_my": "Aku berlindung"
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "meaning": "in the Lord of",
+              "meaning_my": "kepada Tuhan"
+            },
+            {
+              "arabic": "النَّاسِ",
+              "meaning": "mankind",
+              "meaning_my": "manusia"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "مَلِكِ النَّاسِ",
+          "translation": "The Sovereign of mankind",
+          "translation_my": "Raja manusia",
+          "words": [
+            {
+              "arabic": "مَلِكِ",
+              "meaning": "The Sovereign of",
+              "meaning_my": "Raja"
+            },
+            {
+              "arabic": "النَّاسِ",
+              "meaning": "mankind",
+              "meaning_my": "manusia"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "إِلَٰهِ النَّاسِ",
+          "translation": "The God of mankind",
+          "translation_my": "Sembahan manusia",
+          "words": [
+            {
+              "arabic": "إِلَٰهِ",
+              "meaning": "The God of",
+              "meaning_my": "Sembahan"
+            },
+            {
+              "arabic": "النَّاسِ",
+              "meaning": "mankind",
+              "meaning_my": "manusia"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+          "translation": "From the evil of the retreating whisperer",
+          "translation_my": "Dari kejahatan pembisik yang bersembunyi",
+          "words": [
+            {
+              "arabic": "مِن",
+              "meaning": "From",
+              "meaning_my": "Dari"
+            },
+            {
+              "arabic": "شَرِّ",
+              "meaning": "the evil of",
+              "meaning_my": "kejahatan"
+            },
+            {
+              "arabic": "الْوَسْوَاسِ",
+              "meaning": "the whisperer",
+              "meaning_my": "pembisik"
+            },
+            {
+              "arabic": "الْخَنَّاسِ",
+              "meaning": "the retreating",
+              "meaning_my": "yang bersembunyi"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+          "translation": "Who whispers [evil] into the breasts of mankind",
+          "translation_my": "Yang membisikkan [kejahatan] ke dalam dada manusia",
+          "words": [
+            {
+              "arabic": "الَّذِي",
+              "meaning": "Who",
+              "meaning_my": "Yang"
+            },
+            {
+              "arabic": "يُوَسْوِسُ",
+              "meaning": "whispers",
+              "meaning_my": "membisikkan"
+            },
+            {
+              "arabic": "فِي",
+              "meaning": "into",
+              "meaning_my": "ke dalam"
+            },
+            {
+              "arabic": "صُدُورِ",
+              "meaning": "the breasts of",
+              "meaning_my": "dada"
+            },
+            {
+              "arabic": "النَّاسِ",
+              "meaning": "mankind",
+              "meaning_my": "manusia"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+          "translation": "From among the jinn and mankind",
+          "translation_my": "Dari kalangan jin dan manusia",
+          "words": [
+            {
+              "arabic": "مِنَ",
+              "meaning": "From among",
+              "meaning_my": "Dari kalangan"
+            },
+            {
+              "arabic": "الْجِنَّةِ",
+              "meaning": "the jinn",
+              "meaning_my": "jin"
+            },
+            {
+              "arabic": "وَ",
+              "meaning": "and",
+              "meaning_my": "dan"
+            },
+            {
+              "arabic": "النَّاسِ",
+              "meaning": "mankind",
+              "meaning_my": "manusia"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "النَّاسِ",
           "meaning": "Mankind",
+          "meaning_my": "Manusia",
           "options": ["Mankind", "People", "Humans", "Creation"],
-          "correct": "Mankind"
+          "options_my": ["Manusia", "Orang", "Insan", "Makhluk"],
+          "correct": "Mankind",
+          "correct_my": "Manusia"
         },
         {
           "arabic": "مَلِكِ",
           "meaning": "King",
+          "meaning_my": "Raja",
           "options": ["King", "Lord", "Master", "Ruler"],
-          "correct": "King"
+          "options_my": ["Raja", "Tuhan", "Penguasa", "Pemerintah"],
+          "correct": "King",
+          "correct_my": "Raja"
         },
         {
           "arabic": "إِلَٰهِ",
           "meaning": "God",
+          "meaning_my": "Tuhan",
           "options": ["God", "Deity", "Creator", "Sustainer"],
-          "correct": "God"
+          "options_my": ["Tuhan", "Sembahan", "Pencipta", "Pemelihara"],
+          "correct": "God",
+          "correct_my": "Tuhan"
         },
         {
           "arabic": "أَعُوذُ",
           "meaning": "I seek refuge",
+          "meaning_my": "Aku berlindung",
           "options": ["I seek refuge", "I pray", "I worship", "I believe"],
-          "correct": "I seek refuge"
+          "options_my": ["Aku berlindung", "Aku berdoa", "Aku menyembah", "Aku percaya"],
+          "correct": "I seek refuge",
+          "correct_my": "Aku berlindung"
         },
         {
           "arabic": "الْوَسْوَاسِ",
           "meaning": "The whisperer",
+          "meaning_my": "Pembisik",
           "options": ["The whisperer", "The deceiver", "The tempter", "The evil"],
-          "correct": "The whisperer"
+          "options_my": ["Pembisik", "Penipu", "Penggoda", "Kejahatan"],
+          "correct": "The whisperer",
+          "correct_my": "Pembisik"
         },
         {
           "arabic": "الْخَنَّاسِ",
           "meaning": "Who withdraws",
+          "meaning_my": "Yang bersembunyi",
           "options": ["Who withdraws", "Who hides", "Who retreats", "Who disappears"],
-          "correct": "Who withdraws"
+          "options_my": ["Yang bersembunyi", "Yang menyembunyikan diri", "Yang mundur", "Yang menghilang"],
+          "correct": "Who withdraws",
+          "correct_my": "Yang bersembunyi"
         },
         {
           "arabic": "صُدُورِ",
           "meaning": "Chests (hearts)",
+          "meaning_my": "Dada (hati)",
           "options": ["Chests (hearts)", "Minds", "Souls", "Bodies"],
-          "correct": "Chests (hearts)"
+          "options_my": ["Dada (hati)", "Fikiran", "Jiwa", "Badan"],
+          "correct": "Chests (hearts)",
+          "correct_my": "Dada (hati)"
+        },
+        {
+          "arabic": "الْجِنَّةِ",
+          "meaning": "The jinn",
+          "meaning_my": "Jin",
+          "options": ["The jinn", "The spirits", "The demons", "The unseen"],
+          "options_my": ["Jin", "Roh", "Syaitan", "Yang ghaib"],
+          "correct": "The jinn",
+          "correct_my": "Jin"
+        },
+        {
+          "arabic": "يُوَسْوِسُ",
+          "meaning": "Whispers",
+          "meaning_my": "Membisikkan",
+          "options": ["Whispers", "Speaks", "Suggests", "Tempts"],
+          "options_my": ["Membisikkan", "Berbicara", "Mencadangkan", "Menggoda"],
+          "correct": "Whispers",
+          "correct_my": "Membisikkan"
+        },
+        {
+          "arabic": "بِرَبِّ",
+          "meaning": "In the Lord of",
+          "meaning_my": "Kepada Tuhan",
+          "options": ["In the Lord of", "By the Master of", "With the Creator of", "To the Sustainer of"],
+          "options_my": ["Kepada Tuhan", "Dengan Penguasa", "Bersama Pencipta", "Kepada Pemelihara"],
+          "correct": "In the Lord of",
+          "correct_my": "Kepada Tuhan"
+        },
+        {
+          "arabic": "مِنَ",
+          "meaning": "From among",
+          "meaning_my": "Dari kalangan",
+          "options": ["From among", "Of the", "Within", "Between"],
+          "options_my": ["Dari kalangan", "Daripada", "Di dalam", "Di antara"],
+          "correct": "From among",
+          "correct_my": "Dari kalangan"
+        },
+        {
+          "arabic": "شَرِّ",
+          "meaning": "Evil",
+          "meaning_my": "Kejahatan",
+          "options": ["Evil", "Harm", "Wickedness", "Malice"],
+          "options_my": ["Kejahatan", "Kemudaratan", "Keburukan", "Kedengkian"],
+          "correct": "Evil",
+          "correct_my": "Kejahatan"
         }
       ]
     },
