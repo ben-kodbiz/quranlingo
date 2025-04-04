@@ -2758,111 +2758,508 @@
     {
       "id": "ad-duha",
       "title": "Surah Ad-Duha (The Morning Hours)",
+      "title_my": "Surah Ad-Duha (Waktu Duha)",
       "description": "A Meccan surah that consoles the Prophet Muhammad and reminds him of Allah's favors.",
+      "description_my": "Surah Mekah yang menghiburkan Nabi Muhammad dan mengingatkan beliau tentang nikmat-nikmat Allah.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالضُّحَىٰ",
+          "translation": "By the morning brightness",
+          "translation_my": "Demi waktu duha (ketika matahari naik sepenggalah)",
+          "words": [
+            {
+              "arabic": "وَالضُّحَىٰ",
+              "meaning": "By the morning brightness",
+              "meaning_my": "Demi waktu duha (ketika matahari naik sepenggalah)"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَاللَّيْلِ إِذَا سَجَىٰ",
+          "translation": "And [by] the night when it covers with darkness",
+          "translation_my": "Dan demi malam apabila ia sunyi",
+          "words": [
+            {
+              "arabic": "وَاللَّيْلِ",
+              "meaning": "And [by] the night",
+              "meaning_my": "Dan demi malam"
+            },
+            {
+              "arabic": "إِذَا",
+              "meaning": "when",
+              "meaning_my": "apabila"
+            },
+            {
+              "arabic": "سَجَىٰ",
+              "meaning": "it covers with darkness",
+              "meaning_my": "ia sunyi"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+          "translation": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]",
+          "translation_my": "Tuhanmu tidak meninggalkan engkau (wahai Muhammad) dan tidak pula membencimu",
+          "words": [
+            {
+              "arabic": "مَا وَدَّعَكَ",
+              "meaning": "has not taken leave of you",
+              "meaning_my": "tidak meninggalkan engkau"
+            },
+            {
+              "arabic": "رَبُّكَ",
+              "meaning": "Your Lord",
+              "meaning_my": "Tuhanmu"
+            },
+            {
+              "arabic": "وَمَا قَلَىٰ",
+              "meaning": "nor has He detested [you]",
+              "meaning_my": "dan tidak pula membencimu"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَلَلْآخِرَةُ خَيْرٌ لَّكَ مِنَ الْأُولَىٰ",
+          "translation": "And the Hereafter is better for you than the first [life]",
+          "translation_my": "Dan sesungguhnya akhirat itu lebih baik bagimu daripada dunia",
+          "words": [
+            {
+              "arabic": "وَلَلْآخِرَةُ",
+              "meaning": "And the Hereafter",
+              "meaning_my": "Dan sesungguhnya akhirat"
+            },
+            {
+              "arabic": "خَيْرٌ لَّكَ",
+              "meaning": "is better for you",
+              "meaning_my": "itu lebih baik bagimu"
+            },
+            {
+              "arabic": "مِنَ الْأُولَىٰ",
+              "meaning": "than the first [life]",
+              "meaning_my": "daripada dunia"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
+          "translation": "And your Lord is going to give you, and you will be satisfied",
+          "translation_my": "Dan kelak Tuhanmu pasti memberikan karunia-Nya kepadamu, lalu (hati) engkau menjadi puas",
+          "words": [
+            {
+              "arabic": "وَلَسَوْفَ",
+              "meaning": "And is going to",
+              "meaning_my": "Dan kelak"
+            },
+            {
+              "arabic": "يُعْطِيكَ",
+              "meaning": "give you",
+              "meaning_my": "memberikan karunia-Nya kepadamu"
+            },
+            {
+              "arabic": "رَبُّكَ",
+              "meaning": "your Lord",
+              "meaning_my": "Tuhanmu"
+            },
+            {
+              "arabic": "فَتَرْضَىٰ",
+              "meaning": "and you will be satisfied",
+              "meaning_my": "lalu (hati) engkau menjadi puas"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "الضُّحَىٰ",
           "meaning": "The morning brightness",
+          "meaning_my": "Waktu duha",
           "options": ["The morning brightness", "The night darkness", "The evening twilight", "The dawn light"],
-          "correct": "The morning brightness"
+          "options_my": ["Waktu duha", "Kegelapan malam", "Senja petang", "Cahaya fajar"],
+          "correct": "The morning brightness",
+          "correct_my": "Waktu duha"
         },
         {
           "arabic": "سَجَىٰ",
           "meaning": "Grows still",
+          "meaning_my": "Sunyi",
           "options": ["Grows still", "Becomes active", "Brightens", "Darkens"],
-          "correct": "Grows still"
+          "options_my": ["Sunyi", "Menjadi aktif", "Menjadi cerah", "Menjadi gelap"],
+          "correct": "Grows still",
+          "correct_my": "Sunyi"
         },
         {
           "arabic": "وَدَّعَكَ",
           "meaning": "Forsaken you",
+          "meaning_my": "Meninggalkan engkau",
           "options": ["Forsaken you", "Embraced you", "Created you", "Guided you"],
-          "correct": "Forsaken you"
+          "options_my": ["Meninggalkan engkau", "Memeluk engkau", "Menciptakan engkau", "Membimbing engkau"],
+          "correct": "Forsaken you",
+          "correct_my": "Meninggalkan engkau"
         },
         {
           "arabic": "قَلَىٰ",
           "meaning": "Displeased with you",
+          "meaning_my": "Membencimu",
           "options": ["Displeased with you", "Pleased with you", "Forgotten you", "Remembered you"],
-          "correct": "Displeased with you"
+          "options_my": ["Membencimu", "Meredaimu", "Melupakanmu", "Mengingatmu"],
+          "correct": "Displeased with you",
+          "correct_my": "Membencimu"
         },
         {
           "arabic": "فَآوَىٰ",
           "meaning": "Sheltered you",
+          "meaning_my": "Melindungimu",
           "options": ["Sheltered you", "Abandoned you", "Tested you", "Punished you"],
-          "correct": "Sheltered you"
+          "options_my": ["Melindungimu", "Meninggalkanmu", "Mengujimu", "Menghukummu"],
+          "correct": "Sheltered you",
+          "correct_my": "Melindungimu"
         }
       ]
     },
     {
       "id": "ash-sharh",
       "title": "Surah Ash-Sharh (The Relief)",
+      "title_my": "Surah Ash-Sharh (Melapangkan)",
       "description": "A Meccan surah that consoles and encourages the Prophet Muhammad during difficult times.",
+      "description_my": "Surah Mekah yang menghibur dan menggalakkan Nabi Muhammad pada masa-masa sukar.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+          "translation": "Have We not expanded for you, [O Muhammad], your breast?",
+          "translation_my": "Bukankah Kami telah melapangkan untukmu dadamu?",
+          "words": [
+            {
+              "arabic": "أَلَمْ",
+              "meaning": "Have We not",
+              "meaning_my": "Bukankah Kami telah"
+            },
+            {
+              "arabic": "نَشْرَحْ",
+              "meaning": "expanded",
+              "meaning_my": "melapangkan"
+            },
+            {
+              "arabic": "لَكَ",
+              "meaning": "for you",
+              "meaning_my": "untukmu"
+            },
+            {
+              "arabic": "صَدْرَكَ",
+              "meaning": "your breast",
+              "meaning_my": "dadamu"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+          "translation": "And We removed from you your burden",
+          "translation_my": "Dan Kami telah menghilangkan daripadamu bebanmu",
+          "words": [
+            {
+              "arabic": "وَوَضَعْنَا",
+              "meaning": "And We removed",
+              "meaning_my": "Dan Kami telah menghilangkan"
+            },
+            {
+              "arabic": "عَنكَ",
+              "meaning": "from you",
+              "meaning_my": "daripadamu"
+            },
+            {
+              "arabic": "وِزْرَكَ",
+              "meaning": "your burden",
+              "meaning_my": "bebanmu"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "الَّذِي أَنقَضَ ظَهْرَكَ",
+          "translation": "Which had weighed upon your back",
+          "translation_my": "Yang memberatkan punggungmu",
+          "words": [
+            {
+              "arabic": "الَّذِي",
+              "meaning": "Which",
+              "meaning_my": "Yang"
+            },
+            {
+              "arabic": "أَنقَضَ",
+              "meaning": "had weighed upon",
+              "meaning_my": "memberatkan"
+            },
+            {
+              "arabic": "ظَهْرَكَ",
+              "meaning": "your back",
+              "meaning_my": "punggungmu"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+          "translation": "And raised high for you your repute",
+          "translation_my": "Dan Kami tinggikan bagimu sebutan (nama)mu",
+          "words": [
+            {
+              "arabic": "وَرَفَعْنَا",
+              "meaning": "And raised high",
+              "meaning_my": "Dan Kami tinggikan"
+            },
+            {
+              "arabic": "لَكَ",
+              "meaning": "for you",
+              "meaning_my": "bagimu"
+            },
+            {
+              "arabic": "ذِكْرَكَ",
+              "meaning": "your repute",
+              "meaning_my": "sebutan (nama)mu"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+          "translation": "For indeed, with hardship [will be] ease",
+          "translation_my": "Maka sesungguhnya bersama kesulitan ada kemudahan",
+          "words": [
+            {
+              "arabic": "فَإِنَّ",
+              "meaning": "For indeed",
+              "meaning_my": "Maka sesungguhnya"
+            },
+            {
+              "arabic": "مَعَ",
+              "meaning": "with",
+              "meaning_my": "bersama"
+            },
+            {
+              "arabic": "الْعُسْرِ",
+              "meaning": "hardship",
+              "meaning_my": "kesulitan"
+            },
+            {
+              "arabic": "يُسْرًا",
+              "meaning": "[will be] ease",
+              "meaning_my": "ada kemudahan"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "نَشْرَحْ",
           "meaning": "Expanded",
+          "meaning_my": "Melapangkan",
           "options": ["Expanded", "Contracted", "Closed", "Sealed"],
-          "correct": "Expanded"
+          "options_my": ["Melapangkan", "Menyempitkan", "Menutup", "Menyegel"],
+          "correct": "Expanded",
+          "correct_my": "Melapangkan"
         },
         {
           "arabic": "وِزْرَكَ",
           "meaning": "Your burden",
+          "meaning_my": "Bebanmu",
           "options": ["Your burden", "Your wealth", "Your honor", "Your knowledge"],
-          "correct": "Your burden"
+          "options_my": ["Bebanmu", "Kekayaanmu", "Kehormatanmu", "Pengetahuanmu"],
+          "correct": "Your burden",
+          "correct_my": "Bebanmu"
         },
         {
           "arabic": "أَنقَضَ",
           "meaning": "Weighed down",
+          "meaning_my": "Memberatkan",
           "options": ["Weighed down", "Lifted up", "Strengthened", "Weakened"],
-          "correct": "Weighed down"
+          "options_my": ["Memberatkan", "Mengangkat", "Menguatkan", "Melemahkan"],
+          "correct": "Weighed down",
+          "correct_my": "Memberatkan"
         },
         {
           "arabic": "ذِكْرَكَ",
           "meaning": "Your fame",
+          "meaning_my": "Sebutan (nama)mu",
           "options": ["Your fame", "Your wealth", "Your family", "Your knowledge"],
-          "correct": "Your fame"
+          "options_my": ["Sebutan (nama)mu", "Kekayaanmu", "Keluargamu", "Pengetahuanmu"],
+          "correct": "Your fame",
+          "correct_my": "Sebutan (nama)mu"
         },
         {
           "arabic": "يُسْرًا",
           "meaning": "Ease",
+          "meaning_my": "Kemudahan",
           "options": ["Ease", "Difficulty", "Hardship", "Burden"],
-          "correct": "Ease"
+          "options_my": ["Kemudahan", "Kesukaran", "Kesulitan", "Beban"],
+          "correct": "Ease",
+          "correct_my": "Kemudahan"
         }
       ]
     },
     {
       "id": "at-tin",
       "title": "Surah At-Tin (The Fig)",
+      "title_my": "Surah At-Tin (Buah Tin)",
       "description": "A Meccan surah that begins with oaths by the fig, olive, Mount Sinai, and Mecca, and discusses human creation.",
+      "description_my": "Surah Mekah yang bermula dengan sumpah dengan buah tin, zaitun, Bukit Sinai, dan Mekah, dan membincangkan penciptaan manusia.",
+      "ayahs": [
+        {
+          "number": 1,
+          "text": "وَالتِّينِ وَالزَّيْتُونِ",
+          "translation": "By the fig and the olive",
+          "translation_my": "Demi buah tin dan zaitun",
+          "words": [
+            {
+              "arabic": "وَالتِّينِ",
+              "meaning": "By the fig",
+              "meaning_my": "Demi buah tin"
+            },
+            {
+              "arabic": "وَالزَّيْتُونِ",
+              "meaning": "and the olive",
+              "meaning_my": "dan zaitun"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "وَطُورِ سِينِينَ",
+          "translation": "And [by] Mount Sinai",
+          "translation_my": "Dan demi Bukit Sinai",
+          "words": [
+            {
+              "arabic": "وَطُورِ",
+              "meaning": "And [by] Mount",
+              "meaning_my": "Dan demi Bukit"
+            },
+            {
+              "arabic": "سِينِينَ",
+              "meaning": "Sinai",
+              "meaning_my": "Sinai"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "وَهَٰذَا الْبَلَدِ الْأَمِينِ",
+          "translation": "And [by] this secure city [Mecca]",
+          "translation_my": "Dan demi kota (Mekah) yang aman ini",
+          "words": [
+            {
+              "arabic": "وَهَٰذَا",
+              "meaning": "And [by] this",
+              "meaning_my": "Dan demi"
+            },
+            {
+              "arabic": "الْبَلَدِ",
+              "meaning": "city",
+              "meaning_my": "kota (Mekah)"
+            },
+            {
+              "arabic": "الْأَمِينِ",
+              "meaning": "secure",
+              "meaning_my": "yang aman ini"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
+          "translation": "We have certainly created man in the best of stature",
+          "translation_my": "Sesungguhnya Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya",
+          "words": [
+            {
+              "arabic": "لَقَدْ خَلَقْنَا",
+              "meaning": "We have certainly created",
+              "meaning_my": "Sesungguhnya Kami telah menciptakan"
+            },
+            {
+              "arabic": "الْإِنسَانَ",
+              "meaning": "man",
+              "meaning_my": "manusia"
+            },
+            {
+              "arabic": "فِي أَحْسَنِ تَقْوِيمٍ",
+              "meaning": "in the best of stature",
+              "meaning_my": "dalam bentuk yang sebaik-baiknya"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
+          "translation": "Then We return him to the lowest of the low",
+          "translation_my": "Kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya",
+          "words": [
+            {
+              "arabic": "ثُمَّ رَدَدْنَاهُ",
+              "meaning": "Then We return him",
+              "meaning_my": "Kemudian Kami kembalikan dia"
+            },
+            {
+              "arabic": "أَسْفَلَ",
+              "meaning": "to the lowest",
+              "meaning_my": "ke tempat yang serendah-rendahnya"
+            },
+            {
+              "arabic": "سَافِلِينَ",
+              "meaning": "of the low",
+              "meaning_my": "yang rendah"
+            }
+          ]
+        }
+      ],
       "questions": [
         {
           "arabic": "التِّينِ",
           "meaning": "The fig",
+          "meaning_my": "Buah tin",
           "options": ["The fig", "The date", "The grape", "The olive"],
-          "correct": "The fig"
+          "options_my": ["Buah tin", "Buah kurma", "Buah anggur", "Buah zaitun"],
+          "correct": "The fig",
+          "correct_my": "Buah tin"
         },
         {
           "arabic": "الزَّيْتُونِ",
           "meaning": "The olive",
+          "meaning_my": "Buah zaitun",
           "options": ["The olive", "The fig", "The date", "The grape"],
-          "correct": "The olive"
+          "options_my": ["Buah zaitun", "Buah tin", "Buah kurma", "Buah anggur"],
+          "correct": "The olive",
+          "correct_my": "Buah zaitun"
         },
         {
           "arabic": "سِينِينَ",
           "meaning": "Sinai",
+          "meaning_my": "Sinai",
           "options": ["Sinai", "Mecca", "Medina", "Jerusalem"],
-          "correct": "Sinai"
+          "options_my": ["Sinai", "Mekah", "Madinah", "Baitulmaqdis"],
+          "correct": "Sinai",
+          "correct_my": "Sinai"
         },
         {
           "arabic": "الْأَمِينِ",
           "meaning": "The secure",
+          "meaning_my": "Yang aman",
           "options": ["The secure", "The dangerous", "The distant", "The near"],
-          "correct": "The secure"
+          "options_my": ["Yang aman", "Yang berbahaya", "Yang jauh", "Yang dekat"],
+          "correct": "The secure",
+          "correct_my": "Yang aman"
         },
         {
           "arabic": "تَقْوِيمٍ",
           "meaning": "Mold",
+          "meaning_my": "Bentuk",
           "options": ["Mold", "Shape", "Form", "All of these"],
-          "correct": "Mold"
+          "options_my": ["Bentuk", "Rupa", "Acuan", "Semua di atas"],
+          "correct": "Mold",
+          "correct_my": "Bentuk"
         }
       ]
     },
