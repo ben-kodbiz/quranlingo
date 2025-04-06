@@ -178,9 +178,9 @@ createApp({
                 });
             }
 
-            // If no ayahs or no words in ayahs, use questions count
-            if (count === 0 && lesson.questions) {
-                count = lesson.questions.length;
+            // Always add questions count (not just as a fallback)
+            if (lesson.questions) {
+                count += lesson.questions.length;
             }
 
             return count;
