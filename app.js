@@ -579,38 +579,278 @@ createApp({
             // Convert question to lowercase for easier matching
             const lowerQuestion = question.toLowerCase();
 
+            // Get additional meanings and context for the word
+            const wordInfo = this.getWordAdditionalInfo(arabic);
+
             // Check for common questions and provide appropriate responses
             if (this.language === 'en') {
                 // English responses
                 if (lowerQuestion.includes('pronounce') || lowerQuestion.includes('pronunciation') || lowerQuestion.includes('say')) {
-                    return `The word "${arabic}" is pronounced [pronunciation guide]. You can practice by repeating it several times.`;
-                } else if (lowerQuestion.includes('mean') || lowerQuestion.includes('translation') || lowerQuestion.includes('definition')) {
-                    return `The word "${arabic}" means "${meaning}" in English. It's used in contexts related to [context information].`;
+                    return `The word "${arabic}" is pronounced ${wordInfo.pronunciation}. You can practice by repeating it several times.`;
+                } else if (lowerQuestion.includes('mean') || lowerQuestion.includes('translation') || lowerQuestion.includes('definition') || lowerQuestion.includes('meanings')) {
+                    let response = `The primary meaning of "${arabic}" is "${meaning}" in English.`;
+
+                    // Add additional meanings if available
+                    if (wordInfo.additionalMeanings && wordInfo.additionalMeanings.length > 0) {
+                        response += `\n\nHowever, this word can have multiple meanings in different contexts:\n`;
+                        wordInfo.additionalMeanings.forEach((additionalMeaning, index) => {
+                            response += `${index + 1}. ${additionalMeaning}\n`;
+                        });
+                    }
+
+                    response += `\nIt's used in contexts related to ${wordInfo.context}.`;
+                    return response;
                 } else if (lowerQuestion.includes('example') || lowerQuestion.includes('sentence') || lowerQuestion.includes('usage')) {
-                    return `Here's an example of how "${arabic}" is used in a sentence: [example sentence with the word]. This demonstrates how it's typically used in the Quran.`;
+                    let response = `The word "${arabic}" is used in sentences like:\n`;
+                    wordInfo.examples.forEach((example, index) => {
+                        response += `${index + 1}. ${example}\n`;
+                    });
+                    response += `\nIt appears in several places in the Quran.`;
+                    return response;
                 } else if (lowerQuestion.includes('root') || lowerQuestion.includes('origin') || lowerQuestion.includes('etymology')) {
-                    return `The word "${arabic}" comes from the root [root letters]. Many related words in Arabic are derived from this same root.`;
+                    let response = `The word "${arabic}" comes from the root ${wordInfo.root}.`;
+                    if (wordInfo.relatedWords && wordInfo.relatedWords.length > 0) {
+                        response += `\n\nThis root gives us related words like:\n`;
+                        wordInfo.relatedWords.forEach((relatedWord, index) => {
+                            response += `${index + 1}. ${relatedWord.arabic} - ${relatedWord.meaning}\n`;
+                        });
+                    }
+                    return response;
                 } else if (lowerQuestion.includes('similar') || lowerQuestion.includes('synonym') || lowerQuestion.includes('related')) {
-                    return `Some words similar to "${arabic}" include [similar words]. They have related but slightly different meanings.`;
+                    if (wordInfo.relatedWords && wordInfo.relatedWords.length > 0) {
+                        let response = `Words related to "${arabic}" include:\n`;
+                        wordInfo.relatedWords.forEach((relatedWord, index) => {
+                            response += `${index + 1}. ${relatedWord.arabic} - ${relatedWord.meaning}\n`;
+                        });
+                        return response;
+                    } else {
+                        return `I don't have information about words similar to "${arabic}" at the moment.`;
+                    }
                 } else {
-                    return `That's an interesting question about "${arabic}". This word appears in several places in the Quran and has significance in Islamic teachings. Would you like to know about its pronunciation, meaning, or usage?`;
+                    return `That's an interesting question about "${arabic}". This word appears in several places in the Quran and has significance in Islamic teachings.\n\nYou can ask me about:\n- Its multiple meanings\n- Its pronunciation\n- Example usage in sentences\n- Its root and related words`;
                 }
             } else {
                 // Malay responses
                 if (lowerQuestion.includes('sebut') || lowerQuestion.includes('bunyi') || lowerQuestion.includes('ucap')) {
-                    return `Perkataan "${arabic}" disebut [panduan sebutan]. Anda boleh berlatih dengan mengulanginya beberapa kali.`;
-                } else if (lowerQuestion.includes('makna') || lowerQuestion.includes('maksud') || lowerQuestion.includes('terjemahan')) {
-                    return `Perkataan "${arabic}" bermaksud "${meaning}" dalam Bahasa Melayu. Ia digunakan dalam konteks berkaitan dengan [maklumat konteks].`;
+                    return `Perkataan "${arabic}" disebut ${wordInfo.pronunciation}. Anda boleh berlatih dengan mengulanginya beberapa kali.`;
+                } else if (lowerQuestion.includes('makna') || lowerQuestion.includes('maksud') || lowerQuestion.includes('terjemahan') || lowerQuestion.includes('makna-makna')) {
+                    let response = `Makna utama "${arabic}" adalah "${meaning}" dalam Bahasa Melayu.`;
+
+                    // Add additional meanings if available
+                    if (wordInfo.additionalMeanings && wordInfo.additionalMeanings.length > 0) {
+                        response += `\n\nNamun, perkataan ini boleh mempunyai beberapa makna dalam konteks yang berbeza:\n`;
+                        wordInfo.additionalMeanings.forEach((additionalMeaning, index) => {
+                            // Try to get Malay translation if available
+                            const malayMeaning = wordInfo.additionalMeaningsMy && wordInfo.additionalMeaningsMy[index] ?
+                                wordInfo.additionalMeaningsMy[index] : additionalMeaning;
+                            response += `${index + 1}. ${malayMeaning}\n`;
+                        });
+                    }
+
+                    response += `\nIa digunakan dalam konteks berkaitan dengan ${wordInfo.contextMy || wordInfo.context}.`;
+                    return response;
                 } else if (lowerQuestion.includes('contoh') || lowerQuestion.includes('ayat') || lowerQuestion.includes('penggunaan')) {
-                    return `Berikut adalah contoh bagaimana "${arabic}" digunakan dalam ayat: [contoh ayat dengan perkataan]. Ini menunjukkan bagaimana ia biasanya digunakan dalam Al-Quran.`;
+                    let response = `Perkataan "${arabic}" digunakan dalam ayat seperti:\n`;
+                    const examples = wordInfo.examplesMy || wordInfo.examples;
+                    examples.forEach((example, index) => {
+                        response += `${index + 1}. ${example}\n`;
+                    });
+                    response += `\nIa muncul di beberapa tempat dalam Al-Quran.`;
+                    return response;
                 } else if (lowerQuestion.includes('asal') || lowerQuestion.includes('akar') || lowerQuestion.includes('etimologi')) {
-                    return `Perkataan "${arabic}" berasal dari akar kata [huruf akar]. Banyak perkataan berkaitan dalam bahasa Arab berasal dari akar kata yang sama.`;
+                    let response = `Perkataan "${arabic}" berasal dari akar kata ${wordInfo.root}.`;
+                    if (wordInfo.relatedWords && wordInfo.relatedWords.length > 0) {
+                        response += `\n\nAkar kata ini memberikan kita perkataan berkaitan seperti:\n`;
+                        wordInfo.relatedWords.forEach((relatedWord, index) => {
+                            response += `${index + 1}. ${relatedWord.arabic} - ${relatedWord.meaningMy || relatedWord.meaning}\n`;
+                        });
+                    }
+                    return response;
                 } else if (lowerQuestion.includes('sama') || lowerQuestion.includes('sinonim') || lowerQuestion.includes('berkaitan')) {
-                    return `Beberapa perkataan yang serupa dengan "${arabic}" termasuk [perkataan serupa]. Mereka mempunyai makna yang berkaitan tetapi sedikit berbeza.`;
+                    if (wordInfo.relatedWords && wordInfo.relatedWords.length > 0) {
+                        let response = `Perkataan yang berkaitan dengan "${arabic}" termasuk:\n`;
+                        wordInfo.relatedWords.forEach((relatedWord, index) => {
+                            response += `${index + 1}. ${relatedWord.arabic} - ${relatedWord.meaningMy || relatedWord.meaning}\n`;
+                        });
+                        return response;
+                    } else {
+                        return `Saya tidak mempunyai maklumat tentang perkataan yang serupa dengan "${arabic}" pada masa ini.`;
+                    }
                 } else {
-                    return `Itu soalan yang menarik tentang "${arabic}". Perkataan ini muncul di beberapa tempat dalam Al-Quran dan mempunyai kepentingan dalam ajaran Islam. Adakah anda ingin tahu tentang sebutan, makna, atau penggunaannya?`;
+                    return `Itu soalan yang menarik tentang "${arabic}". Perkataan ini muncul di beberapa tempat dalam Al-Quran dan mempunyai kepentingan dalam ajaran Islam.\n\nAnda boleh bertanya tentang:\n- Makna-maknanya yang pelbagai\n- Sebutannya\n- Contoh penggunaan dalam ayat\n- Akar kata dan perkataan berkaitannya`;
                 }
             }
+        },
+
+        // Get additional information about a word
+        getWordAdditionalInfo(arabic) {
+            // This function would ideally fetch data from a comprehensive Arabic dictionary
+            // For now, we'll provide some sample data for common words
+
+            // Default information structure
+            const defaultInfo = {
+                pronunciation: '[Arabic pronunciation]',
+                additionalMeanings: [],
+                additionalMeaningsMy: [],
+                context: 'various Islamic contexts',
+                contextMy: 'pelbagai konteks Islam',
+                examples: ['Example sentence 1', 'Example sentence 2'],
+                examplesMy: ['Contoh ayat 1', 'Contoh ayat 2'],
+                root: '[root letters]',
+                relatedWords: []
+            };
+
+            // Word-specific information
+            const wordDatabase = {
+                // Allah
+                'الله': {
+                    pronunciation: 'Allah',
+                    additionalMeanings: ['The One True God', 'The Creator', 'The Sustainer'],
+                    additionalMeaningsMy: ['Tuhan Yang Maha Esa', 'Pencipta', 'Pemelihara'],
+                    context: 'divinity, worship, and the attributes of God',
+                    contextMy: 'ketuhanan, ibadah, dan sifat-sifat Allah',
+                    examples: ['Allah is the Creator of all things', 'There is no god but Allah'],
+                    examplesMy: ['Allah adalah Pencipta segala sesuatu', 'Tiada tuhan melainkan Allah'],
+                    root: 'This is a unique name that does not derive from a trilateral root',
+                    relatedWords: [
+                        {arabic: 'اللهم', meaning: 'O Allah', meaningMy: 'Ya Allah'},
+                        {arabic: 'تالله', meaning: 'By Allah (in oaths)', meaningMy: 'Demi Allah (dalam sumpah)'}
+                    ]
+                },
+                // Rahman (Merciful)
+                'الرحمن': {
+                    pronunciation: 'ar-Rahman',
+                    additionalMeanings: ['The Most Compassionate', 'The Beneficent', 'The Most Gracious'],
+                    additionalMeaningsMy: ['Yang Maha Penyayang', 'Yang Maha Pemurah', 'Yang Maha Pengasih'],
+                    context: 'divine mercy and compassion',
+                    contextMy: 'rahmat dan belas kasihan ilahi',
+                    examples: ['Ar-Rahman taught the Quran', 'In the name of Allah, Ar-Rahman, Ar-Raheem'],
+                    examplesMy: ['Ar-Rahman yang mengajarkan Al-Quran', 'Dengan nama Allah, Yang Maha Pemurah, lagi Maha Mengasihani'],
+                    root: 'ر-ح-م (r-h-m)',
+                    relatedWords: [
+                        {arabic: 'الرحيم', meaning: 'The Most Merciful', meaningMy: 'Yang Maha Mengasihani'},
+                        {arabic: 'رحمة', meaning: 'Mercy', meaningMy: 'Rahmat'},
+                        {arabic: 'رحم', meaning: 'To have mercy', meaningMy: 'Mengasihani'}
+                    ]
+                },
+                // Qul (Say)
+                'قُلْ': {
+                    pronunciation: 'qul',
+                    additionalMeanings: ['Command to speak', 'Proclaim', 'Declare'],
+                    additionalMeaningsMy: ['Perintah untuk berkata', 'Isytiharkan', 'Nyatakan'],
+                    context: 'divine commands to the Prophet Muhammad',
+                    contextMy: 'perintah ilahi kepada Nabi Muhammad',
+                    examples: ['Qul huwa Allahu ahad (Say: He is Allah, the One)', 'Qul a\'udhu bi rabbil-falaq (Say: I seek refuge with the Lord of the Daybreak)'],
+                    examplesMy: ['Qul huwa Allahu ahad (Katakanlah: Dialah Allah, Yang Maha Esa)', 'Qul a\'udhu bi rabbil-falaq (Katakanlah: Aku berlindung dengan Tuhan yang membelah cahaya subuh)'],
+                    root: 'ق-و-ل (q-w-l)',
+                    relatedWords: [
+                        {arabic: 'قال', meaning: 'He said', meaningMy: 'Dia berkata'},
+                        {arabic: 'يقول', meaning: 'He says', meaningMy: 'Dia berkata'},
+                        {arabic: 'قول', meaning: 'Speech', meaningMy: 'Perkataan'}
+                    ]
+                },
+                // Ahad (One)
+                'أَحَدٌ': {
+                    pronunciation: 'ahad',
+                    additionalMeanings: ['One', 'Unique', 'Singular', 'Indivisible'],
+                    additionalMeaningsMy: ['Satu', 'Unik', 'Tunggal', 'Tidak Terbahagi'],
+                    context: 'the oneness and uniqueness of Allah',
+                    contextMy: 'keesaan dan keunikan Allah',
+                    examples: ['Qul huwa Allahu ahad (Say: He is Allah, the One)', 'There is no one like Him'],
+                    examplesMy: ['Qul huwa Allahu ahad (Katakanlah: Dialah Allah, Yang Maha Esa)', 'Tiada sesiapa seperti-Nya'],
+                    root: 'أ-ح-د (a-h-d)',
+                    relatedWords: [
+                        {arabic: 'واحد', meaning: 'One (cardinal number)', meaningMy: 'Satu (nombor kardinal)'},
+                        {arabic: 'أحدية', meaning: 'Oneness', meaningMy: 'Keesaan'},
+                        {arabic: 'توحيد', meaning: 'Monotheism', meaningMy: 'Tauhid'}
+                    ]
+                },
+                // Bismillah (In the name of Allah)
+                'بِسْمِ': {
+                    pronunciation: 'bismillah',
+                    additionalMeanings: ['In the name of', 'By the name of', 'With the name of'],
+                    additionalMeaningsMy: ['Dengan nama', 'Atas nama', 'Melalui nama'],
+                    context: 'beginning prayers and actions with Allah\'s name',
+                    contextMy: 'memulakan doa dan tindakan dengan nama Allah',
+                    examples: ['Bismillah ar-Rahman ar-Raheem (In the name of Allah, the Most Compassionate, the Most Merciful)', 'Muslims start their actions by saying Bismillah'],
+                    examplesMy: ['Bismillah ar-Rahman ar-Raheem (Dengan nama Allah, Yang Maha Pemurah, lagi Maha Mengasihani)', 'Umat Islam memulakan tindakan mereka dengan mengucapkan Bismillah'],
+                    root: 'ب-س-م (b-s-m)',
+                    relatedWords: [
+                        {arabic: 'اسم', meaning: 'Name', meaningMy: 'Nama'},
+                        {arabic: 'أسماء', meaning: 'Names', meaningMy: 'Nama-nama'},
+                        {arabic: 'مسمى', meaning: 'Named', meaningMy: 'Dinamakan'}
+                    ]
+                },
+                // Al-Falaq (The Daybreak)
+                'الْفَلَقِ': {
+                    pronunciation: 'al-falaq',
+                    additionalMeanings: ['The Daybreak', 'The Dawn', 'The Splitting', 'The Cleaving'],
+                    additionalMeaningsMy: ['Waktu Subuh', 'Fajar', 'Pembelahan', 'Pemisahan'],
+                    context: 'the breaking of dawn and seeking refuge in Allah',
+                    contextMy: 'terbitnya fajar dan mencari perlindungan pada Allah',
+                    examples: ['Qul a\'udhu bi rabbil-falaq (Say: I seek refuge with the Lord of the Daybreak)', 'The falaq is the time when light emerges from darkness'],
+                    examplesMy: ['Qul a\'udhu bi rabbil-falaq (Katakanlah: Aku berlindung dengan Tuhan yang membelah cahaya subuh)', 'Falaq adalah masa ketika cahaya muncul dari kegelapan'],
+                    root: 'ف-ل-ق (f-l-q)',
+                    relatedWords: [
+                        {arabic: 'فلق', meaning: 'To split', meaningMy: 'Membelah'},
+                        {arabic: 'فالق', meaning: 'Splitter', meaningMy: 'Pembelah'},
+                        {arabic: 'مفلوق', meaning: 'Split', meaningMy: 'Terbelah'}
+                    ]
+                },
+                // An-Nas (Mankind)
+                'النَّاسِ': {
+                    pronunciation: 'an-nas',
+                    additionalMeanings: ['Mankind', 'Humanity', 'People', 'Humankind'],
+                    additionalMeaningsMy: ['Manusia', 'Umat manusia', 'Orang ramai', 'Manusia sejagat'],
+                    context: 'humanity and seeking protection from evil whispers',
+                    contextMy: 'kemanusiaan dan mencari perlindungan dari bisikan jahat',
+                    examples: ['Qul a\'udhu bi rabbin-nas (Say: I seek refuge with the Lord of mankind)', 'The Quran was revealed as guidance for an-nas (mankind)'],
+                    examplesMy: ['Qul a\'udhu bi rabbin-nas (Katakanlah: Aku berlindung dengan Tuhan manusia)', 'Al-Quran diturunkan sebagai panduan untuk an-nas (manusia)'],
+                    root: 'ن-و-س (n-w-s)',
+                    relatedWords: [
+                        {arabic: 'إنسان', meaning: 'Human being', meaningMy: 'Manusia'},
+                        {arabic: 'إنس', meaning: 'Mankind', meaningMy: 'Manusia'},
+                        {arabic: 'ناس', meaning: 'People', meaningMy: 'Orang ramai'}
+                    ]
+                },
+                // Al-Fajr (The Dawn)
+                'الْفَجْرِ': {
+                    pronunciation: 'al-fajr',
+                    additionalMeanings: ['The Dawn', 'Daybreak', 'Morning Light', 'Early Morning'],
+                    additionalMeaningsMy: ['Fajar', 'Subuh', 'Cahaya Pagi', 'Awal Pagi'],
+                    context: 'the time of dawn prayer and the breaking of day',
+                    contextMy: 'waktu solat subuh dan permulaan hari',
+                    examples: ['Wal-fajr (By the dawn)', 'The fajr prayer is performed before sunrise'],
+                    examplesMy: ['Wal-fajr (Demi fajar)', 'Solat fajr dilakukan sebelum matahari terbit'],
+                    root: 'ف-ج-ر (f-j-r)',
+                    relatedWords: [
+                        {arabic: 'فجر', meaning: 'To break forth', meaningMy: 'Menyingsing'},
+                        {arabic: 'انفجار', meaning: 'Explosion', meaningMy: 'Letupan'},
+                        {arabic: 'تفجر', meaning: 'Eruption', meaningMy: 'Letusan'}
+                    ]
+                },
+                // Al-Asr (Time)
+                'الْعَصْرِ': {
+                    pronunciation: 'al-asr',
+                    additionalMeanings: ['Time', 'The Afternoon', 'The Age', 'The Era'],
+                    additionalMeaningsMy: ['Masa', 'Waktu Petang', 'Zaman', 'Era'],
+                    context: 'the passage of time and its importance in human life',
+                    contextMy: 'perjalanan masa dan kepentingannya dalam kehidupan manusia',
+                    examples: ['Wal-asr (By time)', 'The asr prayer is performed in the afternoon'],
+                    examplesMy: ['Wal-asr (Demi masa)', 'Solat asr dilakukan pada waktu petang'],
+                    root: 'ع-ص-ر (a-s-r)',
+                    relatedWords: [
+                        {arabic: 'عصر', meaning: 'To press', meaningMy: 'Menekan'},
+                        {arabic: 'عصير', meaning: 'Juice', meaningMy: 'Jus'},
+                        {arabic: 'معاصر', meaning: 'Contemporary', meaningMy: 'Kontemporari'}
+                    ]
+                },
+                // Default for other words
+                'default': defaultInfo
+            };
+
+            // Return word-specific info if available, otherwise return default info
+            return wordDatabase[arabic] || wordDatabase['default'];
         },
 
         startQuiz() {
