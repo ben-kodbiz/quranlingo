@@ -137,34 +137,25 @@
                         <button @click="nextVocabWord" :disabled="currentVocabIndex === currentVocabWords.length - 1" class="nav-btn">
                             {{ language === 'en' ? 'Next' : 'Seterusnya' }}
                         </button>
-                        <button @click="toggleChatMode" class="chat-toggle-btn">
-                            {{ chatMode ? (language === 'en' ? 'Close Chat' : 'Tutup Chat') : (language === 'en' ? 'Ask About This Word' : 'Tanya Tentang Kata Ini') }}
+                        <button @click="toggleAdditionalMeanings" class="meanings-toggle-btn">
+                            {{ showAdditionalMeanings ? (language === 'en' ? 'Hide Meanings' : 'Sembunyikan Makna') : (language === 'en' ? 'Show All Meanings' : 'Tunjukkan Semua Makna') }}
                         </button>
                     </div>
 
-                    <!-- Chat Interface -->
-                    <div v-if="chatMode" class="chat-container">
-                        <div class="chat-messages" ref="chatMessages">
-                            <div v-for="(message, index) in chatMessages" :key="index" :class="['chat-message', message.sender === 'user' ? 'user-message' : 'bot-message']">
-                                <div class="message-sender">{{ message.sender === 'user' ? (language === 'en' ? 'You' : 'Anda') : chatBotName }}</div>
-                                <div class="message-content">{{ message.text }}</div>
-                                <div class="message-time">{{ message.time }}</div>
-                            </div>
-                            <div v-if="isTyping" class="chat-message bot-message typing-indicator">
-                                <div class="typing-dots"><span>.</span><span>.</span><span>.</span></div>
-                            </div>
+                    <!-- Additional Meanings Display -->
+                    <div v-if="showAdditionalMeanings" class="meanings-container">
+                        <div class="meanings-header">
+                            {{ language === 'en' ? 'Additional Meanings:' : 'Makna Tambahan:' }}
                         </div>
-                        <div class="chat-input">
-                            <input
-                                type="text"
-                                v-model="userInput"
-                                @keyup.enter="sendMessage"
-                                :placeholder="language === 'en' ? 'Type your question about this word...' : 'Taip soalan anda tentang kata ini...'"
-                                :disabled="isTyping"
-                            >
-                            <button @click="sendMessage" :disabled="!userInput.trim() || isTyping" class="send-btn">
-                                {{ language === 'en' ? 'Send' : 'Hantar' }}
-                            </button>
+                        <div class="meanings-content">
+                            <div v-if="wordMeanings.length > 0" class="meanings-list">
+                                <div v-for="(meaning, index) in wordMeanings" :key="index" class="meaning-item">
+                                    {{ index + 1 }}. {{ meaning }}
+                                </div>
+                            </div>
+                            <div v-else class="no-meanings">
+                                {{ language === 'en' ? 'No additional meanings available for this word.' : 'Tiada makna tambahan tersedia untuk perkataan ini.' }}
+                            </div>
                         </div>
                     </div>
 

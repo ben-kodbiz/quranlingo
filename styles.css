@@ -1326,3 +1326,61 @@ h1 {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* Additional Meanings styles */
+.meanings-toggle-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.meanings-toggle-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+.meanings-container {
+    margin-top: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--container-bg);
+    box-shadow: 0 2px 5px var(--shadow-color);
+    padding: 15px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.meanings-header {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.meanings-content {
+    padding: 5px 0;
+}
+
+.meanings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.meaning-item {
+    padding: 8px 12px;
+    background-color: var(--card-bg);
+    border-radius: 6px;
+    border-left: 3px solid var(--primary-color);
+}
+
+.no-meanings {
+    font-style: italic;
+    color: var(--text-secondary);
+    padding: 10px 0;
+}

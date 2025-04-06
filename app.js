@@ -48,12 +48,9 @@ createApp({
             pairsScore: 0, // Score for the current game
             pairsErrors: 0, // Number of errors in the current game
 
-            // Chat mode data
-            chatMode: false, // Whether chat mode is active
-            chatMessages: [], // Array of chat messages
-            userInput: '', // User's current input in chat
-            chatBotName: 'QuranBot', // Name of the chatbot
-            isTyping: false // Whether the bot is typing
+            // Additional meanings data
+            showAdditionalMeanings: false, // Whether to show additional meanings
+            wordMeanings: [] // Array of additional meanings for the current word
         };
     },
 
@@ -204,14 +201,20 @@ createApp({
             this.progress = 0;
             this.lessonMode = 'vocabulary';
             this.currentScreen = 'lesson';
+            this.showAdditionalMeanings = false;
 
             // Initialize vocabulary words from the lesson
             this.initializeVocabularyMode();
+
+            // Initialize word meanings
+            this.updateWordMeanings();
         },
 
         initializeVocabularyMode() {
             // Extract all words from the ayahs for vocabulary learning
             this.currentVocabWords = [];
+            this.currentVocabIndex = 0;
+            this.showAdditionalMeanings = false;
 
             if (this.currentLesson.ayahs && this.currentLesson.ayahs.length > 0) {
                 // Create a randomized copy of the ayahs
@@ -241,6 +244,11 @@ createApp({
                     });
                 });
             }
+
+            // Initialize word meanings for the first word
+            if (this.currentVocabWords.length > 0) {
+                this.updateWordMeanings();
+            }
         },
 
         switchMode(mode) {
@@ -248,6 +256,8 @@ createApp({
 
             if (mode === 'vocabulary') {
                 this.initializeVocabularyMode();
+                this.showAdditionalMeanings = false;
+                this.updateWordMeanings();
             } else if (mode === 'quiz') {
                 this.currentQuestionIndex = 0;
                 this.progress = 0;
@@ -472,102 +482,39 @@ createApp({
         prevVocabWord() {
             if (this.currentVocabIndex > 0) {
                 this.currentVocabIndex--;
-                // Reset chat when moving to a new word
-                if (this.chatMode) {
-                    this.resetChat();
-                }
+                // Update meanings for the new word
+                this.updateWordMeanings();
             }
         },
 
         nextVocabWord() {
             if (this.currentVocabIndex < this.currentVocabWords.length - 1) {
                 this.currentVocabIndex++;
-                // Reset chat when moving to a new word
-                if (this.chatMode) {
-                    this.resetChat();
-                }
+                // Update meanings for the new word
+                this.updateWordMeanings();
             }
         },
 
-        toggleChatMode() {
-            this.chatMode = !this.chatMode;
-            if (this.chatMode) {
-                // Initialize chat with a welcome message
-                this.resetChat();
-                this.addBotMessage(this.getWelcomeMessage());
+        toggleAdditionalMeanings() {
+            this.showAdditionalMeanings = !this.showAdditionalMeanings;
+            if (this.showAdditionalMeanings) {
+                // Update the meanings when showing them
+                this.updateWordMeanings();
             }
         },
 
-        resetChat() {
-            this.chatMessages = [];
-            this.userInput = '';
-            this.isTyping = false;
-        },
-
-        getWelcomeMessage() {
+        updateWordMeanings() {
             const word = this.currentVocabWord;
             const arabic = word.arabic;
-            const meaning = this.language === 'en' ? word.meaning : (word.meaning_my || word.meaning);
 
+            // Get word info from our database
+            const wordInfo = this.getWordAdditionalInfo(arabic);
+
+            // Get the appropriate meanings based on language
             if (this.language === 'en') {
-                return `I can help you learn more about the word "${arabic}" (${meaning}). What would you like to know about it?`;
+                this.wordMeanings = wordInfo.additionalMeanings || [];
             } else {
-                return `Saya boleh membantu anda mempelajari lebih lanjut tentang kata "${arabic}" (${meaning}). Apa yang ingin anda ketahui tentangnya?`;
-            }
-        },
-
-        sendMessage() {
-            if (!this.userInput.trim() || this.isTyping) return;
-
-            // Add user message
-            this.addUserMessage(this.userInput);
-            const userQuestion = this.userInput;
-            this.userInput = '';
-
-            // Show typing indicator
-            this.isTyping = true;
-
-            // Simulate bot response after a delay
-            setTimeout(() => {
-                this.isTyping = false;
-                this.addBotMessage(this.generateBotResponse(userQuestion));
-
-                // Scroll to bottom after rendering
-                this.$nextTick(() => {
-                    this.scrollChatToBottom();
-                });
-            }, 1000 + Math.random() * 1000); // Random delay between 1-2 seconds
-
-            // Scroll to bottom immediately after user message
-            this.$nextTick(() => {
-                this.scrollChatToBottom();
-            });
-        },
-
-        addUserMessage(text) {
-            this.chatMessages.push({
-                sender: 'user',
-                text: text,
-                time: this.getCurrentTime()
-            });
-        },
-
-        addBotMessage(text) {
-            this.chatMessages.push({
-                sender: 'bot',
-                text: text,
-                time: this.getCurrentTime()
-            });
-        },
-
-        getCurrentTime() {
-            const now = new Date();
-            return now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-        },
-
-        scrollChatToBottom() {
-            if (this.$refs.chatMessages) {
-                this.$refs.chatMessages.scrollTop = this.$refs.chatMessages.scrollHeight;
+                this.wordMeanings = wordInfo.additionalMeaningsMy || wordInfo.additionalMeanings || [];
             }
         },
 
