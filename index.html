@@ -113,6 +113,9 @@
                         <button @click="switchMode('pairs')" :class="{'active': lessonMode === 'pairs'}" class="mode-switch-btn">
                             {{ language === 'en' ? 'Tap the Pairs' : 'Ketuk Pasangan' }}
                         </button>
+                        <button @click="switchMode('fullSurah')" :class="{'active': lessonMode === 'fullSurah'}" class="mode-switch-btn">
+                            <span class="mode-icon">📖</span> {{ language === 'en' ? 'Full Surah' : 'Surah Penuh' }}
+                        </button>
                     </div>
                 </div>
 
@@ -264,6 +267,28 @@
                                     {{ word.text }}
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Surah Display Mode -->
+            <div v-if="lessonMode === 'fullSurah'" class="full-surah-container">
+                <div class="full-surah-header">
+                    <h3>{{ language === 'en' ? 'Complete Surah with Translation' : 'Surah Lengkap dengan Terjemahan' }}</h3>
+                </div>
+
+                <div class="full-surah-content">
+                    <div v-if="!currentLesson.ayahs || currentLesson.ayahs.length === 0" class="no-data-message">
+                        <p>{{ language === 'en' ? 'Full surah text is not available for this surah.' : 'Teks surah penuh tidak tersedia untuk surah ini.' }}</p>
+                        <button @click="switchMode('vocabulary')" class="nav-btn">{{ language === 'en' ? 'Go to Vocabulary Mode' : 'Pergi ke Mode Kosa Kata' }}</button>
+                    </div>
+
+                    <div v-else class="ayahs-container">
+                        <div v-for="(ayah, index) in currentLesson.ayahs" :key="index" class="ayah-block">
+                            <div class="ayah-number">{{ ayah.number }}</div>
+                            <div class="ayah-text">{{ ayah.text }}</div>
+                            <div class="ayah-translation">{{ language === 'en' ? ayah.translation : (ayah.translation_my || ayah.translation) }}</div>
                         </div>
                     </div>
                 </div>

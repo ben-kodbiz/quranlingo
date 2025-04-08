@@ -4,7 +4,7 @@ createApp({
     data() {
         return {
             currentScreen: 'menu', // 'menu', 'lesson', 'result', 'wordArrangement'
-            lessonMode: 'vocabulary', // 'vocabulary', 'quiz', 'arrangement', 'pairs'
+            lessonMode: 'vocabulary', // 'vocabulary', 'quiz', 'arrangement', 'pairs', 'fullSurah'
             language: localStorage.getItem('language') || 'en', // 'en' for English, 'my' for Bahasa Melayu
             currentLessonIndex: 0,
             currentQuestionIndex: 0,
@@ -266,6 +266,9 @@ createApp({
                 this.initializeArrangementMode();
             } else if (mode === 'pairs') {
                 this.initializePairsGame();
+            } else if (mode === 'fullSurah') {
+                // No special initialization needed for full surah display
+                // Just switch to the mode and the template will handle the display
             }
         },
 
