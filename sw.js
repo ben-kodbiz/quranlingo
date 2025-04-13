@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quranlingo-v1';
+const CACHE_NAME = 'quranlingo-v2';
 const urlsToCache = [
   './',
   './index.html',
@@ -6,6 +6,7 @@ const urlsToCache = [
   './app.js',
   './pwa.js',
   './install.js',
+  './version.js',
   './surahs.json',
   './manifest.json',
   './mascot.svg',
@@ -46,33 +47,65 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch event - serve from cache, fall back to network
+// Fetch event - network-first strategy for HTML and JS files, cache-first for others
 self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        // Cache hit - return response
-        if (response) {
-          return response;
-        }
-        return fetch(event.request).then(
-          response => {
-            // Check if we received a valid response
-            if (!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
+  const url = new URL(event.request.url);
 
-            // Clone the response
+  // For index.html, app.js, and sw.js, use network-first strategy
+  if (url.pathname.endsWith('index.html') ||
+      url.pathname.endsWith('app.js') ||
+      url.pathname.endsWith('sw.js') ||
+      url.pathname === '/' ||
+      url.pathname === '') {
+
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          // If we got a valid response, clone it and update the cache
+          if (response && response.status === 200) {
             const responseToCache = response.clone();
-
             caches.open(CACHE_NAME)
               .then(cache => {
                 cache.put(event.request, responseToCache);
               });
-
+          }
+          return response;
+        })
+        .catch(() => {
+          // If network fetch fails, try to serve from cache
+          return caches.match(event.request);
+        })
+    );
+  } else {
+    // For other resources, use cache-first strategy
+    event.respondWith(
+      caches.match(event.request)
+        .then(response => {
+          // Cache hit - return response
+          if (response) {
             return response;
           }
-        );
-      })
-  );
+
+          // If not in cache, fetch from network
+          return fetch(event.request).then(
+            response => {
+              // Check if we received a valid response
+              if (!response || response.status !== 200 || response.type !== 'basic') {
+                return response;
+              }
+
+              // Clone the response
+              const responseToCache = response.clone();
+
+              caches.open(CACHE_NAME)
+                .then(cache => {
+                  cache.put(event.request, responseToCache);
+                });
+
+              return response;
+            }
+          );
+        })
+    );
+  }
 });

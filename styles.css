@@ -1319,3 +1319,66 @@ h1 {
 .mode-icon {
     margin-right: 5px;
 }
+
+/* Update Notification Styles */
+.update-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    animation: slideUp 0.5s ease;
+    max-width: 90%;
+    width: 400px;
+}
+
+.update-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.update-content p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.update-content button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+#update-now-btn {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+#update-later-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+#update-now-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#update-later-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes slideUp {
+    from { transform: translate(-50%, 100%); opacity: 0; }
+    to { transform: translate(-50%, 0); opacity: 1; }
+}
