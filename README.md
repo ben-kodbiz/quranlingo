@@ -87,6 +87,7 @@ This app is built with:
 - HTML, CSS, JavaScript
 - Vue.js for the UI
 - Progressive Web App technologies
+- Jest for unit testing
 
 ## Contributing
 
@@ -100,7 +101,7 @@ We use a three-branch model for development:
 2. **development** - For integrating and testing features before release
 3. **main** - Production branch deployed to GitHub Pages
 
-Please see [BRANCHING.md](BRANCHING.md) for details on our branching strategy and [WORKFLOW.md](WORKFLOW.md) for step-by-step instructions on the development workflow.
+Please see [BRANCHING.md](BRANCHING.md) for details on our branching strategy, [WORKFLOW.md](WORKFLOW.md) for step-by-step instructions on the development workflow, and [TESTING.md](TESTING.md) for information about our testing framework.
 
 ### How to Contribute
 

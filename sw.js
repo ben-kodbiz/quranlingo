@@ -7,6 +7,7 @@ const urlsToCache = [
   './pwa.js',
   './install.js',
   './version.js',
+  './word_meanings.js',
   './surahs.json',
   './manifest.json',
   './mascot.svg',

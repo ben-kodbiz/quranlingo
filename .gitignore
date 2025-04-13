@@ -25,6 +25,10 @@ node_modules/
 dist/
 build/
 
+# Test coverage
+coverage/
+.nyc_output/
+
 # Local env files
 .env
 .env.local
