@@ -1293,6 +1293,39 @@ h1 {
     padding: 10px;
 }
 
+.partial-surah-notice {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(75, 159, 70, 0.1);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.partial-surah-notice p {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.full-surah-link {
+    display: inline-block;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.full-surah-link:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 480px) {
     .full-surah-content {
         padding: 15px 10px;
@@ -1313,6 +1346,15 @@ h1 {
 
     .ayah-translation {
         font-size: 1rem;
+    }
+
+    .partial-surah-notice {
+        padding: 10px;
+    }
+
+    .full-surah-link {
+        padding: 6px 12px;
+        font-size: 0.9rem;
     }
 }
 

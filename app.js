@@ -521,6 +521,114 @@ createApp({
             }
         },
 
+        // Check if a surah is only showing partial ayahs
+        isSurahPartial(lesson) {
+            // Define the actual ayah counts for each surah
+            const actualAyahCounts = {
+                'al-fatihah': 7,
+                'al-ikhlas': 4,
+                'an-nas': 6,
+                'al-falaq': 5,
+                'al-kafirun': 6,
+                'al-masad': 5,
+                'an-nasr': 3,
+                'al-kawthar': 3,
+                'al-maun': 7,
+                'quraysh': 4,
+                'al-fil': 5,
+                'al-humazah': 9,
+                'al-asr': 3,
+                'at-takathur': 8,
+                'al-qariah': 11,
+                'al-adiyat': 11,
+                'az-zalzalah': 8,
+                'al-bayyinah': 8,
+                'al-qadr': 5,
+                'al-alaq': 19,
+                'at-tin': 8,
+                'ash-sharh': 8,
+                'ad-duha': 11,
+                'al-lail': 21,
+                'ash-shams': 15,
+                'al-balad': 20,
+                'al-fajr': 30,
+                'al-ghashiyah': 26,
+                'al-ala': 19,
+                'at-tariq': 17,
+                'al-buruj': 22,
+                'al-inshiqaq': 25,
+                'al-mutaffifin': 36,
+                'al-infitar': 19,
+                'at-takwir': 29,
+                'abasa': 42,
+                'an-naziat': 46,
+                'an-naba': 40
+            };
+
+            // If the lesson has an ID and it's in our list of actual counts
+            if (lesson && lesson.id && actualAyahCounts[lesson.id]) {
+                // Check if the number of ayahs in the lesson is less than the actual count
+                const currentAyahCount = lesson.ayahs ? lesson.ayahs.length : 0;
+                return currentAyahCount > 0 && currentAyahCount < actualAyahCounts[lesson.id];
+            }
+
+            return false;
+        },
+
+        // Get a link to the full surah online
+        getFullSurahLink(lesson) {
+            // Map of surah IDs to their numbers in the Quran
+            const surahNumbers = {
+                'al-fatihah': 1,
+                'al-ikhlas': 112,
+                'an-nas': 114,
+                'al-falaq': 113,
+                'al-kafirun': 109,
+                'al-masad': 111,
+                'an-nasr': 110,
+                'al-kawthar': 108,
+                'al-maun': 107,
+                'quraysh': 106,
+                'al-fil': 105,
+                'al-humazah': 104,
+                'al-asr': 103,
+                'at-takathur': 102,
+                'al-qariah': 101,
+                'al-adiyat': 100,
+                'az-zalzalah': 99,
+                'al-bayyinah': 98,
+                'al-qadr': 97,
+                'al-alaq': 96,
+                'at-tin': 95,
+                'ash-sharh': 94,
+                'ad-duha': 93,
+                'al-lail': 92,
+                'ash-shams': 91,
+                'al-balad': 90,
+                'al-fajr': 89,
+                'al-ghashiyah': 88,
+                'al-ala': 87,
+                'at-tariq': 86,
+                'al-buruj': 85,
+                'al-inshiqaq': 84,
+                'al-mutaffifin': 83,
+                'al-infitar': 82,
+                'at-takwir': 81,
+                'abasa': 80,
+                'an-naziat': 79,
+                'an-naba': 78
+            };
+
+            // If the lesson has an ID and it's in our list of surah numbers
+            if (lesson && lesson.id && surahNumbers[lesson.id]) {
+                // Return a link to the surah on quran.com
+                return `https://quran.com/${surahNumbers[lesson.id]}`;
+            }
+
+            // Default link to quran.com homepage if surah ID is not found
+            return 'https://quran.com';
+        },
+
         // Get additional information about a word
         getWordAdditionalInfo(arabic) {
             // This function would ideally fetch data from a comprehensive Arabic dictionary

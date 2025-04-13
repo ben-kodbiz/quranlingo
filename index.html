@@ -290,6 +290,14 @@
                             <div class="ayah-text">{{ ayah.text }}</div>
                             <div class="ayah-translation">{{ language === 'en' ? ayah.translation : (ayah.translation_my || ayah.translation) }}</div>
                         </div>
+
+                        <!-- Partial Surah Notice -->
+                        <div v-if="isSurahPartial(currentLesson)" class="partial-surah-notice">
+                            <p>{{ language === 'en' ? 'Note: Only the first few ayahs are shown here.' : 'Nota: Hanya beberapa ayat pertama ditunjukkan di sini.' }}</p>
+                            <a :href="getFullSurahLink(currentLesson)" target="_blank" class="full-surah-link">
+                                {{ language === 'en' ? 'Read the complete surah online' : 'Baca surah lengkap dalam talian' }} →
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
