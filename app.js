@@ -425,11 +425,28 @@ createApp({
 
                 // Create shuffled options from the randomized ayah's words
                 const randomizedAyah = this.randomizedAyahs[this.currentAyahIndex];
-                this.shuffledOptions = [...randomizedAyah.words];
+
+                // Limit to maximum 5 words for easier learning
+                let ayahWords = [...randomizedAyah.words];
+                if (ayahWords.length > 5) {
+                    // If more than 5 words, take a random subset of 5 words
+                    this.shuffleArray(ayahWords);
+                    ayahWords = ayahWords.slice(0, 5);
+
+                    // Create a modified ayah with only 5 words
+                    this.randomizedAyahs[this.currentAyahIndex] = {
+                        ...randomizedAyah,
+                        words: ayahWords,
+                        text: ayahWords.map(w => w.arabic).join(' '),
+                        translation: ayahWords.map(w => w.meaning).join(' ')
+                    };
+                }
+
+                this.shuffledOptions = [...this.randomizedAyahs[this.currentAyahIndex].words];
                 this.shuffleArray(this.shuffledOptions);
 
                 // Initialize empty slots for selected options
-                this.selectedOptions = Array(randomizedAyah.words.length).fill(null);
+                this.selectedOptions = Array(this.randomizedAyahs[this.currentAyahIndex].words.length).fill(null);
             } else {
                 // If no ayahs data is available, create a simple arrangement from questions
                 console.log('No ayahs data found, creating arrangement from questions');
@@ -441,8 +458,8 @@ createApp({
                     const randomizedQuestions = [...this.currentLesson.questions];
                     this.shuffleArray(randomizedQuestions);
 
-                    // Take the first 4 questions or all if less than 4
-                    const questionsToUse = randomizedQuestions.slice(0, Math.min(4, randomizedQuestions.length));
+                    // Take the first 5 questions or all if less than 5 (for easier learning)
+                    const questionsToUse = randomizedQuestions.slice(0, Math.min(5, randomizedQuestions.length));
 
                     questionsToUse.forEach(question => {
                         mockWords.push({
