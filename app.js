@@ -510,14 +510,47 @@ createApp({
             const word = this.currentVocabWord;
             const arabic = word.arabic;
 
-            // Get word info from our database
-            const wordInfo = this.getWordAdditionalInfo(arabic);
-
-            // Get the appropriate meanings based on language
-            if (this.language === 'en') {
-                this.wordMeanings = wordInfo.additionalMeanings || [];
+            // First check if we have meanings in the WORD_MEANINGS global object
+            if (window.WORD_MEANINGS && window.WORD_MEANINGS[arabic] && window.WORD_MEANINGS[arabic].length > 0) {
+                // Use meanings from the scraped data
+                this.wordMeanings = window.WORD_MEANINGS[arabic];
             } else {
-                this.wordMeanings = wordInfo.additionalMeaningsMy || wordInfo.additionalMeanings || [];
+                // Fall back to our built-in database
+                const wordInfo = this.getWordAdditionalInfo(arabic);
+
+                // Get the appropriate meanings based on language
+                if (this.language === 'en') {
+                    this.wordMeanings = wordInfo.additionalMeanings || [];
+                } else {
+                    this.wordMeanings = wordInfo.additionalMeaningsMy || wordInfo.additionalMeanings || [];
+                }
+            }
+
+            // If we still don't have any meanings, show a message
+            if (this.wordMeanings.length === 0) {
+                // Add a placeholder message as the first meaning
+                this.wordMeanings = [
+                    this.language === 'en' ?
+                        `No additional meanings found for "${arabic}". Try clicking the "Search on Almaany" button.` :
+                        `Tiada makna tambahan ditemui untuk "${arabic}". Cuba klik butang "Cari di Almaany".`
+                ];
+            }
+        },
+
+        // Open Almaany.com to search for the current word
+        openAlmaanySearch() {
+            const word = this.currentVocabWord;
+            const arabic = word.arabic;
+
+            // Construct the URL for Almaany.com
+            const almaanyUrl = `https://www.almaany.com/en/dict/ar-en/${encodeURIComponent(arabic)}/`;
+
+            // Open the URL in a new tab
+            window.open(almaanyUrl, '_blank');
+
+            // Track this action for analytics (if implemented)
+            if (typeof this.trackEvent === 'function') {
+                this.trackEvent('almaany_search', { word: arabic });
             }
         },
 

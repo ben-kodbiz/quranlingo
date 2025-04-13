@@ -149,6 +149,9 @@
                     <div v-if="showAdditionalMeanings" class="meanings-container">
                         <div class="meanings-header">
                             {{ language === 'en' ? 'Additional Meanings:' : 'Makna Tambahan:' }}
+                            <button @click="openAlmaanySearch" class="almaany-search-btn" title="Search on Almaany.com">
+                                <span class="search-icon">🔍</span> {{ language === 'en' ? 'Search on Almaany' : 'Cari di Almaany' }}
+                            </button>
                         </div>
                         <div class="meanings-content">
                             <div v-if="wordMeanings.length > 0" class="meanings-list">
@@ -159,6 +162,11 @@
                             <div v-else class="no-meanings">
                                 {{ language === 'en' ? 'No additional meanings available for this word.' : 'Tiada makna tambahan tersedia untuk perkataan ini.' }}
                             </div>
+                        </div>
+                        <div class="meanings-footer">
+                            <p class="meanings-source">
+                                {{ language === 'en' ? 'Meanings are sourced from Almaany.com' : 'Makna diambil dari Almaany.com' }}
+                            </p>
                         </div>
                     </div>
 
@@ -377,6 +385,7 @@
         </main>
     </div>
     <script src="version.js"></script>
+    <script src="word_meanings.js"></script>
     <script src="app.js"></script>
     <script src="pwa.js"></script>
     <script src="install.js"></script>

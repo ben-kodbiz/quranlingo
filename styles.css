@@ -1195,6 +1195,9 @@ h1 {
     font-size: 16px;
     margin-bottom: 10px;
     color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .meanings-content {
@@ -1218,6 +1221,45 @@ h1 {
     font-style: italic;
     color: var(--text-secondary);
     padding: 10px 0;
+}
+
+.meanings-footer {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.meanings-source {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin: 0;
+}
+
+.almaany-search-btn {
+    background-color: var(--card-bg);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.2s ease;
+}
+
+.almaany-search-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+    font-size: 1rem;
 }
 
 /* Full Surah Display Styles */
