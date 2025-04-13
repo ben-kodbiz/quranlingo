@@ -90,7 +90,24 @@ This app is built with:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please follow our branching strategy:
+
+### Branching Strategy
+
+We use a three-branch model for development:
+
+1. **features** - For developing new features and enhancements
+2. **development** - For integrating and testing features before release
+3. **main** - Production branch deployed to GitHub Pages
+
+Please see [BRANCHING.md](BRANCHING.md) for details on our branching strategy and [WORKFLOW.md](WORKFLOW.md) for step-by-step instructions on the development workflow.
+
+### How to Contribute
+
+1. Fork the repository
+2. Create your feature branch from the `features` branch
+3. Make your changes
+4. Submit a pull request to our `features` branch
 
 ## License
 
