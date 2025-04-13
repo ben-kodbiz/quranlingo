@@ -107,6 +107,13 @@ const WORD_MEANINGS = {
     'And has obeyed',
     'And has responded'
   ],
+  'أَذِنَتْ': [
+    'Listens',
+    'Hearkens',
+    'Gives ear',
+    'Obeys',
+    'Responds'
+  ],
   'لِرَبِّهَا': [
     'To its Lord',
     'For its Lord',
@@ -120,6 +127,13 @@ const WORD_MEANINGS = {
     'And it is fitting',
     'And it is duty-bound',
     'And it is obligated'
+  ],
+  'حُقَّتْ': [
+    'It must do so',
+    'It is right',
+    'It is fitting',
+    'It is duty-bound',
+    'It is obligated'
   ],
   'وَإِذَا': [
     'And when',
@@ -156,6 +170,13 @@ const WORD_MEANINGS = {
     'Something',
     'Anything'
   ],
+  'مَا فِيهَا': [
+    'That within it',
+    'What is in it',
+    'Whatever is in it',
+    'Its contents',
+    'All that it contains'
+  ],
   'فِيهَا': [
     'In it',
     'Within it',
@@ -169,6 +190,141 @@ const WORD_MEANINGS = {
     'And is vacant',
     'And is cleared',
     'And is abandoned'
+  ],
+  'تَخَلَّتْ': [
+    'Casts out',
+    'Becomes empty',
+    'Is void',
+    'Is vacant',
+    'Is cleared'
+  ],
+
+  // Words from Surah Al-Ghashiyah (The Overwhelming)
+  'هَلْ': [
+    'Has',
+    'Did',
+    'Whether',
+    'Is it',
+    'Is there'
+  ],
+  'أَتَاكَ': [
+    'Reached you',
+    'Come to you',
+    'Arrived to you',
+    'Been conveyed to you',
+    'Been brought to you'
+  ],
+  'حَدِيثُ': [
+    'Report',
+    'Story',
+    'Narration',
+    'Account',
+    'News'
+  ],
+  'الْغَاشِيَةِ': [
+    'The Overwhelming',
+    'The Enveloping',
+    'The Covering',
+    'The Day of Judgment',
+    'The Calamity'
+  ],
+  'وُجُوهٌ': [
+    'Faces',
+    'Countenances',
+    'Visages',
+    'Expressions',
+    'Appearances'
+  ],
+  'يَوْمَئِذٍ': [
+    'That Day',
+    'On that Day',
+    'At that time',
+    'Then',
+    'At that moment'
+  ],
+  'خَاشِعَةٌ': [
+    'Humbled',
+    'Downcast',
+    'Submissive',
+    'Humble',
+    'Lowly'
+  ],
+  'عَامِلَةٌ': [
+    'Working',
+    'Laboring',
+    'Toiling',
+    'Striving',
+    'Exerting'
+  ],
+  'نَّاصِبَةٌ': [
+    'Exhausted',
+    'Weary',
+    'Tired',
+    'Fatigued',
+    'Worn out'
+  ],
+  'تَصْلَىٰ': [
+    'Will burn',
+    'Will enter',
+    'Will be exposed to',
+    'Will endure',
+    'Will suffer'
+  ],
+  'نَارًا': [
+    'Fire',
+    'Hellfire',
+    'Flame',
+    'Blaze',
+    'Inferno'
+  ],
+  'حَامِيَةً': [
+    'Intensely hot',
+    'Scorching',
+    'Burning',
+    'Blazing',
+    'Fiercely hot'
+  ],
+  'تُسْقَىٰ': [
+    'Given to drink',
+    'Made to drink',
+    'Offered to drink',
+    'Provided with drink',
+    'Supplied with drink'
+  ],
+  'مِنْ': [
+    'From',
+    'Of',
+    'Out of',
+    'Among',
+    'By'
+  ],
+  'عَيْنٍ': [
+    'Spring',
+    'Fountain',
+    'Source',
+    'Well',
+    'Eye'
+  ],
+  'آنِيَةٍ': [
+    'Boiling',
+    'Scalding',
+    'Extremely hot',
+    'Burning hot',
+    'Seething'
+  ],
+  'ضَرِيعٍ': [
+    'Thorny plant',
+    'Bitter herb',
+    'Dry thorns',
+    'Poisonous plant',
+    'Bitter food'
+  ],
+  'نَاصِبَةٌ': [
+    'Laboring',
+    'Toiling',
+    'Striving',
+    'Working hard',
+    'Exerting'
   ]
 };
 
